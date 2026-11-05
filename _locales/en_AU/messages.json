@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Focus Mode Pro - Website Blocker with Timers",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions (max 45 chars)"
+  },
+  "extDescription": {
+    "message": "Block distracting websites and boost productivity with focus timers. Built-in Pomodoro timer. Whitelist your work sites.",
+    "description": "Extension description shown in Chrome Web Store (max 132 chars)"
+  },
+  "extActionTitle": {
+    "message": "Focus Mode Pro",
+    "description": "Tooltip text when hovering over the extension toolbar icon"
+  }
+}

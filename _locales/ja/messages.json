@@ -1,0 +1,2934 @@
+{
+  "extName": {
+    "message": "Focus Mode Pro - 集中モード | Zovo",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "Focus Mode",
+    "description": "Short name for the extension used in limited-space contexts"
+  },
+  "extDescription": {
+    "message": "集中タイマーとポモドーロで生産性を向上。気が散るサイトをブロックし、作業サイトをホワイトリストに登録。",
+    "description": "Extension description shown in Chrome Web Store (max 132 chars)"
+  },
+  "extActionTitle": {
+    "message": "Focus Mode Pro",
+    "description": "Tooltip text when hovering over the extension toolbar icon"
+  },
+  "extCommandToggleFocus": {
+    "message": "集中モードのオン/オフを切り替え",
+    "description": "Description of the keyboard shortcut command in chrome://extensions/shortcuts"
+  },
+  "ttlPopup": {
+    "message": "Focus Mode Pro",
+    "description": "HTML title for the popup page"
+  },
+  "ttlSettings": {
+    "message": "Focus Mode Pro - 設定",
+    "description": "HTML title for the options/settings page"
+  },
+  "ttlBlocked": {
+    "message": "Focus Mode - サイトブロック中",
+    "description": "HTML title for the blocked site page"
+  },
+  "ttlWelcome": {
+    "message": "Focus Mode Pro へようこそ",
+    "description": "HTML title for the welcome/onboarding page"
+  },
+  "ttlHelp": {
+    "message": "Focus Mode Pro - ヒントとコツ",
+    "description": "HTML title for the tips and tricks help page"
+  },
+  "ttlUpgrade": {
+    "message": "Focus Mode Pro - Pro にアップグレード",
+    "description": "HTML title for the upgrade page"
+  },
+  "ttlDashboard": {
+    "message": "Focus Mode Pro - ダッシュボード",
+    "description": "HTML title for the dashboard page"
+  },
+  "appName": {
+    "message": "Focus Mode",
+    "description": "Short app name used in the popup header"
+  },
+  "appNameFull": {
+    "message": "Focus Mode Pro",
+    "description": "Full app name used in options, help, upgrade, dashboard, and blocked page headers"
+  },
+  "msgLoading": {
+    "message": "読み込み中...",
+    "description": "Generic loading indicator text displayed in the popup and options page"
+  },
+  "msgError": {
+    "message": "エラー",
+    "description": "Generic error heading shown in the popup when something fails"
+  },
+  "errFailedToConnect": {
+    "message": "拡張機能への接続に失敗しました",
+    "description": "Error message shown in popup when background script communication fails"
+  },
+  "errConnectionFailed": {
+    "message": "拡張機能への接続に失敗しました",
+    "description": "Error message shown in popup when background script communication fails (component key)"
+  },
+  "errFailedToLoadSettings": {
+    "message": "設定の読み込みに失敗しました",
+    "description": "Error message shown in options page when settings cannot be loaded"
+  },
+  "errFailedLoadSettings": {
+    "message": "設定の読み込みに失敗しました",
+    "description": "Error message shown in options page when settings cannot be loaded (component key)"
+  },
+  "lblFocusMode": {
+    "message": "集中モード",
+    "description": "Header title in the popup and label for the mode selector section"
+  },
+  "lblModeFocus": {
+    "message": "集中モード",
+    "description": "Section heading label for the mode selector in the popup"
+  },
+  "stsActive": {
+    "message": "実行中",
+    "description": "Badge text shown in popup header when a focus session is running"
+  },
+  "lblActive": {
+    "message": "実行中",
+    "description": "Badge text shown in popup header and session status indicating active state"
+  },
+  "lblActiveLC": {
+    "message": "実行中",
+    "description": "Lowercase active text used in Pomodoro count indicator (e.g., 3 done, 1 active)"
+  },
+  "lblPro": {
+    "message": "PRO",
+    "description": "Badge label for Pro tier users shown in popup header and footer"
+  },
+  "lblFree": {
+    "message": "無料",
+    "description": "Badge label for free tier users shown on the dashboard header"
+  },
+  "btnSettings": {
+    "message": "設定",
+    "description": "Button label to open the extension settings page"
+  },
+  "btnStatistics": {
+    "message": "統計",
+    "description": "Button label to open the statistics tab in settings"
+  },
+  "msgUnlockAllFeatures": {
+    "message": "すべての機能をアンロック",
+    "description": "Short promotional text shown in the popup upgrade banner for free users"
+  },
+  "btnUpgradeToPro": {
+    "message": "Pro にアップグレード",
+    "description": "Call-to-action button text prompting free users to upgrade to Pro"
+  },
+  "btnUpgradePro": {
+    "message": "Pro にアップグレード",
+    "description": "Call-to-action button text prompting free users to upgrade to Pro (component key)"
+  },
+  "btnStartSession": {
+    "message": "$MODE$ セッションを開始",
+    "description": "Start button text with the selected mode name in the mode selector",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "Pomodoro"
+      }
+    }
+  },
+  "ttlPasswordRequired": {
+    "message": "パスワードが必要です",
+    "description": "Title of the password verification modal in popup and blocked page"
+  },
+  "msgEnterPasswordToStop": {
+    "message": "集中セッションを停止するにはパスワードを入力してください。",
+    "description": "Instruction in popup password modal when user wants to stop the session"
+  },
+  "msgEnterPasswordToPause": {
+    "message": "集中セッションを一時停止するにはパスワードを入力してください。",
+    "description": "Instruction in popup password modal when user wants to pause the session"
+  },
+  "msgPasswordToStop": {
+    "message": "集中セッションを停止するにはパスワードを入力してください。",
+    "description": "Instruction in popup password modal when user wants to stop the session (component key)"
+  },
+  "msgPasswordToPause": {
+    "message": "集中セッションを一時停止するにはパスワードを入力してください。",
+    "description": "Instruction in popup password modal when user wants to pause the session (component key)"
+  },
+  "plhEnterPassword": {
+    "message": "パスワードを入力",
+    "description": "Placeholder text for password input fields in popup and blocked page"
+  },
+  "btnCancel": {
+    "message": "キャンセル",
+    "description": "Cancel button label used in modals and confirmation dialogs"
+  },
+  "btnConfirm": {
+    "message": "確認",
+    "description": "Confirm button label used in the popup password verification modal"
+  },
+  "errPleaseEnterPassword": {
+    "message": "パスワードを入力してください",
+    "description": "Validation error when the password field is left empty"
+  },
+  "errEnterPassword": {
+    "message": "パスワードを入力してください",
+    "description": "Validation error when the password field is left empty (component key)"
+  },
+  "errIncorrectPassword": {
+    "message": "パスワードが正しくありません",
+    "description": "Error message when the entered password does not match"
+  },
+  "errCustomModesRequirePro": {
+    "message": "カスタム集中モードには Pro が必要です",
+    "description": "Reason text passed to the upgrade page when a free user tries custom or indefinite mode"
+  },
+  "errCustomModeRequiresPro": {
+    "message": "カスタム集中モードには Pro が必要です",
+    "description": "Reason text passed to the upgrade page when a free user tries custom or indefinite mode (component key)"
+  },
+  "errDailySessionLimitReached": {
+    "message": "1日のセッション上限に達しました",
+    "description": "Reason text passed to the upgrade page when free user exceeds daily session limit"
+  },
+  "errDailySessionLimit": {
+    "message": "1日のセッション上限に達しました",
+    "description": "Reason text passed to the upgrade page when free user exceeds daily session limit (component key)"
+  },
+  "lblBuiltBy": {
+    "message": "開発元",
+    "description": "Footer text preceding the Zovo brand name in the popup"
+  },
+  "lblByZovo": {
+    "message": "by Zovo",
+    "description": "Footer text appended after the app name on blocked and help pages"
+  },
+  "lblBrandZovo": {
+    "message": "Zovo",
+    "description": "Brand name Zovo used in footers and about sections"
+  },
+  "lblModePomodoro": {
+    "message": "ポモドーロ",
+    "description": "Label for the Pomodoro timer mode in the mode selector"
+  },
+  "lblModeCustom": {
+    "message": "カスタム",
+    "description": "Label for the Custom timer mode in the mode selector"
+  },
+  "lblModeIndefinite": {
+    "message": "手動で停止",
+    "description": "Label for the indefinite/until-I-stop timer mode in the mode selector"
+  },
+  "lblModeUntilIStop": {
+    "message": "手動で停止",
+    "description": "Label for the indefinite/until-I-stop timer mode in the mode selector"
+  },
+  "msgModePomodoroDesc": {
+    "message": "$FOCUS$分集中、$BREAK$分休憩",
+    "description": "Description for Pomodoro mode showing focus and break durations",
+    "placeholders": {
+      "focus": {
+        "content": "$1",
+        "example": "25"
+      },
+      "break": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "descModePomodoro": {
+    "message": "$FOCUS$分集中、$BREAK$分休憩",
+    "description": "Description for Pomodoro mode showing focus and break durations (component key)",
+    "placeholders": {
+      "focus": {
+        "content": "$1",
+        "example": "25"
+      },
+      "break": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "msgModeCustomDesc": {
+    "message": "自分で時間を設定",
+    "description": "Description for Custom timer mode"
+  },
+  "descModeCustom": {
+    "message": "自分で時間を設定",
+    "description": "Description for Custom timer mode (component key)"
+  },
+  "msgModeIndefiniteDesc": {
+    "message": "時間制限なし",
+    "description": "Description for the Until I Stop (indefinite) timer mode"
+  },
+  "descModeIndefinite": {
+    "message": "時間制限なし",
+    "description": "Description for the Until I Stop (indefinite) timer mode (component key)"
+  },
+  "lblDuration": {
+    "message": "時間",
+    "description": "Label for the custom duration slider in the mode selector"
+  },
+  "lblDurationMin": {
+    "message": "$DURATION$ 分",
+    "description": "Displays the selected custom duration in minutes",
+    "placeholders": {
+      "duration": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "lblMinShort": {
+    "message": "$MIN$ 分",
+    "description": "Short minute label with value used on slider endpoints",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "lblHoursShort": {
+    "message": "$HOURS$ 時間",
+    "description": "Short hours label with value used on slider endpoints",
+    "placeholders": {
+      "hours": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "lblMinSliderMin": {
+    "message": "5 分",
+    "description": "Minimum value label on the custom duration slider"
+  },
+  "lblMaxSliderMax": {
+    "message": "3 時間",
+    "description": "Maximum value label on the custom duration slider"
+  },
+  "btnStartModeSession": {
+    "message": "$MODE$ セッションを開始",
+    "description": "Start button text with the selected mode name",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "Pomodoro"
+      }
+    }
+  },
+  "stsFocusing": {
+    "message": "集中中...",
+    "description": "Timer status text when in indefinite focus mode"
+  },
+  "stsStayFocused": {
+    "message": "集中を続けよう",
+    "description": "Timer status text during a timed focus session"
+  },
+  "stsTakeABreak": {
+    "message": "休憩しよう",
+    "description": "Timer status text when the user is on a break"
+  },
+  "stsTakeBreak": {
+    "message": "休憩しよう",
+    "description": "Timer status text when the user is on a break (component key)"
+  },
+  "stsPaused": {
+    "message": "一時停止中",
+    "description": "Timer status text when the focus session is paused"
+  },
+  "stsReadyToFocus": {
+    "message": "集中する準備完了",
+    "description": "Timer status text when idle and no session is active"
+  },
+  "lblTimerOn": {
+    "message": "ON",
+    "description": "Text shown in the timer circle for indefinite focus mode instead of a countdown"
+  },
+  "lblOn": {
+    "message": "ON",
+    "description": "Text shown in the timer circle for indefinite focus mode (component key)"
+  },
+  "lblDone": {
+    "message": "完了",
+    "description": "Text used in Pomodoro count indicator (e.g., 3 done, 1 active)"
+  },
+  "lblCompleted": {
+    "message": "完了",
+    "description": "Text used in Pomodoro count indicator and session status when completed"
+  },
+  "lblStopped": {
+    "message": "停止済み",
+    "description": "Status badge for a session that was stopped early (component key)"
+  },
+  "msgPomodoroCountActive": {
+    "message": "$COUNT$ 完了、1 実行中",
+    "description": "Pomodoro count indicator showing completed and current active session",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "msgPomodoroCountCompleted": {
+    "message": "$COUNT$ 完了",
+    "description": "Pomodoro count indicator when idle showing total completed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "btnStartFocus": {
+    "message": "集中開始",
+    "description": "Button to start a focus session from the timer when idle"
+  },
+  "btnPause": {
+    "message": "一時停止",
+    "description": "Tooltip/label for the pause button during a focus session"
+  },
+  "btnStop": {
+    "message": "停止",
+    "description": "Tooltip/label for the stop button during a focus session"
+  },
+  "btnResume": {
+    "message": "再開",
+    "description": "Button to resume a paused focus session"
+  },
+  "btnSkipBreak": {
+    "message": "休憩をスキップ",
+    "description": "Button to skip the current break and start a new focus session"
+  },
+  "lblToday": {
+    "message": "今日",
+    "description": "Quick stats label for today's focus time in the popup"
+  },
+  "lblSessions": {
+    "message": "セッション",
+    "description": "Quick stats label for sessions completed today in the popup"
+  },
+  "lblBlocked": {
+    "message": "ブロック",
+    "description": "Quick stats label for sites blocked today in the popup"
+  },
+  "lblDayStreak": {
+    "message": "連続日数",
+    "description": "Quick stats label for the current day streak in the popup"
+  },
+  "tabGeneral": {
+    "message": "一般",
+    "description": "Tab name for general settings in the options page"
+  },
+  "tabBlocking": {
+    "message": "ブロック",
+    "description": "Tab name for blocking settings in the options page"
+  },
+  "tabSchedule": {
+    "message": "スケジュール",
+    "description": "Tab name for schedule settings in the options page"
+  },
+  "tabStats": {
+    "message": "統計",
+    "description": "Tab name for statistics in the options page"
+  },
+  "tabAdvanced": {
+    "message": "詳細設定",
+    "description": "Tab name for advanced settings in the options page"
+  },
+  "tabAccount": {
+    "message": "アカウント",
+    "description": "Tab name for account and license settings in the options page"
+  },
+  "ttlFocusModePro": {
+    "message": "Focus Mode Pro",
+    "description": "Main heading on the options page and other pages"
+  },
+  "msgSettingsAndConfiguration": {
+    "message": "設定と構成",
+    "description": "Subtitle text on the options page header"
+  },
+  "optSettingsConfig": {
+    "message": "設定と構成",
+    "description": "Subtitle text on the options page header (component key)"
+  },
+  "lblTipsAndTricks": {
+    "message": "ヒントとコツ",
+    "description": "Tooltip and label for the help button and help page subtitle"
+  },
+  "optTipsTricks": {
+    "message": "ヒントとコツ",
+    "description": "Tooltip and label for the help button and help page subtitle (component key)"
+  },
+  "msgSettingsSaved": {
+    "message": "設定を保存しました！",
+    "description": "Success toast message after settings are saved"
+  },
+  "errFailedToSaveSettings": {
+    "message": "設定の保存に失敗しました",
+    "description": "Error toast message when settings cannot be saved"
+  },
+  "errFailedSaveSettings": {
+    "message": "設定の保存に失敗しました",
+    "description": "Error toast message when settings cannot be saved (component key)"
+  },
+  "msgSiteAddedToBlocklist": {
+    "message": "サイトをブロックリストに追加しました",
+    "description": "Success toast message after adding a site to the blocklist"
+  },
+  "msgSiteAddedBlocklist": {
+    "message": "サイトをブロックリストに追加しました",
+    "description": "Success toast message after adding a site to the blocklist (component key)"
+  },
+  "msgSiteAddedToWhitelist": {
+    "message": "サイトをホワイトリストに追加しました",
+    "description": "Success toast message after adding a site to the whitelist"
+  },
+  "msgSiteAddedWhitelist": {
+    "message": "サイトをホワイトリストに追加しました",
+    "description": "Success toast message after adding a site to the whitelist (component key)"
+  },
+  "errPasswordsDoNotMatch": {
+    "message": "パスワードが一致しません",
+    "description": "Error message when new password and confirm password fields do not match"
+  },
+  "errPasswordsNoMatch": {
+    "message": "パスワードが一致しません",
+    "description": "Error message when new password and confirm password fields do not match (component key)"
+  },
+  "errPasswordMinLength": {
+    "message": "パスワードは4文字以上にしてください",
+    "description": "Error message when the password is too short"
+  },
+  "ttlPomodoroTimer": {
+    "message": "ポモドーロタイマー",
+    "description": "Section heading for Pomodoro timer settings on the general tab"
+  },
+  "optPomodoroTimer": {
+    "message": "ポモドーロタイマー",
+    "description": "Section heading for Pomodoro timer settings on the general tab (component key)"
+  },
+  "lblFocusDuration": {
+    "message": "集中時間",
+    "description": "Label for the focus duration dropdown in Pomodoro settings"
+  },
+  "optFocusDuration": {
+    "message": "集中時間",
+    "description": "Label for the focus duration dropdown in Pomodoro settings (component key)"
+  },
+  "optMinutes": {
+    "message": "$MIN$ 分",
+    "description": "Dropdown option text showing duration in minutes",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "lblShortBreak": {
+    "message": "短い休憩",
+    "description": "Label for the short break duration dropdown in Pomodoro settings"
+  },
+  "optShortBreak": {
+    "message": "短い休憩",
+    "description": "Label for the short break duration dropdown in Pomodoro settings (component key)"
+  },
+  "lblLongBreak": {
+    "message": "長い休憩",
+    "description": "Label for the long break duration dropdown in Pomodoro settings"
+  },
+  "optLongBreak": {
+    "message": "長い休憩",
+    "description": "Label for the long break duration dropdown in Pomodoro settings (component key)"
+  },
+  "lblLongBreakAfter": {
+    "message": "長い休憩のタイミング",
+    "description": "Label for the sessions-until-long-break dropdown"
+  },
+  "optLongBreakAfter": {
+    "message": "長い休憩のタイミング",
+    "description": "Label for the sessions-until-long-break dropdown (component key)"
+  },
+  "optSessions": {
+    "message": "$NUM$ セッション",
+    "description": "Dropdown option for number of sessions before a long break",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "optAutoStartBreaks": {
+    "message": "集中セッション後に自動で休憩を開始",
+    "description": "Checkbox label for automatically starting breaks after a focus session ends"
+  },
+  "optAutoStartFocus": {
+    "message": "休憩後に自動で集中を開始",
+    "description": "Checkbox label for automatically starting focus after a break ends"
+  },
+  "ttlBreakReminders": {
+    "message": "休憩リマインダー",
+    "description": "Section heading for break reminder settings on the general tab"
+  },
+  "optBreakReminders": {
+    "message": "休憩リマインダー",
+    "description": "Section heading for break reminder settings on the general tab (component key)"
+  },
+  "optEnableBreakReminders": {
+    "message": "集中中に休憩リマインダーを有効にする",
+    "description": "Checkbox label to enable periodic break reminders"
+  },
+  "lblRemindEvery": {
+    "message": "リマインド間隔",
+    "description": "Label for the break reminder interval dropdown"
+  },
+  "optRemindEvery": {
+    "message": "リマインド間隔",
+    "description": "Label for the break reminder interval dropdown (component key)"
+  },
+  "ttlNotifications": {
+    "message": "通知",
+    "description": "Section heading for notification settings on the general tab"
+  },
+  "optNotifications": {
+    "message": "通知",
+    "description": "Section heading for notification settings on the general tab (component key)"
+  },
+  "optNotifySessionComplete": {
+    "message": "集中セッション完了時に通知する",
+    "description": "Checkbox label to enable notification when a focus session finishes"
+  },
+  "optNotifyBreakEnds": {
+    "message": "休憩終了時に通知する",
+    "description": "Checkbox label to enable notification when a break finishes"
+  },
+  "optNotifyBreakEnd": {
+    "message": "休憩終了時に通知する",
+    "description": "Checkbox label to enable notification when a break finishes (component key)"
+  },
+  "ttlBlockCategories": {
+    "message": "ブロックカテゴリ",
+    "description": "Section heading for category blocking presets on the blocking tab"
+  },
+  "optBlockCategories": {
+    "message": "ブロックカテゴリ",
+    "description": "Section heading for category blocking presets on the blocking tab (component key)"
+  },
+  "msgBlockCategoriesDesc": {
+    "message": "カテゴリを有効にして、気が散るサイトをまとめてブロックします。",
+    "description": "Description text for the block categories section"
+  },
+  "optBlockCategoriesDesc": {
+    "message": "カテゴリを有効にして、気が散るサイトをまとめてブロックします。",
+    "description": "Description text for the block categories section (component key)"
+  },
+  "lblCategorySiteCount": {
+    "message": "$COUNT$ サイト",
+    "description": "Number of sites in a category preset",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "optSitesCount": {
+    "message": "$COUNT$ サイト",
+    "description": "Number of sites in a category preset (component key)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "btnHideSites": {
+    "message": "サイトを非表示",
+    "description": "Tooltip for the collapse button when a category's sites are shown"
+  },
+  "optHideSites": {
+    "message": "サイトを非表示",
+    "description": "Tooltip for the collapse button when a category's sites are shown (component key)"
+  },
+  "btnShowSites": {
+    "message": "サイトを表示",
+    "description": "Tooltip for the expand button to reveal sites in a category"
+  },
+  "optShowSites": {
+    "message": "サイトを表示",
+    "description": "Tooltip for the expand button to reveal sites in a category (component key)"
+  },
+  "ttlCustomBlocklist": {
+    "message": "カスタムブロックリスト",
+    "description": "Section heading for the custom blocklist on the blocking tab"
+  },
+  "optCustomBlocklist": {
+    "message": "カスタムブロックリスト",
+    "description": "Section heading for the custom blocklist on the blocking tab (component key)"
+  },
+  "lblRegex": {
+    "message": "正規表現",
+    "description": "Label for the regex toggle checkbox when adding block rules"
+  },
+  "optRegex": {
+    "message": "正規表現",
+    "description": "Label for the regex toggle checkbox when adding block rules (component key)"
+  },
+  "btnAdd": {
+    "message": "追加",
+    "description": "Button to add a new site to the blocklist or whitelist"
+  },
+  "btnRemove": {
+    "message": "削除",
+    "description": "Button to remove a site from the blocklist or whitelist"
+  },
+  "msgNoBlockedSites": {
+    "message": "カスタムブロックサイトはまだありません。",
+    "description": "Empty state text when no custom block rules have been added"
+  },
+  "optNoBlockedSites": {
+    "message": "カスタムブロックサイトはまだありません。",
+    "description": "Empty state text when no custom block rules have been added (component key)"
+  },
+  "plhBlocklistDomain": {
+    "message": "例: facebook.com または *.reddit.com",
+    "description": "Placeholder for the domain input in the blocklist (non-regex mode)"
+  },
+  "plhBlocklistRegex": {
+    "message": "例: ^https?://(www\\.)?facebook\\.com",
+    "description": "Placeholder for the regex input in the blocklist (regex mode)"
+  },
+  "ttlWhitelist": {
+    "message": "ホワイトリスト（常に許可）",
+    "description": "Section heading for the whitelist on the blocking tab"
+  },
+  "optWhitelist": {
+    "message": "ホワイトリスト（常に許可）",
+    "description": "Section heading for the whitelist on the blocking tab (component key)"
+  },
+  "msgWhitelistDesc": {
+    "message": "これらのサイトは集中モード中でもブロックされません。",
+    "description": "Description text for the whitelist section"
+  },
+  "optWhitelistDesc": {
+    "message": "これらのサイトは集中モード中でもブロックされません。",
+    "description": "Description text for the whitelist section (component key)"
+  },
+  "msgNoWhitelistedSites": {
+    "message": "ホワイトリストにサイトはまだありません。",
+    "description": "Empty state text when no whitelist rules have been added"
+  },
+  "optNoWhitelistedSites": {
+    "message": "ホワイトリストにサイトはまだありません。",
+    "description": "Empty state text when no whitelist rules have been added (component key)"
+  },
+  "plhWhitelistDomain": {
+    "message": "例: docs.google.com",
+    "description": "Placeholder for the domain input in the whitelist"
+  },
+  "ttlAutoEnableSchedule": {
+    "message": "自動スケジュール",
+    "description": "Section heading for the auto-schedule feature on the schedule tab"
+  },
+  "optAutoEnableSchedule": {
+    "message": "自動スケジュール",
+    "description": "Section heading for the auto-schedule feature on the schedule tab (component key)"
+  },
+  "optAutoStartOnSchedule": {
+    "message": "スケジュールに従って集中モードを自動開始する",
+    "description": "Checkbox label to enable the auto-schedule feature"
+  },
+  "optAutoStartSchedule": {
+    "message": "スケジュールに従って集中モードを自動開始する",
+    "description": "Checkbox label to enable the auto-schedule feature (component key)"
+  },
+  "lblActiveDays": {
+    "message": "有効な曜日",
+    "description": "Label for the day-of-week selector in the schedule settings"
+  },
+  "optActiveDays": {
+    "message": "有効な曜日",
+    "description": "Label for the day-of-week selector in the schedule settings (component key)"
+  },
+  "lblDaySun": {
+    "message": "日",
+    "description": "Abbreviated day name for Sunday in the schedule settings"
+  },
+  "daySun": {
+    "message": "日",
+    "description": "Abbreviated day name for Sunday (component key)"
+  },
+  "lblDayMon": {
+    "message": "月",
+    "description": "Abbreviated day name for Monday in the schedule settings"
+  },
+  "dayMon": {
+    "message": "月",
+    "description": "Abbreviated day name for Monday (component key)"
+  },
+  "lblDayTue": {
+    "message": "火",
+    "description": "Abbreviated day name for Tuesday in the schedule settings"
+  },
+  "dayTue": {
+    "message": "火",
+    "description": "Abbreviated day name for Tuesday (component key)"
+  },
+  "lblDayWed": {
+    "message": "水",
+    "description": "Abbreviated day name for Wednesday in the schedule settings"
+  },
+  "dayWed": {
+    "message": "水",
+    "description": "Abbreviated day name for Wednesday (component key)"
+  },
+  "lblDayThu": {
+    "message": "木",
+    "description": "Abbreviated day name for Thursday in the schedule settings"
+  },
+  "dayThu": {
+    "message": "木",
+    "description": "Abbreviated day name for Thursday (component key)"
+  },
+  "lblDayFri": {
+    "message": "金",
+    "description": "Abbreviated day name for Friday in the schedule settings"
+  },
+  "dayFri": {
+    "message": "金",
+    "description": "Abbreviated day name for Friday (component key)"
+  },
+  "lblDaySat": {
+    "message": "土",
+    "description": "Abbreviated day name for Saturday in the schedule settings"
+  },
+  "daySat": {
+    "message": "土",
+    "description": "Abbreviated day name for Saturday (component key)"
+  },
+  "lblStartTime": {
+    "message": "開始時刻",
+    "description": "Label for the schedule start time input"
+  },
+  "optStartTime": {
+    "message": "開始時刻",
+    "description": "Label for the schedule start time input (component key)"
+  },
+  "lblEndTime": {
+    "message": "終了時刻",
+    "description": "Label for the schedule end time input"
+  },
+  "optEndTime": {
+    "message": "終了時刻",
+    "description": "Label for the schedule end time input (component key)"
+  },
+  "ttlTodaysSummary": {
+    "message": "今日のまとめ",
+    "description": "Section heading for today's stats summary on the stats tab"
+  },
+  "optTodaySummary": {
+    "message": "今日のまとめ",
+    "description": "Section heading for today's stats summary on the stats tab (component key)"
+  },
+  "lblFocusTime": {
+    "message": "集中時間",
+    "description": "Stats label for total focus time today"
+  },
+  "optFocusTime": {
+    "message": "集中時間",
+    "description": "Stats label for total focus time today (component key)"
+  },
+  "lblSitesBlocked": {
+    "message": "ブロックしたサイト",
+    "description": "Stats label for total sites blocked today"
+  },
+  "optSitesBlocked": {
+    "message": "ブロックしたサイト",
+    "description": "Stats label for total sites blocked (component key used in options and dashboard)"
+  },
+  "lblPomodoros": {
+    "message": "ポモドーロ",
+    "description": "Stats label for total Pomodoro sessions completed today"
+  },
+  "optPomodoros": {
+    "message": "ポモドーロ",
+    "description": "Stats label for total Pomodoro sessions completed today (component key)"
+  },
+  "ttlAllTimeStatistics": {
+    "message": "累計統計",
+    "description": "Section heading for all-time stats on the stats tab"
+  },
+  "optAllTimeStats": {
+    "message": "累計統計",
+    "description": "Section heading for all-time stats on the stats tab (component key)"
+  },
+  "lblTotalFocusTime": {
+    "message": "合計集中時間",
+    "description": "Stats label for cumulative total focus time"
+  },
+  "optTotalFocusTime": {
+    "message": "合計集中時間",
+    "description": "Stats label for cumulative total focus time (component key)"
+  },
+  "lblTotalSessions": {
+    "message": "合計セッション数",
+    "description": "Stats label for cumulative total sessions"
+  },
+  "optTotalSessions": {
+    "message": "合計セッション数",
+    "description": "Stats label for cumulative total sessions (component key)"
+  },
+  "ttlStreaks": {
+    "message": "連続記録",
+    "description": "Section heading for streak data on the stats tab"
+  },
+  "optStreaks": {
+    "message": "連続記録",
+    "description": "Section heading for streak data on the stats tab (component key)"
+  },
+  "lblCurrentStreakDays": {
+    "message": "現在の連続日数",
+    "description": "Stats label for the current consecutive day streak"
+  },
+  "optCurrentStreak": {
+    "message": "現在の連続日数",
+    "description": "Stats label for the current consecutive day streak (component key)"
+  },
+  "lblLongestStreakDays": {
+    "message": "最長連続日数",
+    "description": "Stats label for the longest consecutive day streak"
+  },
+  "optLongestStreak": {
+    "message": "最長連続日数",
+    "description": "Stats label for the longest consecutive day streak (component key)"
+  },
+  "ttlRecentSessions": {
+    "message": "最近のセッション",
+    "description": "Section heading for recent session list on the stats tab"
+  },
+  "optRecentSessions": {
+    "message": "最近のセッション",
+    "description": "Section heading for recent session list on the stats tab (component key)"
+  },
+  "lblCurrentSession": {
+    "message": "現在のセッション",
+    "description": "Label for the currently active session in the recent sessions list"
+  },
+  "optCurrentSession": {
+    "message": "現在のセッション",
+    "description": "Label for the currently active session in the recent sessions list (component key)"
+  },
+  "msgSessionModeInProgress": {
+    "message": "$MODE$ モード - 進行中",
+    "description": "Subtitle for an active session showing its mode",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "pomodoro"
+      }
+    }
+  },
+  "optModeInProgress": {
+    "message": "モード - 進行中",
+    "description": "Suffix text for active session mode display in options (component key)"
+  },
+  "stsActiveSession": {
+    "message": "実行中",
+    "description": "Status badge for the currently running session"
+  },
+  "msgSessionModeDuration": {
+    "message": "$MODE$ モード - $DURATION$ 分",
+    "description": "Subtitle for a past session showing mode and duration",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "pomodoro"
+      },
+      "duration": {
+        "content": "$2",
+        "example": "25"
+      }
+    }
+  },
+  "optModeDuration": {
+    "message": "モード - $DURATION$ 分",
+    "description": "Suffix text for past session mode and duration display in options",
+    "placeholders": {
+      "duration": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "stsCompleted": {
+    "message": "完了",
+    "description": "Status badge for a session that completed successfully"
+  },
+  "stsStopped": {
+    "message": "停止済み",
+    "description": "Status badge for a session that was stopped early"
+  },
+  "msgNoSessionsRecorded": {
+    "message": "セッションの記録はまだありません。集中セッションを開始して履歴を確認しましょう。",
+    "description": "Empty state text when no sessions have been recorded"
+  },
+  "optNoSessions": {
+    "message": "セッションの記録はまだありません。集中セッションを開始して履歴を確認しましょう。",
+    "description": "Empty state text when no sessions have been recorded (component key)"
+  },
+  "ttlBlockedPage": {
+    "message": "ブロックページ",
+    "description": "Section heading for blocked page settings on the advanced tab"
+  },
+  "optBlockedPage": {
+    "message": "ブロックページ",
+    "description": "Section heading for blocked page settings on the advanced tab (component key)"
+  },
+  "optShowRemainingTime": {
+    "message": "ブロックページに残り時間を表示する",
+    "description": "Checkbox label to show the countdown timer on the blocked site page"
+  },
+  "optShowMotivationalQuote": {
+    "message": "ブロックページにモチベーション名言を表示する",
+    "description": "Checkbox label to show a random motivational quote on the blocked site page"
+  },
+  "optShowQuote": {
+    "message": "ブロックページにモチベーション名言を表示する",
+    "description": "Checkbox label to show a random motivational quote on the blocked site page (component key)"
+  },
+  "optAllowEmergencyUnlock": {
+    "message": "緊急アンロックを許可する（クールダウン付き）",
+    "description": "Checkbox label to allow users to perform an emergency unlock with a cooldown"
+  },
+  "lblEmergencyUnlockCooldown": {
+    "message": "緊急アンロックのクールダウン",
+    "description": "Label for the emergency unlock cooldown duration dropdown"
+  },
+  "optEmergencyCooldown": {
+    "message": "緊急アンロックのクールダウン",
+    "description": "Label for the emergency unlock cooldown duration dropdown (component key)"
+  },
+  "ttlPasswordProtection": {
+    "message": "パスワード保護",
+    "description": "Section heading for password protection settings on the advanced tab"
+  },
+  "optPasswordProtection": {
+    "message": "パスワード保護",
+    "description": "Section heading for password protection settings on the advanced tab (component key)"
+  },
+  "msgPasswordProtectionDesc": {
+    "message": "集中モードの停止や設定変更にパスワードを要求します。",
+    "description": "Description text for the password protection feature"
+  },
+  "optPasswordProtectionDesc": {
+    "message": "集中モードの停止や設定変更にパスワードを要求します。",
+    "description": "Description text for the password protection feature (component key)"
+  },
+  "msgPasswordOutdatedFormat": {
+    "message": "パスワードが古い形式です。削除して新しく設定してください。",
+    "description": "Warning when the stored password uses a legacy hash format"
+  },
+  "optPasswordOutdated": {
+    "message": "パスワードが古い形式です。削除して新しく設定してください。",
+    "description": "Warning when the stored password uses a legacy hash format (component key)"
+  },
+  "msgPasswordEnabled": {
+    "message": "パスワード保護が有効です。",
+    "description": "Confirmation text when password protection is currently active"
+  },
+  "optPasswordEnabled": {
+    "message": "パスワード保護が有効です。",
+    "description": "Confirmation text when password protection is currently active (component key)"
+  },
+  "lblNewPassword": {
+    "message": "新しいパスワード",
+    "description": "Label for the new password input field"
+  },
+  "optNewPassword": {
+    "message": "新しいパスワード",
+    "description": "Label for the new password input field (component key)"
+  },
+  "lblConfirmPassword": {
+    "message": "パスワードの確認",
+    "description": "Label for the confirm password input field"
+  },
+  "optConfirmPassword": {
+    "message": "パスワードの確認",
+    "description": "Label for the confirm password input field (component key)"
+  },
+  "plhConfirmPassword": {
+    "message": "パスワードを確認",
+    "description": "Placeholder for the confirm password input field"
+  },
+  "btnSetPassword": {
+    "message": "パスワードを設定",
+    "description": "Button to save a new password"
+  },
+  "btnRemovePassword": {
+    "message": "パスワードを削除",
+    "description": "Button to remove the current password protection"
+  },
+  "plhEnterCurrentPassword": {
+    "message": "現在のパスワードを入力",
+    "description": "Placeholder for the current password input when removing password"
+  },
+  "errEnterCurrentPassword": {
+    "message": "現在のパスワードを入力してください",
+    "description": "Validation error when current password is not provided for removal"
+  },
+  "ttlAbout": {
+    "message": "概要",
+    "description": "Section heading for the about section on the advanced tab"
+  },
+  "optAbout": {
+    "message": "概要",
+    "description": "Section heading for the about section on the advanced tab (component key)"
+  },
+  "msgAboutDescription": {
+    "message": "Focus Mode Pro は、プライバシーを重視する Zovo の Chrome 拡張機能ファミリーの一つです。",
+    "description": "About section description text"
+  },
+  "optAboutDesc": {
+    "message": "Focus Mode Pro は、プライバシーを重視する Zovo の Chrome 拡張機能ファミリーの一つです。",
+    "description": "About section description text (component key)"
+  },
+  "lblVersion": {
+    "message": "バージョン:",
+    "description": "Label preceding the extension version number in the about section"
+  },
+  "optVersion": {
+    "message": "バージョン",
+    "description": "Label preceding the extension version number in the about section (component key)"
+  },
+  "lblKeyboardShortcut": {
+    "message": "キーボードショートカット:",
+    "description": "Label preceding the keyboard shortcut in the about section"
+  },
+  "optKeyboardShortcut": {
+    "message": "キーボードショートカット",
+    "description": "Label preceding the keyboard shortcut in the about section (component key)"
+  },
+  "lblKeyboardShortcutValue": {
+    "message": "Alt+Shift+F",
+    "description": "The keyboard shortcut keys shown in the about section"
+  },
+  "lblWebsite": {
+    "message": "ウェブサイト:",
+    "description": "Label preceding the website link in the about section"
+  },
+  "optWebsite": {
+    "message": "ウェブサイト",
+    "description": "Label preceding the website link in the about section (component key)"
+  },
+  "lblSupport": {
+    "message": "サポート:",
+    "description": "Label preceding the support email in the about section"
+  },
+  "optSupport": {
+    "message": "サポート",
+    "description": "Label for support link in the about section and welcome footer (component key)"
+  },
+  "lblSupportEmail": {
+    "message": "support@zovo.one",
+    "description": "Support email address displayed in the about and footer sections"
+  },
+  "ttlLicenseStatus": {
+    "message": "ライセンス状況",
+    "description": "Section heading for the license status on the account tab"
+  },
+  "optLicenseStatus": {
+    "message": "ライセンス状況",
+    "description": "Section heading for the license status on the account tab (component key)"
+  },
+  "lblProLifetimeActive": {
+    "message": "Pro（永久版）- 有効",
+    "description": "License status text for active lifetime Pro users"
+  },
+  "optLifetime": {
+    "message": "（永久版）",
+    "description": "Lifetime tier label appended to Pro status (component key)"
+  },
+  "lblProTeamActive": {
+    "message": "Pro（チーム）- 有効",
+    "description": "License status text for active team Pro users"
+  },
+  "optTeam": {
+    "message": "（チーム）",
+    "description": "Team tier label appended to Pro status (component key)"
+  },
+  "lblProActive": {
+    "message": "Pro - 有効",
+    "description": "License status text for active Pro users (generic)"
+  },
+  "lblFreePlan": {
+    "message": "無料プラン",
+    "description": "License status text for users on the free plan"
+  },
+  "optFreePlan": {
+    "message": "無料プラン",
+    "description": "License status text for users on the free plan (component key)"
+  },
+  "msgLicensedTo": {
+    "message": "ライセンス登録先: $EMAIL$",
+    "description": "Text showing the email associated with the license",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "optLicensedTo": {
+    "message": "ライセンス登録先: $EMAIL$",
+    "description": "Text showing the email associated with the license (component key)",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "btnRemoveLicense": {
+    "message": "ライセンスを削除",
+    "description": "Button to remove/deactivate the current license"
+  },
+  "ttlActivateLicense": {
+    "message": "ライセンスの有効化",
+    "description": "Section heading for license activation on the account tab"
+  },
+  "optActivateLicense": {
+    "message": "ライセンスの有効化",
+    "description": "Section heading for license activation on the account tab (component key)"
+  },
+  "msgActivateLicenseDesc": {
+    "message": "ライセンスキーを入力して Pro 機能をアンロックしてください。",
+    "description": "Description text for the license activation section"
+  },
+  "optActivateLicenseDesc": {
+    "message": "ライセンスキーを入力して Pro 機能をアンロックしてください。",
+    "description": "Description text for the license activation section (component key)"
+  },
+  "btnActivate": {
+    "message": "有効化",
+    "description": "Button to submit the license key for activation"
+  },
+  "btnVerifying": {
+    "message": "確認中...",
+    "description": "Button text shown while license key is being verified"
+  },
+  "optVerifying": {
+    "message": "確認中...",
+    "description": "Button text shown while license key is being verified (component key)"
+  },
+  "msgLicenseActivated": {
+    "message": "ライセンスが有効化されました！",
+    "description": "Success message shown inline after license activation"
+  },
+  "plhLicenseKey": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX",
+    "description": "Placeholder for the license key input field"
+  },
+  "errPleaseEnterLicenseKey": {
+    "message": "ライセンスキーを入力してください",
+    "description": "Validation error when the license key field is empty"
+  },
+  "errEnterLicenseKey": {
+    "message": "ライセンスキーを入力してください",
+    "description": "Validation error when the license key field is empty (component key)"
+  },
+  "msgLicenseActivatedSuccess": {
+    "message": "ライセンスの有効化に成功しました！",
+    "description": "Success toast message after license activation"
+  },
+  "errFailedToVerifyLicense": {
+    "message": "ライセンスキーの確認に失敗しました",
+    "description": "Error message when license verification fails"
+  },
+  "errFailedVerifyLicense": {
+    "message": "ライセンスキーの確認に失敗しました",
+    "description": "Error message when license verification fails (component key)"
+  },
+  "errFailedToConnectLicense": {
+    "message": "接続に失敗しました。もう一度お試しください。",
+    "description": "Error message when the license server is unreachable"
+  },
+  "errFailedConnect": {
+    "message": "接続に失敗しました。もう一度お試しください。",
+    "description": "Error message when the license server is unreachable (component key)"
+  },
+  "msgLicenseRemoved": {
+    "message": "ライセンスを削除しました",
+    "description": "Success toast message after license removal"
+  },
+  "errFailedToRemoveLicense": {
+    "message": "ライセンスの削除に失敗しました",
+    "description": "Error toast message when license removal fails"
+  },
+  "errFailedRemoveLicense": {
+    "message": "ライセンスの削除に失敗しました",
+    "description": "Error toast message when license removal fails (component key)"
+  },
+  "ttlProFeatures": {
+    "message": "Pro の機能",
+    "description": "Section heading for the Pro features list on the account tab"
+  },
+  "optProFeatures": {
+    "message": "Pro の機能",
+    "description": "Section heading for the Pro features list on the account tab (component key)"
+  },
+  "lblFeatureUnlimitedBlockRules": {
+    "message": "カスタムブロックルール無制限",
+    "description": "Pro feature: unlimited custom block rules"
+  },
+  "optFeatureUnlimitedRules": {
+    "message": "カスタムブロックルール無制限",
+    "description": "Pro feature: unlimited custom block rules (component key)"
+  },
+  "lblFeatureAdvancedRegex": {
+    "message": "高度な正規表現パターン",
+    "description": "Pro feature: advanced regex pattern support"
+  },
+  "optFeatureRegex": {
+    "message": "高度な正規表現パターン",
+    "description": "Pro feature: advanced regex pattern support (component key)"
+  },
+  "lblFeatureDetailedAnalytics": {
+    "message": "詳細な分析とレポート",
+    "description": "Pro feature: detailed analytics and reports"
+  },
+  "optFeatureAnalytics": {
+    "message": "詳細な分析とレポート",
+    "description": "Pro feature: detailed analytics and reports (component key)"
+  },
+  "lblFeatureScheduleMode": {
+    "message": "スケジュールモード",
+    "description": "Pro feature: automatic schedule mode"
+  },
+  "optFeatureSchedule": {
+    "message": "スケジュールモード",
+    "description": "Pro feature: automatic schedule mode (component key)"
+  },
+  "lblFeaturePasswordProtection": {
+    "message": "パスワード保護",
+    "description": "Pro feature: password protection for focus sessions"
+  },
+  "optFeaturePassword": {
+    "message": "パスワード保護",
+    "description": "Pro feature: password protection for focus sessions (component key)"
+  },
+  "lblFeaturePrioritySupport": {
+    "message": "優先サポート",
+    "description": "Pro feature: priority customer support"
+  },
+  "optFeaturePrioritySupport": {
+    "message": "優先サポート",
+    "description": "Pro feature: priority customer support (component key)"
+  },
+  "ttlBlockedPageHeading": {
+    "message": "集中を続けよう",
+    "description": "Main heading on the blocked site page"
+  },
+  "msgSiteBlockedDuringFocus": {
+    "message": "このサイトは集中セッション中にブロックされています",
+    "description": "Subtitle on the blocked site page explaining why the site is blocked"
+  },
+  "blkSiteBlocked": {
+    "message": "このサイトは集中セッション中にブロックされています",
+    "description": "Subtitle on the blocked site page explaining why the site is blocked (component key)"
+  },
+  "msgRemainingInFocusSession": {
+    "message": "集中セッションの残り時間",
+    "description": "Timer label on the blocked page during a focus session"
+  },
+  "blkRemainingFocus": {
+    "message": "集中セッションの残り時間",
+    "description": "Timer label on the blocked page during a focus session (component key)"
+  },
+  "msgBreakTime": {
+    "message": "休憩時間",
+    "description": "Timer label on the blocked page during a break"
+  },
+  "blkBreakTime": {
+    "message": "休憩時間",
+    "description": "Timer label on the blocked page during a break (component key)"
+  },
+  "msgUntilYouStop": {
+    "message": "停止するまで",
+    "description": "Timer text on the blocked page for indefinite focus mode"
+  },
+  "blkUntilYouStop": {
+    "message": "停止するまで",
+    "description": "Timer text on the blocked page for indefinite focus mode (component key)"
+  },
+  "btnEmergencyUnlock": {
+    "message": "アクセスが必要ですか？緊急アンロック",
+    "description": "Link text for emergency unlock on the blocked page"
+  },
+  "blkEmergencyUnlock": {
+    "message": "アクセスが必要ですか？緊急アンロック",
+    "description": "Link text for emergency unlock on the blocked page (component key)"
+  },
+  "msgEmergencyUnlockConfirm": {
+    "message": "よろしいですか？集中セッションが終了します。緊急アンロックには $MINUTES$ 分のクールダウンがあります。",
+    "description": "Confirmation message before performing an emergency unlock",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "blkConfirmUnlock": {
+    "message": "よろしいですか？集中セッションが終了します。緊急アンロックには $MINUTES$ 分のクールダウンがあります。",
+    "description": "Confirmation message before performing an emergency unlock (component key)",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "btnYesUnlock": {
+    "message": "はい、アンロックする",
+    "description": "Button to confirm the emergency unlock action"
+  },
+  "msgEnterPasswordToUnlock": {
+    "message": "このページのアンロックにはパスワードを入力してください。",
+    "description": "Instruction in the blocked page password modal"
+  },
+  "blkEnterPasswordUnlock": {
+    "message": "このページのアンロックにはパスワードを入力してください。",
+    "description": "Instruction in the blocked page password modal (component key)"
+  },
+  "btnUnlock": {
+    "message": "アンロック",
+    "description": "Button to submit password and unlock the blocked page"
+  },
+  "stsUnlockingRedirecting": {
+    "message": "アンロック中... リダイレクト中...",
+    "description": "Status text shown while the blocked page is being unlocked and redirecting"
+  },
+  "blkUnlocking": {
+    "message": "アンロック中... リダイレクト中...",
+    "description": "Status text shown while the blocked page is being unlocked and redirecting (component key)"
+  },
+  "errUnableToUnlock": {
+    "message": "アンロックできません",
+    "description": "Fallback error when the emergency unlock fails without a specific reason"
+  },
+  "lblFocusModeProByZovo": {
+    "message": "Focus Mode Pro by Zovo",
+    "description": "Footer text on the blocked page linking to Zovo"
+  },
+  "ntfFocusSessionComplete": {
+    "message": "集中セッション完了！",
+    "description": "Notification title when a focus session finishes (background)"
+  },
+  "notifSessionComplete": {
+    "message": "集中セッション完了！",
+    "description": "Notification title when a focus session finishes (component key)"
+  },
+  "ntfGreatWorkTakeBreak": {
+    "message": "よく頑張りました！$BREAK_TYPE$休憩を取りましょう。",
+    "description": "Notification body when focus session finishes, suggesting a break type",
+    "placeholders": {
+      "break_type": {
+        "content": "$1",
+        "example": "short"
+      }
+    }
+  },
+  "notifTakeShortBreak": {
+    "message": "よく頑張りました！短い休憩を取りましょう。",
+    "description": "Notification body when focus session finishes suggesting a short break (component key)"
+  },
+  "notifTakeLongBreak": {
+    "message": "よく頑張りました！長い休憩を取りましょう。",
+    "description": "Notification body when focus session finishes suggesting a long break (component key)"
+  },
+  "ntfBreakOver": {
+    "message": "休憩終了！",
+    "description": "Notification title when a break finishes (background)"
+  },
+  "notifBreakOver": {
+    "message": "休憩終了！",
+    "description": "Notification title when a break finishes (component key)"
+  },
+  "ntfReadyToFocusAgain": {
+    "message": "また集中する準備はできましたか？",
+    "description": "Notification body when a break finishes (background)"
+  },
+  "notifReadyToFocus": {
+    "message": "また集中する準備はできましたか？",
+    "description": "Notification body when a break finishes (component key)"
+  },
+  "ntfTimeForQuickBreak": {
+    "message": "ちょっと休憩しましょう",
+    "description": "Notification title for periodic break reminders (background)"
+  },
+  "notifBreakReminder": {
+    "message": "ちょっと休憩しましょう",
+    "description": "Notification title for periodic break reminders (component key)"
+  },
+  "ntfStandUpStretch": {
+    "message": "立ち上がって、ストレッチをして、少し目を休めましょう。",
+    "description": "Notification body for periodic break reminders (background)"
+  },
+  "notifBreakReminderMsg": {
+    "message": "立ち上がって、ストレッチをして、少し目を休めましょう。",
+    "description": "Notification body for periodic break reminders (component key)"
+  },
+  "errEmergencyUnlockDisabled": {
+    "message": "緊急アンロックは無効です",
+    "description": "Response reason when emergency unlock is not allowed in settings"
+  },
+  "errEmergencyDisabled": {
+    "message": "緊急アンロックは無効です",
+    "description": "Response reason when emergency unlock is not allowed in settings (component key)"
+  },
+  "msgCooldownMinutesRemaining": {
+    "message": "クールダウン: 残り $MINUTES$ 分",
+    "description": "Message shown when emergency unlock is on cooldown",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "errCooldownRemaining": {
+    "message": "クールダウン: 残り $MINUTES$ 分",
+    "description": "Message shown when emergency unlock is on cooldown (component key)",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "msgWelcomeHeading": {
+    "message": "Focus Mode Pro の準備が整いました",
+    "description": "Hero section heading on the welcome page"
+  },
+  "welReady": {
+    "message": "Focus Mode Pro の準備が整いました",
+    "description": "Hero section heading on the welcome page (component key)"
+  },
+  "msgWelcomeSubheading": {
+    "message": "気が散るサイトをブロックして、ポモドーロタイマーや統計追跡で生産性を維持しましょう。",
+    "description": "Hero section subtitle on the welcome page"
+  },
+  "welSubtitle": {
+    "message": "気が散るサイトをブロックして、ポモドーロタイマーや統計追跡で生産性を維持しましょう。",
+    "description": "Hero section subtitle on the welcome page (component key)"
+  },
+  "btnGetStarted": {
+    "message": "始める",
+    "description": "Primary call-to-action button on the welcome page hero section"
+  },
+  "msgFeaturesHeading": {
+    "message": "集中に必要なすべてが揃っています",
+    "description": "Features section heading on the welcome page"
+  },
+  "welFeaturesTitle": {
+    "message": "集中に必要なすべてが揃っています",
+    "description": "Features section heading on the welcome page (component key)"
+  },
+  "msgFeaturesSubheading": {
+    "message": "気を散らすものを排除し、良い習慣を身につけるための強力なツールです。",
+    "description": "Features section subtitle on the welcome page"
+  },
+  "welFeaturesSubtitle": {
+    "message": "気を散らすものを排除し、良い習慣を身につけるための強力なツールです。",
+    "description": "Features section subtitle on the welcome page (component key)"
+  },
+  "ttlFeatureSmartBlocking": {
+    "message": "スマートブロック",
+    "description": "Feature card title for the smart blocking feature on the welcome page"
+  },
+  "welFeatureBlocking": {
+    "message": "スマートブロック",
+    "description": "Feature card title for the smart blocking feature on the welcome page (component key)"
+  },
+  "msgFeatureSmartBlockingDesc": {
+    "message": "パターン、カテゴリ、正規表現でサイトをブロック。ホワイトリストで作業サイトへのアクセスを確保。",
+    "description": "Feature card description for smart blocking on the welcome page"
+  },
+  "welFeatureBlockingDesc": {
+    "message": "パターン、カテゴリ、正規表現でサイトをブロック。ホワイトリストで作業サイトへのアクセスを確保。",
+    "description": "Feature card description for smart blocking on the welcome page (component key)"
+  },
+  "ttlFeaturePomodoroTimer": {
+    "message": "ポモドーロタイマー",
+    "description": "Feature card title for the Pomodoro timer feature on the welcome page"
+  },
+  "welFeaturePomodoro": {
+    "message": "ポモドーロタイマー",
+    "description": "Feature card title for the Pomodoro timer feature on the welcome page (component key)"
+  },
+  "msgFeaturePomodoroTimerDesc": {
+    "message": "25分間の集中インターバルと自動休憩で作業。自分のリズムに合わせて時間をカスタマイズ。",
+    "description": "Feature card description for Pomodoro timer on the welcome page"
+  },
+  "welFeaturePomodoroDesc": {
+    "message": "25分間の集中インターバルと自動休憩で作業。自分のリズムに合わせて時間をカスタマイズ。",
+    "description": "Feature card description for Pomodoro timer on the welcome page (component key)"
+  },
+  "ttlFeatureTrackProgress": {
+    "message": "進捗の追跡",
+    "description": "Feature card title for the progress tracking feature on the welcome page"
+  },
+  "welFeatureProgress": {
+    "message": "進捗の追跡",
+    "description": "Feature card title for the progress tracking feature on the welcome page (component key)"
+  },
+  "msgFeatureTrackProgressDesc": {
+    "message": "集中時間、完了セッション、ブロックしたサイトを確認し、生産的な連続記録を積み上げましょう。",
+    "description": "Feature card description for progress tracking on the welcome page"
+  },
+  "welFeatureProgressDesc": {
+    "message": "集中時間、完了セッション、ブロックしたサイトを確認し、生産的な連続記録を積み上げましょう。",
+    "description": "Feature card description for progress tracking on the welcome page (component key)"
+  },
+  "msgHowItWorksHeading": {
+    "message": "使い方",
+    "description": "How it works section heading on the welcome page"
+  },
+  "welHowTitle": {
+    "message": "使い方",
+    "description": "How it works section heading on the welcome page (component key)"
+  },
+  "msgHowItWorksSubheading": {
+    "message": "数秒で始められます。複雑な設定は不要です。",
+    "description": "How it works section subtitle on the welcome page"
+  },
+  "welHowSubtitle": {
+    "message": "数秒で始められます。複雑な設定は不要です。",
+    "description": "How it works section subtitle on the welcome page (component key)"
+  },
+  "ttlStep1": {
+    "message": "アイコンをクリック",
+    "description": "Step 1 title in the how-it-works section on the welcome page"
+  },
+  "welStep1Title": {
+    "message": "アイコンをクリック",
+    "description": "Step 1 title in the how-it-works section on the welcome page (component key)"
+  },
+  "msgStep1Desc": {
+    "message": "ツールバーの Focus Mode Pro アイコンをクリックしてポップアップを開きます。",
+    "description": "Step 1 description in the how-it-works section"
+  },
+  "welStep1Desc": {
+    "message": "ツールバーの Focus Mode Pro アイコンをクリックしてポップアップを開きます。",
+    "description": "Step 1 description in the how-it-works section (component key)"
+  },
+  "ttlStep2": {
+    "message": "モードを選択",
+    "description": "Step 2 title in the how-it-works section on the welcome page"
+  },
+  "welStep2Title": {
+    "message": "モードを選択",
+    "description": "Step 2 title in the how-it-works section on the welcome page (component key)"
+  },
+  "msgStep2Desc": {
+    "message": "ポモドーロ、カスタムタイマー、または無期限集中モードを選択します。",
+    "description": "Step 2 description in the how-it-works section"
+  },
+  "welStep2Desc": {
+    "message": "ポモドーロ、カスタムタイマー、または無期限集中モードを選択します。",
+    "description": "Step 2 description in the how-it-works section (component key)"
+  },
+  "ttlStep3": {
+    "message": "集中を始める",
+    "description": "Step 3 title in the how-it-works section on the welcome page"
+  },
+  "welStep3Title": {
+    "message": "集中を始める",
+    "description": "Step 3 title in the how-it-works section on the welcome page (component key)"
+  },
+  "msgStep3Desc": {
+    "message": "集中開始をクリックすると、気が散るサイトが自動的にブロックされます。",
+    "description": "Step 3 description in the how-it-works section"
+  },
+  "welStep3Desc": {
+    "message": "集中開始をクリックすると、気が散るサイトが自動的にブロックされます。",
+    "description": "Step 3 description in the how-it-works section (component key)"
+  },
+  "ttlKeyboardShortcuts": {
+    "message": "キーボードショートカット",
+    "description": "Section heading for keyboard shortcuts on the welcome page"
+  },
+  "welKeyboardShortcuts": {
+    "message": "キーボードショートカット",
+    "description": "Section heading for keyboard shortcuts on the welcome page (component key)"
+  },
+  "lblKeyAlt": {
+    "message": "Alt",
+    "description": "Keyboard key label for Alt"
+  },
+  "lblKeyShift": {
+    "message": "Shift",
+    "description": "Keyboard key label for Shift"
+  },
+  "lblKeyF": {
+    "message": "F",
+    "description": "Keyboard key label for F"
+  },
+  "msgToggleFocusFromAnyTab": {
+    "message": "どのタブからでも集中モードのオン/オフを切り替え",
+    "description": "Description of what the keyboard shortcut does on the welcome page"
+  },
+  "welShortcutDesc": {
+    "message": "どのタブからでも集中モードのオン/オフを切り替え",
+    "description": "Description of what the keyboard shortcut does on the welcome page (component key)"
+  },
+  "ttlPrivacyMatters": {
+    "message": "プライバシーを大切に",
+    "description": "Privacy section heading on the welcome page"
+  },
+  "welPrivacyTitle": {
+    "message": "プライバシーを大切に",
+    "description": "Privacy section heading on the welcome page (component key)"
+  },
+  "msgPrivacyDescription": {
+    "message": "Focus Mode Pro は主にお使いのデバイス上で動作します。閲覧データの収集や外部サーバーへの送信は行いません。ライセンス認証時のみ Zovo API に接続します。",
+    "description": "Privacy description text on the welcome page"
+  },
+  "welPrivacyDesc": {
+    "message": "Focus Mode Pro は主にお使いのデバイス上で動作します。閲覧データの収集や外部サーバーへの送信は行いません。ライセンス認証時のみ Zovo API に接続します。",
+    "description": "Privacy description text on the welcome page (component key)"
+  },
+  "msgPrivacyFirstByDesign": {
+    "message": "設計段階からプライバシーを優先",
+    "description": "Privacy badge text on the welcome page"
+  },
+  "welPrivacyFirst": {
+    "message": "設計段階からプライバシーを優先",
+    "description": "Privacy badge text on the welcome page (component key)"
+  },
+  "ttlReadyToFocus": {
+    "message": "集中する準備はできましたか？",
+    "description": "Final CTA section heading on the welcome page"
+  },
+  "welCtaTitle": {
+    "message": "集中する準備はできましたか？",
+    "description": "Final CTA section heading on the welcome page (component key)"
+  },
+  "msgReadyToFocusSubheading": {
+    "message": "生産性の向上は今から始まります。気を散らすものをブロックして、良い習慣を身につけましょう。",
+    "description": "Final CTA section subtitle on the welcome page"
+  },
+  "welCtaDesc": {
+    "message": "生産性の向上は今から始まります。気を散らすものをブロックして、良い習慣を身につけましょう。",
+    "description": "Final CTA section subtitle on the welcome page (component key)"
+  },
+  "btnStartUsingFocusModePro": {
+    "message": "Focus Mode Pro を使い始める",
+    "description": "Button to dismiss the welcome page and start using the extension"
+  },
+  "welStartUsing": {
+    "message": "Focus Mode Pro を使い始める",
+    "description": "Button to dismiss the welcome page and start using the extension (component key)"
+  },
+  "msgWelcomeFooterVersion": {
+    "message": "Focus Mode Pro v$VERSION$",
+    "description": "Version text in the footer of the welcome page and dashboard",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "btnSupportLink": {
+    "message": "サポート",
+    "description": "Footer link text for support email"
+  },
+  "btnPrivacyPolicy": {
+    "message": "プライバシーポリシー",
+    "description": "Footer link text for the privacy policy"
+  },
+  "welPrivacyPolicy": {
+    "message": "プライバシーポリシー",
+    "description": "Footer link text for the privacy policy on the welcome page (component key)"
+  },
+  "ttlHelpGettingStarted": {
+    "message": "はじめに",
+    "description": "Help page section title: Getting Started"
+  },
+  "helpGettingStarted": {
+    "message": "はじめに",
+    "description": "Help page section title: Getting Started (component key)"
+  },
+  "tipGettingStarted1": {
+    "message": "ツールバーの Focus Mode Pro アイコンをクリックしてポップアップを開きます",
+    "description": "Getting started tip 1 on the help page"
+  },
+  "helpGS1": {
+    "message": "ツールバーの Focus Mode Pro アイコンをクリックしてポップアップを開きます",
+    "description": "Getting started tip 1 on the help page (component key)"
+  },
+  "tipGettingStarted2": {
+    "message": "タイマーモードを選択: ポモドーロ（休憩付きインターバル）、カスタム（好きな時間）、無期限（自分で停止するまで）",
+    "description": "Getting started tip 2 on the help page"
+  },
+  "helpGS2": {
+    "message": "タイマーモードを選択: ポモドーロ（休憩付きインターバル）、カスタム（好きな時間）、無期限（自分で停止するまで）",
+    "description": "Getting started tip 2 on the help page (component key)"
+  },
+  "tipGettingStarted3": {
+    "message": "「集中開始」をクリックすると、ブロックリストのサイトがモチベーション向上ページにリダイレクトされます",
+    "description": "Getting started tip 3 on the help page"
+  },
+  "helpGS3": {
+    "message": "「集中開始」をクリックすると、ブロックリストのサイトがモチベーション向上ページにリダイレクトされます",
+    "description": "Getting started tip 3 on the help page (component key)"
+  },
+  "tipGettingStarted4": {
+    "message": "セッションの進捗は拡張機能アイコンのバッジに表示されます",
+    "description": "Getting started tip 4 on the help page"
+  },
+  "helpGS4": {
+    "message": "セッションの進捗は拡張機能アイコンのバッジに表示されます",
+    "description": "Getting started tip 4 on the help page (component key)"
+  },
+  "ttlHelpBlockingWebsites": {
+    "message": "サイトのブロック",
+    "description": "Help page section title: Blocking Websites"
+  },
+  "helpBlockingWebsites": {
+    "message": "サイトのブロック",
+    "description": "Help page section title: Blocking Websites (component key)"
+  },
+  "tipBlocking1": {
+    "message": "設定 > ブロックでブロックサイトを管理します",
+    "description": "Blocking websites tip 1 on the help page"
+  },
+  "helpBW1": {
+    "message": "設定 > ブロックでブロックサイトを管理します",
+    "description": "Blocking websites tip 1 on the help page (component key)"
+  },
+  "tipBlocking2": {
+    "message": "カテゴリプリセット（SNS、ニュース、エンタメ、ショッピング、ゲーム）を切り替えて簡単に設定",
+    "description": "Blocking websites tip 2 on the help page"
+  },
+  "helpBW2": {
+    "message": "カテゴリプリセット（SNS、ニュース、エンタメ、ショッピング、ゲーム）を切り替えて簡単に設定",
+    "description": "Blocking websites tip 2 on the help page (component key)"
+  },
+  "tipBlocking3": {
+    "message": "「facebook.com」やワイルドカード「*.reddit.com」でカスタムサイトを追加",
+    "description": "Blocking websites tip 3 on the help page"
+  },
+  "helpBW3": {
+    "message": "「facebook.com」やワイルドカード「*.reddit.com」でカスタムサイトを追加",
+    "description": "Blocking websites tip 3 on the help page (component key)"
+  },
+  "tipBlocking4": {
+    "message": "ホワイトリストで重要なサイト（Google Docs、GitHub など）へのアクセスを確保",
+    "description": "Blocking websites tip 4 on the help page"
+  },
+  "helpBW4": {
+    "message": "ホワイトリストで重要なサイト（Google Docs、GitHub など）へのアクセスを確保",
+    "description": "Blocking websites tip 4 on the help page (component key)"
+  },
+  "tipBlocking5": {
+    "message": "正規表現モードを有効にして高度なパターンマッチングを利用",
+    "description": "Blocking websites tip 5 on the help page"
+  },
+  "helpBW5": {
+    "message": "正規表現モードを有効にして高度なパターンマッチングを利用",
+    "description": "Blocking websites tip 5 on the help page (component key)"
+  },
+  "ttlHelpPomodoroTechnique": {
+    "message": "ポモドーロ・テクニック",
+    "description": "Help page section title: The Pomodoro Technique"
+  },
+  "helpPomodoro": {
+    "message": "ポモドーロ・テクニック",
+    "description": "Help page section title: The Pomodoro Technique (component key)"
+  },
+  "tipPomodoro1": {
+    "message": "25分間集中して作業し、5分間の休憩を取ります",
+    "description": "Pomodoro technique tip 1 on the help page"
+  },
+  "helpPom1": {
+    "message": "25分間集中して作業し、5分間の休憩を取ります",
+    "description": "Pomodoro technique tip 1 on the help page (component key)"
+  },
+  "tipPomodoro2": {
+    "message": "4セッション後は15分間の長い休憩で自分にご褒美を",
+    "description": "Pomodoro technique tip 2 on the help page"
+  },
+  "helpPom2": {
+    "message": "4セッション後は15分間の長い休憩で自分にご褒美を",
+    "description": "Pomodoro technique tip 2 on the help page (component key)"
+  },
+  "tipPomodoro3": {
+    "message": "このリズムが燃え尽きを防ぎながら深い集中力を維持します",
+    "description": "Pomodoro technique tip 3 on the help page"
+  },
+  "helpPom3": {
+    "message": "このリズムが燃え尽きを防ぎながら深い集中力を維持します",
+    "description": "Pomodoro technique tip 3 on the help page (component key)"
+  },
+  "tipPomodoro4": {
+    "message": "設定 > 一般 > ポモドーロタイマーですべての時間をカスタマイズ",
+    "description": "Pomodoro technique tip 4 on the help page"
+  },
+  "helpPom4": {
+    "message": "設定 > 一般 > ポモドーロタイマーですべての時間をカスタマイズ",
+    "description": "Pomodoro technique tip 4 on the help page (component key)"
+  },
+  "tipPomodoro5": {
+    "message": "「自動で休憩を開始」と「自動で集中を開始」を有効にして手間なく作業",
+    "description": "Pomodoro technique tip 5 on the help page"
+  },
+  "helpPom5": {
+    "message": "「自動で休憩を開始」と「自動で集中を開始」を有効にして手間なく作業",
+    "description": "Pomodoro technique tip 5 on the help page (component key)"
+  },
+  "ttlHelpKeyboardShortcuts": {
+    "message": "キーボードショートカット",
+    "description": "Help page section title: Keyboard Shortcuts"
+  },
+  "helpKeyboardShortcuts": {
+    "message": "キーボードショートカット",
+    "description": "Help page section title: Keyboard Shortcuts (component key)"
+  },
+  "tipKeyboard1": {
+    "message": "Alt+Shift+F でどのタブからでも集中モードを即座に切り替え",
+    "description": "Keyboard shortcuts tip 1 on the help page"
+  },
+  "helpKB1": {
+    "message": "Alt+Shift+F でどのタブからでも集中モードを即座に切り替え",
+    "description": "Keyboard shortcuts tip 1 on the help page (component key)"
+  },
+  "tipKeyboard2": {
+    "message": "ポップアップを開く必要はありません。素早く集中モードに入れます",
+    "description": "Keyboard shortcuts tip 2 on the help page"
+  },
+  "helpKB2": {
+    "message": "ポップアップを開く必要はありません。素早く集中モードに入れます",
+    "description": "Keyboard shortcuts tip 2 on the help page (component key)"
+  },
+  "tipKeyboard3": {
+    "message": "別のウェブサイトやタブにいても動作します",
+    "description": "Keyboard shortcuts tip 3 on the help page"
+  },
+  "helpKB3": {
+    "message": "別のウェブサイトやタブにいても動作します",
+    "description": "Keyboard shortcuts tip 3 on the help page (component key)"
+  },
+  "ttlHelpScheduleMode": {
+    "message": "スケジュールモード",
+    "description": "Help page section title: Schedule Mode"
+  },
+  "helpScheduleMode": {
+    "message": "スケジュールモード",
+    "description": "Help page section title: Schedule Mode (component key)"
+  },
+  "tipSchedule1": {
+    "message": "設定 > スケジュールで自動集中時間を設定",
+    "description": "Schedule mode tip 1 on the help page"
+  },
+  "helpSM1": {
+    "message": "設定 > スケジュールで自動集中時間を設定",
+    "description": "Schedule mode tip 1 on the help page (component key)"
+  },
+  "tipSchedule2": {
+    "message": "有効にする曜日を選択（デフォルトは月曜から金曜）",
+    "description": "Schedule mode tip 2 on the help page"
+  },
+  "helpSM2": {
+    "message": "有効にする曜日を選択（デフォルトは月曜から金曜）",
+    "description": "Schedule mode tip 2 on the help page (component key)"
+  },
+  "tipSchedule3": {
+    "message": "集中作業の開始時刻と終了時刻を設定",
+    "description": "Schedule mode tip 3 on the help page"
+  },
+  "helpSM3": {
+    "message": "集中作業の開始時刻と終了時刻を設定",
+    "description": "Schedule mode tip 3 on the help page (component key)"
+  },
+  "tipSchedule4": {
+    "message": "拡張機能が自動で開始・停止を管理。手動操作は不要です",
+    "description": "Schedule mode tip 4 on the help page"
+  },
+  "helpSM4": {
+    "message": "拡張機能が自動で開始・停止を管理。手動操作は不要です",
+    "description": "Schedule mode tip 4 on the help page (component key)"
+  },
+  "tipSchedule5": {
+    "message": "一貫した作業ルーティンの確立に最適",
+    "description": "Schedule mode tip 5 on the help page"
+  },
+  "helpSM5": {
+    "message": "一貫した作業ルーティンの確立に最適",
+    "description": "Schedule mode tip 5 on the help page (component key)"
+  },
+  "ttlHelpPasswordProtection": {
+    "message": "パスワード保護",
+    "description": "Help page section title: Password Protection"
+  },
+  "helpPasswordProtection": {
+    "message": "パスワード保護",
+    "description": "Help page section title: Password Protection (component key)"
+  },
+  "tipPassword1": {
+    "message": "集中セッションをロックして簡単に中断できないようにします",
+    "description": "Password protection tip 1 on the help page"
+  },
+  "helpPP1": {
+    "message": "集中セッションをロックして簡単に中断できないようにします",
+    "description": "Password protection tip 1 on the help page (component key)"
+  },
+  "tipPassword2": {
+    "message": "設定 > 詳細設定 > パスワード保護でパスワードを設定",
+    "description": "Password protection tip 2 on the help page"
+  },
+  "helpPP2": {
+    "message": "設定 > 詳細設定 > パスワード保護でパスワードを設定",
+    "description": "Password protection tip 2 on the help page (component key)"
+  },
+  "tipPassword3": {
+    "message": "設定後は、停止や一時停止にパスワードの入力が必要になります",
+    "description": "Password protection tip 3 on the help page"
+  },
+  "helpPP3": {
+    "message": "設定後は、停止や一時停止にパスワードの入力が必要になります",
+    "description": "Password protection tip 3 on the help page (component key)"
+  },
+  "tipPassword4": {
+    "message": "ブロックされたサイトをチェックする誘惑に負けにくくなります",
+    "description": "Password protection tip 4 on the help page"
+  },
+  "helpPP4": {
+    "message": "ブロックされたサイトをチェックする誘惑に負けにくくなります",
+    "description": "Password protection tip 4 on the help page (component key)"
+  },
+  "tipPassword5": {
+    "message": "本当に必要な場合のために、緊急アンロックはクールダウン付きで利用可能",
+    "description": "Password protection tip 5 on the help page"
+  },
+  "helpPP5": {
+    "message": "本当に必要な場合のために、緊急アンロックはクールダウン付きで利用可能",
+    "description": "Password protection tip 5 on the help page (component key)"
+  },
+  "ttlHelpBuildingBetterHabits": {
+    "message": "より良い習慣を作る",
+    "description": "Help page section title: Building Better Habits"
+  },
+  "helpBuildingHabits": {
+    "message": "より良い習慣を作る",
+    "description": "Help page section title: Building Better Habits (component key)"
+  },
+  "tipHabits1": {
+    "message": "長い時間に挑戦する前に、まず25分のセッションから始めましょう",
+    "description": "Building better habits tip 1 on the help page"
+  },
+  "helpBH1": {
+    "message": "長い時間に挑戦する前に、まず25分のセッションから始めましょう",
+    "description": "Building better habits tip 1 on the help page (component key)"
+  },
+  "tipHabits2": {
+    "message": "最も時間を浪費するサイトからブロック。SNSやニュースが一般的です",
+    "description": "Building better habits tip 2 on the help page"
+  },
+  "helpBH2": {
+    "message": "最も時間を浪費するサイトからブロック。SNSやニュースが一般的です",
+    "description": "Building better habits tip 2 on the help page (component key)"
+  },
+  "tipHabits3": {
+    "message": "統計タブを定期的にチェックして改善を追跡しましょう",
+    "description": "Building better habits tip 3 on the help page"
+  },
+  "helpBH3": {
+    "message": "統計タブを定期的にチェックして改善を追跡しましょう",
+    "description": "Building better habits tip 3 on the help page (component key)"
+  },
+  "tipHabits4": {
+    "message": "毎日の連続記録を積み上げましょう。連続した集中がモチベーションと規律を生みます",
+    "description": "Building better habits tip 4 on the help page"
+  },
+  "helpBH4": {
+    "message": "毎日の連続記録を積み上げましょう。連続した集中がモチベーションと規律を生みます",
+    "description": "Building better habits tip 4 on the help page (component key)"
+  },
+  "tipHabits5": {
+    "message": "ブロックページにはモチベーション名言が表示されます",
+    "description": "Building better habits tip 5 on the help page"
+  },
+  "helpBH5": {
+    "message": "ブロックページにはモチベーション名言が表示されます",
+    "description": "Building better habits tip 5 on the help page (component key)"
+  },
+  "tipHabits6": {
+    "message": "マイルストーンを祝いましょう。3日連続でも立派な達成です",
+    "description": "Building better habits tip 6 on the help page"
+  },
+  "helpBH6": {
+    "message": "マイルストーンを祝いましょう。3日連続でも立派な達成です",
+    "description": "Building better habits tip 6 on the help page (component key)"
+  },
+  "ttlHelpTroubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "Help page section title: Troubleshooting"
+  },
+  "helpTroubleshooting": {
+    "message": "トラブルシューティング",
+    "description": "Help page section title: Troubleshooting (component key)"
+  },
+  "tipTroubleshoot1": {
+    "message": "サイトがブロックされない場合は、集中モードが有効でサイトがブロックリストまたは有効なカテゴリにあることを確認",
+    "description": "Troubleshooting tip 1 on the help page"
+  },
+  "helpTS1": {
+    "message": "サイトがブロックされない場合は、集中モードが有効でサイトがブロックリストまたは有効なカテゴリにあることを確認",
+    "description": "Troubleshooting tip 1 on the help page (component key)"
+  },
+  "tipTroubleshoot2": {
+    "message": "ブロックすべきでないサイトがブロックされている場合は、設定 > ブロックのホワイトリストに追加",
+    "description": "Troubleshooting tip 2 on the help page"
+  },
+  "helpTS2": {
+    "message": "ブロックすべきでないサイトがブロックされている場合は、設定 > ブロックのホワイトリストに追加",
+    "description": "Troubleshooting tip 2 on the help page (component key)"
+  },
+  "tipTroubleshoot3": {
+    "message": "Chrome 再起動後にタイマーがずれる場合、拡張機能が自動的にセッション状態を復元します",
+    "description": "Troubleshooting tip 3 on the help page"
+  },
+  "helpTS3": {
+    "message": "Chrome 再起動後にタイマーがずれる場合、拡張機能が自動的にセッション状態を復元します",
+    "description": "Troubleshooting tip 3 on the help page (component key)"
+  },
+  "tipTroubleshoot4": {
+    "message": "最初からやり直したい場合は、chrome://extensions から拡張機能データを消去",
+    "description": "Troubleshooting tip 4 on the help page"
+  },
+  "helpTS4": {
+    "message": "最初からやり直したい場合は、chrome://extensions から拡張機能データを消去",
+    "description": "Troubleshooting tip 4 on the help page (component key)"
+  },
+  "tipTroubleshoot5": {
+    "message": "サポートが必要な場合は support@zovo.one までご連絡ください",
+    "description": "Troubleshooting tip 5 on the help page"
+  },
+  "helpTS5": {
+    "message": "サポートが必要な場合は support@zovo.one までご連絡ください",
+    "description": "Troubleshooting tip 5 on the help page (component key)"
+  },
+  "msgHelpIntro": {
+    "message": "Focus Mode Pro へようこそ！ここでは、集中セッションを最大限に活用するために必要なすべてを見つけることができます。初めての方も上級者のヒントを探している方も、このガイドでカバーしています。",
+    "description": "Introduction paragraph on the help page"
+  },
+  "helpIntro": {
+    "message": "Focus Mode Pro へようこそ！ここでは、集中セッションを最大限に活用するために必要なすべてを見つけることができます。初めての方も上級者のヒントを探している方も、このガイドでカバーしています。",
+    "description": "Introduction paragraph on the help page (component key)"
+  },
+  "btnBackToSettings": {
+    "message": "設定に戻る",
+    "description": "Button to navigate back from the help page to settings"
+  },
+  "lblHelpFooter": {
+    "message": "Focus Mode Pro 開発元",
+    "description": "Footer text on the help page preceding the Zovo link"
+  },
+  "ttlUpgradeHeading": {
+    "message": "Focus Mode Pro のフルパワーをアンロック",
+    "description": "Hero subtitle on the upgrade page"
+  },
+  "upgUnlockPower": {
+    "message": "Focus Mode Pro のフルパワーをアンロック",
+    "description": "Hero subtitle on the upgrade page (component key)"
+  },
+  "lblUpgradeProBadge": {
+    "message": "Pro",
+    "description": "Badge text next to the heading on the upgrade page"
+  },
+  "ttlFreeVsPro": {
+    "message": "無料版 vs Pro",
+    "description": "Section heading for the comparison table on the upgrade page"
+  },
+  "upgFreeVsPro": {
+    "message": "無料版 vs Pro",
+    "description": "Section heading for the comparison table on the upgrade page (component key)"
+  },
+  "msgFreeVsProSubheading": {
+    "message": "Pro にアップグレードすると得られるものをご覧ください。",
+    "description": "Subtitle for the comparison table section on the upgrade page"
+  },
+  "upgSeeWhatYouGet": {
+    "message": "Pro にアップグレードすると得られるものをご覧ください。",
+    "description": "Subtitle for the comparison table section on the upgrade page (component key)"
+  },
+  "lblCompFeature": {
+    "message": "機能",
+    "description": "Table header for the feature name column in the comparison table"
+  },
+  "upgFeature": {
+    "message": "機能",
+    "description": "Table header for the feature name column in the comparison table (component key)"
+  },
+  "lblCompFree": {
+    "message": "無料",
+    "description": "Table header for the Free tier column in the comparison table"
+  },
+  "upgFree": {
+    "message": "無料",
+    "description": "Table header for the Free tier column in the comparison table (component key)"
+  },
+  "lblCompPro": {
+    "message": "Pro",
+    "description": "Table header for the Pro tier column in the comparison table"
+  },
+  "lblCompUnlimited": {
+    "message": "無制限",
+    "description": "Cell text in the Pro column indicating unlimited access"
+  },
+  "upgUnlimited": {
+    "message": "無制限",
+    "description": "Cell text in the Pro column indicating unlimited access (component key)"
+  },
+  "lblCompLimited": {
+    "message": "制限あり",
+    "description": "Fallback cell text in the Free column when a specific limit is not defined"
+  },
+  "upgLimited": {
+    "message": "制限あり",
+    "description": "Fallback cell text in the Free column when a specific limit is not defined (component key)"
+  },
+  "lblCompFocusSessionsPerDay": {
+    "message": "1日の集中セッション数",
+    "description": "Comparison table row: focus sessions per day"
+  },
+  "upgFeatSessions": {
+    "message": "1日の集中セッション数",
+    "description": "Comparison table row: focus sessions per day (component key)"
+  },
+  "lblCompPomodoroTimer": {
+    "message": "ポモドーロタイマー",
+    "description": "Comparison table row: Pomodoro timer feature"
+  },
+  "upgFeatPomodoro": {
+    "message": "ポモドーロタイマー",
+    "description": "Comparison table row: Pomodoro timer feature (component key)"
+  },
+  "lblCompCustomTimer": {
+    "message": "カスタムタイマー",
+    "description": "Comparison table row: custom timer feature"
+  },
+  "upgFeatCustomTimer": {
+    "message": "カスタムタイマー",
+    "description": "Comparison table row: custom timer feature (component key)"
+  },
+  "lblCompCategoryBlockingPresets": {
+    "message": "カテゴリブロックプリセット",
+    "description": "Comparison table row: category blocking presets"
+  },
+  "upgFeatCategoryPresets": {
+    "message": "カテゴリブロックプリセット",
+    "description": "Comparison table row: category blocking presets (component key)"
+  },
+  "lblCompCustomBlockRules": {
+    "message": "カスタムブロックルール",
+    "description": "Comparison table row: custom block rules"
+  },
+  "upgFeatCustomRules": {
+    "message": "カスタムブロックルール",
+    "description": "Comparison table row: custom block rules (component key)"
+  },
+  "lblCompRegexBlockPatterns": {
+    "message": "正規表現ブロックパターン",
+    "description": "Comparison table row: regex block patterns"
+  },
+  "upgFeatRegex": {
+    "message": "正規表現ブロックパターン",
+    "description": "Comparison table row: regex block patterns (component key)"
+  },
+  "lblCompWhitelistRules": {
+    "message": "ホワイトリストルール",
+    "description": "Comparison table row: whitelist rules"
+  },
+  "upgFeatWhitelist": {
+    "message": "ホワイトリストルール",
+    "description": "Comparison table row: whitelist rules (component key)"
+  },
+  "lblCompScheduleMode": {
+    "message": "スケジュールモード",
+    "description": "Comparison table row: schedule mode feature"
+  },
+  "upgFeatSchedule": {
+    "message": "スケジュールモード",
+    "description": "Comparison table row: schedule mode feature (component key)"
+  },
+  "lblCompPasswordProtection": {
+    "message": "パスワード保護",
+    "description": "Comparison table row: password protection feature"
+  },
+  "upgFeatPassword": {
+    "message": "パスワード保護",
+    "description": "Comparison table row: password protection feature (component key)"
+  },
+  "lblCompDetailedAnalytics": {
+    "message": "詳細な分析とレポート",
+    "description": "Comparison table row: detailed analytics and reports"
+  },
+  "upgFeatAnalytics": {
+    "message": "詳細な分析とレポート",
+    "description": "Comparison table row: detailed analytics and reports (component key)"
+  },
+  "lblCompBreakReminders": {
+    "message": "休憩リマインダー",
+    "description": "Comparison table row: break reminders feature"
+  },
+  "upgFeatBreakReminders": {
+    "message": "休憩リマインダー",
+    "description": "Comparison table row: break reminders feature (component key)"
+  },
+  "lblCompMotivationalQuotes": {
+    "message": "モチベーション名言",
+    "description": "Comparison table row: motivational quotes feature"
+  },
+  "upgFeatQuotes": {
+    "message": "モチベーション名言",
+    "description": "Comparison table row: motivational quotes feature (component key)"
+  },
+  "lblCompPrioritySupport": {
+    "message": "優先サポート",
+    "description": "Comparison table row: priority support feature"
+  },
+  "upgFeatPrioritySupport": {
+    "message": "優先サポート",
+    "description": "Comparison table row: priority support feature (component key)"
+  },
+  "lblCompLimit5PerDay": {
+    "message": "5回/日",
+    "description": "Free tier limit for focus sessions per day"
+  },
+  "upgLimit5Day": {
+    "message": "5回/日",
+    "description": "Free tier limit for focus sessions per day (component key)"
+  },
+  "lblCompLimit3PerDay": {
+    "message": "3回/日",
+    "description": "Free tier limit for custom timers per day"
+  },
+  "upgLimit3Day": {
+    "message": "3回/日",
+    "description": "Free tier limit for custom timers per day (component key)"
+  },
+  "lblCompLimit10Rules": {
+    "message": "10ルール",
+    "description": "Free tier limit for custom block rules"
+  },
+  "upgLimit10Rules": {
+    "message": "10ルール",
+    "description": "Free tier limit for custom block rules (component key)"
+  },
+  "lblCompLimit5Rules": {
+    "message": "5ルール",
+    "description": "Free tier limit for whitelist rules"
+  },
+  "upgLimit5Rules": {
+    "message": "5ルール",
+    "description": "Free tier limit for whitelist rules (component key)"
+  },
+  "errLimitSessionsDaily": {
+    "message": "無料版の1日5セッションの上限に達しました。",
+    "description": "Upgrade page limit banner: daily focus session limit reached"
+  },
+  "upgLimitSessions": {
+    "message": "無料版の1日5セッションの上限に達しました。",
+    "description": "Upgrade page limit banner: daily focus session limit reached (component key)"
+  },
+  "errLimitCustomTimerDaily": {
+    "message": "無料版の1日3回のカスタムタイマー上限に達しました。",
+    "description": "Upgrade page limit banner: daily custom timer limit reached"
+  },
+  "upgLimitCustomTimer": {
+    "message": "無料版の1日3回のカスタムタイマー上限に達しました。",
+    "description": "Upgrade page limit banner: daily custom timer limit reached (component key)"
+  },
+  "errLimitBlockRulesMax": {
+    "message": "無料版のカスタムブロックルール10件の上限に達しました。",
+    "description": "Upgrade page limit banner: maximum custom block rules reached"
+  },
+  "upgLimitBlockRules": {
+    "message": "無料版のカスタムブロックルール10件の上限に達しました。",
+    "description": "Upgrade page limit banner: maximum custom block rules reached (component key)"
+  },
+  "errLimitWhitelistRulesMax": {
+    "message": "無料版のホワイトリストルール5件の上限に達しました。",
+    "description": "Upgrade page limit banner: maximum whitelist rules reached"
+  },
+  "upgLimitWhitelistRules": {
+    "message": "無料版のホワイトリストルール5件の上限に達しました。",
+    "description": "Upgrade page limit banner: maximum whitelist rules reached (component key)"
+  },
+  "errLimitRegexProOnly": {
+    "message": "正規表現ブロックパターンは Pro の機能です。",
+    "description": "Upgrade page limit banner: regex patterns require Pro"
+  },
+  "upgLimitRegex": {
+    "message": "正規表現ブロックパターンは Pro の機能です。",
+    "description": "Upgrade page limit banner: regex patterns require Pro (component key)"
+  },
+  "errLimitScheduleProOnly": {
+    "message": "スケジュールモードは Pro の機能です。",
+    "description": "Upgrade page limit banner: schedule mode requires Pro"
+  },
+  "upgLimitSchedule": {
+    "message": "スケジュールモードは Pro の機能です。",
+    "description": "Upgrade page limit banner: schedule mode requires Pro (component key)"
+  },
+  "errLimitPasswordProOnly": {
+    "message": "パスワード保護は Pro の機能です。",
+    "description": "Upgrade page limit banner: password protection requires Pro"
+  },
+  "upgLimitPassword": {
+    "message": "パスワード保護は Pro の機能です。",
+    "description": "Upgrade page limit banner: password protection requires Pro (component key)"
+  },
+  "errLimitAnalyticsProOnly": {
+    "message": "詳細な分析は Pro の機能です。",
+    "description": "Upgrade page limit banner: detailed analytics require Pro"
+  },
+  "upgLimitAnalytics": {
+    "message": "詳細な分析は Pro の機能です。",
+    "description": "Upgrade page limit banner: detailed analytics require Pro (component key)"
+  },
+  "errLimitGenericUpgrade": {
+    "message": "この機能の上限に達しました。Pro にアップグレードして無制限にアクセスしましょう。",
+    "description": "Fallback upgrade page limit banner for unspecified features"
+  },
+  "upgLimitGeneric": {
+    "message": "この機能の上限に達しました。Pro にアップグレードして無制限にアクセスしましょう。",
+    "description": "Fallback upgrade page limit banner for unspecified features (component key)"
+  },
+  "msgUpgradeToRemoveLimits": {
+    "message": "Pro にアップグレードしてすべての制限を解除し、すべての機能をアンロックしましょう。",
+    "description": "Secondary message in the limit banner on the upgrade page"
+  },
+  "upgRemoveLimits": {
+    "message": "Pro にアップグレードしてすべての制限を解除し、すべての機能をアンロックしましょう。",
+    "description": "Secondary message in the limit banner on the upgrade page (component key)"
+  },
+  "ttlChooseYourPlan": {
+    "message": "プランを選択",
+    "description": "Section heading for pricing cards on the upgrade page"
+  },
+  "upgChoosePlan": {
+    "message": "プランを選択",
+    "description": "Section heading for pricing cards on the upgrade page (component key)"
+  },
+  "msgCancelAnytime": {
+    "message": "いつでもキャンセル可能。理由は不要です。",
+    "description": "Subtitle for the pricing section on the upgrade page"
+  },
+  "upgCancelAnytime": {
+    "message": "いつでもキャンセル可能。理由は不要です。",
+    "description": "Subtitle for the pricing section on the upgrade page (component key)"
+  },
+  "ttlPlanMonthly": {
+    "message": "月額プラン",
+    "description": "Title of the monthly pricing card"
+  },
+  "upgMonthly": {
+    "message": "月額プラン",
+    "description": "Title of the monthly pricing card (component key)"
+  },
+  "ttlPlanAnnual": {
+    "message": "年額プラン",
+    "description": "Title of the annual pricing card"
+  },
+  "upgAnnual": {
+    "message": "年額プラン",
+    "description": "Title of the annual pricing card (component key)"
+  },
+  "lblPriceMonthly": {
+    "message": "$4.99",
+    "description": "Monthly plan price"
+  },
+  "lblPriceAnnual": {
+    "message": "$3.99",
+    "description": "Annual plan price per month"
+  },
+  "lblPricePeriodMonth": {
+    "message": "/月",
+    "description": "Price period suffix meaning per month"
+  },
+  "upgPerMonth": {
+    "message": "/月",
+    "description": "Price period suffix meaning per month (component key)"
+  },
+  "lblBadgeBestValue": {
+    "message": "お得",
+    "description": "Badge text on the annual pricing card"
+  },
+  "upgBestValue": {
+    "message": "お得",
+    "description": "Badge text on the annual pricing card (component key)"
+  },
+  "msgSavings": {
+    "message": "Save 20% with annual billing",
+    "description": "Savings callout on the annual pricing card"
+  },
+  "upgSavings": {
+    "message": "Save 20% with annual billing",
+    "description": "Savings callout on the annual pricing card (component key)"
+  },
+  "lblPricingAllProFeatures": {
+    "message": "すべての Pro 機能",
+    "description": "Pricing card feature bullet: all Pro features"
+  },
+  "upgAllProFeatures": {
+    "message": "すべての Pro 機能",
+    "description": "Pricing card feature bullet: all Pro features (component key)"
+  },
+  "lblPricingUnlimitedUsage": {
+    "message": "無制限の利用",
+    "description": "Pricing card feature bullet: unlimited usage"
+  },
+  "upgUnlimitedUsage": {
+    "message": "無制限の利用",
+    "description": "Pricing card feature bullet: unlimited usage (component key)"
+  },
+  "lblPricingPrioritySupport": {
+    "message": "優先サポート",
+    "description": "Pricing card feature bullet: priority support"
+  },
+  "upgPrioritySupport": {
+    "message": "優先サポート",
+    "description": "Pricing card feature bullet: priority support (component key)"
+  },
+  "lblPricingCancelAnytime": {
+    "message": "いつでもキャンセル可能",
+    "description": "Pricing card feature bullet: cancel anytime"
+  },
+  "upgCancelAnytimeShort": {
+    "message": "いつでもキャンセル可能",
+    "description": "Pricing card feature bullet: cancel anytime (component key)"
+  },
+  "lblPricing2MonthsFree": {
+    "message": "2ヶ月分無料",
+    "description": "Pricing card feature bullet for annual plan: 2 months free"
+  },
+  "upgTwoMonthsFree": {
+    "message": "2ヶ月分無料",
+    "description": "Pricing card feature bullet for annual plan: 2 months free (component key)"
+  },
+  "btnGetAnnualPlan": {
+    "message": "年額プランにする",
+    "description": "CTA button text on the featured annual pricing card"
+  },
+  "btnGetMonthlyPlan": {
+    "message": "月額プランにする",
+    "description": "CTA button text on the monthly pricing card"
+  },
+  "msgSocialProofQuote": {
+    "message": "Block the sites that pull you off task, on your own schedule.",
+    "description": "Social proof testimonial quote on the upgrade page"
+  },
+  "upgTestimonial": {
+    "message": "Block the sites that pull you off task, on your own schedule.",
+    "description": "Social proof testimonial quote on the upgrade page (component key)"
+  },
+  "msgSocialProofAttribution": {
+    "message": "",
+    "description": "Attribution for the social proof testimonial"
+  },
+  "upgTestimonialAuthor": {
+    "message": "",
+    "description": "Attribution for the social proof testimonial (component key)"
+  },
+  "msgAlreadyHaveLicense": {
+    "message": "すでにライセンスをお持ちですか？",
+    "description": "Text preceding the activate-it-here link in the upgrade page footer"
+  },
+  "upgAlreadyHaveLicense": {
+    "message": "すでにライセンスをお持ちですか？",
+    "description": "Text preceding the activate-it-here link in the upgrade page footer (component key)"
+  },
+  "btnActivateItHere": {
+    "message": "こちらで有効化",
+    "description": "Link to go to the account settings to activate a license"
+  },
+  "upgActivateHere": {
+    "message": "こちらで有効化",
+    "description": "Link to go to the account settings to activate a license (component key)"
+  },
+  "btnBackToFocusMode": {
+    "message": "Focus Mode に戻る",
+    "description": "Link to navigate back from the upgrade page"
+  },
+  "upgBackToFocus": {
+    "message": "Focus Mode に戻る",
+    "description": "Link to navigate back from the upgrade page (component key)"
+  },
+  "msgLoadingDashboard": {
+    "message": "ダッシュボードを読み込み中...",
+    "description": "Loading indicator text on the dashboard page"
+  },
+  "dashLoading": {
+    "message": "ダッシュボードを読み込み中...",
+    "description": "Loading indicator text on the dashboard page (component key)"
+  },
+  "errSomethingWentWrong": {
+    "message": "問題が発生しました",
+    "description": "Error heading on the dashboard page when data fails to load"
+  },
+  "dashError": {
+    "message": "問題が発生しました",
+    "description": "Error heading on the dashboard page when data fails to load (component key)"
+  },
+  "dashFailedLoad": {
+    "message": "ダッシュボードデータの読み込みに失敗しました",
+    "description": "Fallback error message when dashboard data fails to load (component key)"
+  },
+  "msgMemberSince": {
+    "message": "$DATE$ から利用中",
+    "description": "Subtitle in the dashboard header showing when the user installed the extension",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "Mon, Feb 10"
+      }
+    }
+  },
+  "dashMemberSince": {
+    "message": "$DATE$ から利用中",
+    "description": "Subtitle in the dashboard header showing when the user installed the extension (component key)",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "Mon, Feb 10"
+      }
+    }
+  },
+  "btnExport": {
+    "message": "エクスポート",
+    "description": "Button to export stats data on the dashboard header"
+  },
+  "ttlYourValueSummary": {
+    "message": "あなたの成果まとめ",
+    "description": "Section heading for the value summary cards on the dashboard"
+  },
+  "dashValueSummary": {
+    "message": "あなたの成果まとめ",
+    "description": "Section heading for the value summary cards on the dashboard (component key)"
+  },
+  "lblTimeSaved": {
+    "message": "節約した時間",
+    "description": "Dashboard stat card label for total time saved"
+  },
+  "dashTimeSaved": {
+    "message": "節約した時間",
+    "description": "Dashboard stat card label for total time saved (component key)"
+  },
+  "msgTotalFocusTime": {
+    "message": "合計集中時間",
+    "description": "Dashboard stat card subtext for the time saved card"
+  },
+  "lblSessionsToday": {
+    "message": "今日のセッション",
+    "description": "Dashboard stat card label for sessions completed today"
+  },
+  "dashSessionsToday": {
+    "message": "今日のセッション",
+    "description": "Dashboard stat card label for sessions completed today (component key)"
+  },
+  "msgFocused": {
+    "message": "$TIME$ 集中",
+    "description": "Dashboard stat card subtext showing today's focused time",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1h 25m"
+      }
+    }
+  },
+  "dashFocused": {
+    "message": "$TIME$ 集中",
+    "description": "Dashboard stat card and tooltip showing focused time (component key)",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1h 25m"
+      }
+    }
+  },
+  "msgNoSessionsYet": {
+    "message": "まだセッションなし",
+    "description": "Dashboard stat card subtext when no sessions have been completed today"
+  },
+  "dashNoSessionsYet": {
+    "message": "まだセッションなし",
+    "description": "Dashboard stat card subtext when no sessions have been completed today (component key)"
+  },
+  "msgAvgEach": {
+    "message": "平均 $TIME$",
+    "description": "Dashboard stat card subtext showing average session duration",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "25m"
+      }
+    }
+  },
+  "dashAvgEach": {
+    "message": "平均 $TIME$",
+    "description": "Dashboard stat card subtext showing average session duration (component key)",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "25m"
+      }
+    }
+  },
+  "msgGetStarted": {
+    "message": "始めましょう！",
+    "description": "Dashboard stat card subtext when no sessions exist at all"
+  },
+  "dashGetStarted": {
+    "message": "始めましょう！",
+    "description": "Dashboard stat card subtext when no sessions exist at all (component key)"
+  },
+  "lblSitesBlockedDashboard": {
+    "message": "ブロックしたサイト",
+    "description": "Dashboard stat card label for total sites blocked"
+  },
+  "msgDistractionsPrevented": {
+    "message": "排除した気散り",
+    "description": "Dashboard stat card subtext for the sites blocked card"
+  },
+  "dashDistractionsPrevented": {
+    "message": "排除した気散り",
+    "description": "Dashboard stat card subtext for the sites blocked card (component key)"
+  },
+  "ttlWeeklyActivity": {
+    "message": "週間アクティビティ",
+    "description": "Section heading for the weekly activity chart on the dashboard"
+  },
+  "dashWeeklyActivity": {
+    "message": "週間アクティビティ",
+    "description": "Section heading for the weekly activity chart on the dashboard (component key)"
+  },
+  "msgNoWeeklyData": {
+    "message": "データがまだありません。集中セッションを開始してアクティビティを確認しましょう。",
+    "description": "Empty state text in the weekly activity chart when there is no data"
+  },
+  "dashNoDataYet": {
+    "message": "データがまだありません。集中セッションを開始してアクティビティを確認しましょう。",
+    "description": "Empty state text in the weekly activity chart when there is no data (component key)"
+  },
+  "dashFocusTimeMinutes": {
+    "message": "集中時間（分）",
+    "description": "Legend text for the weekly activity chart bars (component key)"
+  },
+  "dashSessionCount": {
+    "message": "$COUNT$ セッション",
+    "description": "Tooltip text in the weekly chart showing sessions for a day",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "dashSitesBlockedCount": {
+    "message": "$COUNT$ サイトブロック",
+    "description": "Tooltip text in the weekly chart showing sites blocked for a day",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "msgFocusedTooltip": {
+    "message": "$TIME$ 集中",
+    "description": "Tooltip text in the weekly chart showing focus time for a day",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45m"
+      }
+    }
+  },
+  "msgSessionsTooltip": {
+    "message": "$COUNT$ セッション",
+    "description": "Tooltip text in the weekly chart showing sessions for a day (singular)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "msgSessionsTooltipPlural": {
+    "message": "$COUNT$ セッション",
+    "description": "Tooltip text in the weekly chart showing sessions for a day (plural)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "msgSitesBlockedTooltip": {
+    "message": "$COUNT$ サイトブロック",
+    "description": "Tooltip text in the weekly chart showing sites blocked for a day (singular)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "msgSitesBlockedTooltipPlural": {
+    "message": "$COUNT$ サイトブロック",
+    "description": "Tooltip text in the weekly chart showing sites blocked for a day (plural)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "lblChartLegendFocusTime": {
+    "message": "集中時間（分）",
+    "description": "Legend text for the weekly activity chart bars"
+  },
+  "ttlFocusStats": {
+    "message": "集中の統計",
+    "description": "Section heading for the focus stats breakdown on the dashboard"
+  },
+  "dashFocusStats": {
+    "message": "集中の統計",
+    "description": "Section heading for the focus stats breakdown on the dashboard (component key)"
+  },
+  "lblCurrentStreak": {
+    "message": "現在の連続記録",
+    "description": "Dashboard focus stats label for the current day streak"
+  },
+  "dashCurrentStreak": {
+    "message": "現在の連続記録",
+    "description": "Dashboard focus stats label for the current day streak (component key)"
+  },
+  "lblLongestStreak": {
+    "message": "最長連続記録",
+    "description": "Dashboard focus stats label for the longest day streak"
+  },
+  "dashLongestStreak": {
+    "message": "最長連続記録",
+    "description": "Dashboard focus stats label for the longest day streak (component key)"
+  },
+  "lblPomodorosCompleted": {
+    "message": "完了したポモドーロ",
+    "description": "Dashboard focus stats label for total Pomodoros completed"
+  },
+  "dashPomodorosCompleted": {
+    "message": "完了したポモドーロ",
+    "description": "Dashboard focus stats label for total Pomodoros completed (component key)"
+  },
+  "lblAvgSessionDuration": {
+    "message": "平均セッション時間",
+    "description": "Dashboard focus stats label for average session duration"
+  },
+  "dashAvgSessionDuration": {
+    "message": "平均セッション時間",
+    "description": "Dashboard focus stats label for average session duration (component key)"
+  },
+  "dashDays": {
+    "message": "$COUNT$ 日",
+    "description": "Day count used in streak display on the dashboard",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "msgDaySingular": {
+    "message": "$COUNT$ 日",
+    "description": "Singular day count used in streak display",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "msgDayPlural": {
+    "message": "$COUNT$ 日",
+    "description": "Plural day count used in streak display",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "ttlGetMoreFromPro": {
+    "message": "Focus Mode Pro をもっと活用しよう",
+    "description": "Upgrade CTA heading on the dashboard for free users"
+  },
+  "dashGetMore": {
+    "message": "Focus Mode Pro をもっと活用しよう",
+    "description": "Upgrade CTA heading on the dashboard for free users (component key)"
+  },
+  "msgUpgradeCtaDesc": {
+    "message": "現在、利用可能な機能の $PERCENT$% を使用しています。Pro にアップグレードして、高度な統計、無制限のブロックルール、スケジュール集中セッションなどすべてをアンロックしましょう。",
+    "description": "Upgrade CTA description on the dashboard",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "60"
+      }
+    }
+  },
+  "dashGetMoreDesc": {
+    "message": "現在、利用可能な機能の $PERCENT$% を使用しています。Pro にアップグレードして、高度な統計、無制限のブロックルール、スケジュール集中セッションなどすべてをアンロックしましょう。",
+    "description": "Upgrade CTA description on the dashboard (component key)",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "60"
+      }
+    }
+  },
+  "btnExportStats": {
+    "message": "統計をエクスポート",
+    "description": "Footer link text to export stats on the dashboard"
+  },
+  "dashExportStats": {
+    "message": "統計をエクスポート",
+    "description": "Footer link text to export stats on the dashboard (component key)"
+  },
+  "lblRegexBadge": {
+    "message": "regex",
+    "description": "Small badge text on blocklist items indicating the rule is a regex pattern"
+  },
+  "lblLong": {
+    "message": "長い",
+    "description": "Break type descriptor used in notification: long break"
+  },
+  "lblShort": {
+    "message": "短い",
+    "description": "Break type descriptor used in notification: short break"
+  },
+  "lblAt": {
+    "message": "の",
+    "description": "Preposition used between date and time in session history (e.g., 2月10日の15:00)"
+  }
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to Focus Mode Pro</title>
+<link rel="stylesheet" href="onboarding.css">
+</head>
+<body>
+<div class="bg-fx"></div>
+<div class="bg-grid"></div>
+
+<!-- top nav -->
+<nav class="topnav">
+  <div class="brand">
+    <span class="z"><b>zovo</b>.</span>
+    <span class="sep"></span>
+    <span class="prod">Focus Mode Pro</span>
+  </div>
+  <a class="ghlink" href="https://github.com/theluckystrike" target="_blank" rel="noopener">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+    Open source <span class="arr">↗</span>
+  </a>
+</nav>
+<div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+
+<div class="stage" id="stage">
+
+  <!-- ============ STEP 1 · THE HOOK ============ -->
+  <section class="step active" data-step="1" data-next="Show me how it works">
+    <div class="center">
+      <span class="kicker">by Zovo · block distractions, get your focus back</span>
+      <h1>You open a tab to check<br>one thing. You resurface<br>on <span class="em">Reddit</span> twenty minutes later.</h1>
+      <p class="lede">It happens to everyone. One quick look turns into a headline, then a thread, then a rabbit hole,
+        and the thing you actually sat down to do is still waiting. Focus Mode Pro puts a wall between you and the
+        sites that pull you under, so the drift never starts.</p>
+
+      <div class="timeline-card">
+        <div class="tl live"><span class="dot"></span> 2:00 opened one tab to check a price <span class="meta">on task</span></div>
+        <div class="tl dead"><span class="dot"></span> 2:04 a headline caught your eye <span class="meta">drifting</span></div>
+        <div class="tl dead"><span class="dot"></span> 2:22 still scrolling Reddit <span class="meta">22 min gone</span></div>
+      </div>
+
+      <div class="chips-row">
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Open source</span>
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Zero data collection</span>
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Manifest V3</span>
+        <span class="chip-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>No account needed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 2 · INSTANT WIN ============ -->
+  <section class="step" data-step="2" data-next="Set it up for me">
+    <div class="center">
+      <span class="kicker">Watch it work · one focus session</span>
+      <h2>Start a session, and the noise <span class="em">disappears</span>.</h2>
+      <p class="lede">Pick your distracting sites once. When focus mode is on, every one of them redirects to a calm
+        blocked page while your work stays open and reachable. The timer counts down, and you get a clean run at
+        the thing that matters.</p>
+
+      <div class="demo">
+        <div class="demo-top">
+          <div class="demo-mem" id="demoTimer">25<small>:00</small></div>
+          <div class="demo-cap" id="demoCap">press start to see a session</div>
+        </div>
+        <div class="demo-tabs" id="demoTabs">
+          <div class="dtab"><span class="fav"></span><span class="nm">Google Docs · Q3 plan</span><span class="badge active">Allowed</span></div>
+          <div class="dtab" data-block><span class="fav"></span><span class="nm">reddit.com</span><span class="idle">open</span></div>
+          <div class="dtab" data-block><span class="fav"></span><span class="nm">youtube.com</span><span class="idle">open</span></div>
+          <div class="dtab" data-block><span class="fav"></span><span class="nm">twitter.com</span><span class="idle">open</span></div>
+        </div>
+        <button class="cta demo-btn" id="demoBtn" type="button">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+          Start the session
+        </button>
+      </div>
+      <p class="demo-note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Whitelist your work sites and they stay open. Only the sites you chose get blocked, and only while a session runs.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ STEP 3 · MAKE IT YOURS ============ -->
+  <section class="step" data-step="3" data-next="Save and continue">
+    <div class="center">
+      <span class="kicker">30 seconds to tune it perfectly</span>
+      <h2>Make it <span class="em">yours</span>.</h2>
+      <p class="lede">Sensible defaults are already on. Set your session length, pick what to block, and turn on the
+        guardrails you want. You can change any of it later.</p>
+
+      <div class="setup">
+        <div class="opt">
+          <label class="opt-lbl">Focus session length</label>
+          <div class="slide-row">
+            <input type="range" id="setupTimeout" class="rng" min="15" max="120" step="5" value="25">
+            <span class="rng-val" id="setupTimeoutValue">25 min</span>
+          </div>
+          <div class="rng-ends"><span>15 min</span><span>2 hr</span></div>
+        </div>
+        <div class="opt">
+          <label class="opt-lbl">Block these categories</label>
+          <div class="chips">
+            <label class="chip"><input type="checkbox" data-cat="social" checked><span>Social media</span></label>
+            <label class="chip"><input type="checkbox" data-cat="news" checked><span>News</span></label>
+            <label class="chip"><input type="checkbox" data-cat="entertainment" checked><span>Entertainment</span></label>
+            <label class="chip"><input type="checkbox" data-cat="shopping"><span>Shopping</span></label>
+            <label class="chip"><input type="checkbox" data-cat="gaming"><span>Gaming</span></label>
+          </div>
+        </div>
+        <div class="opt tgls">
+          <div class="tgl-row"><span>Auto-start focus on a daily schedule</span>
+            <label class="tgl"><input type="checkbox" id="optSchedule"><span class="tgl-s"></span></label></div>
+          <div class="tgl-row"><span>Lock sessions with a password</span>
+            <label class="tgl"><input type="checkbox" id="optPassword"><span class="tgl-s"></span></label></div>
+          <div class="tgl-row"><span>Show a motivational quote on the blocked page</span>
+            <label class="tgl"><input type="checkbox" id="optQuote" checked><span class="tgl-s"></span></label></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 4 · A YEAR IN THE MAKING (legitimacy + proof) ============ -->
+  <section class="step" data-step="4" data-next="See who built it">
+    <div class="center">
+      <span class="kicker">Not a weekend project</span>
+      <h2>A year in the <span class="em">making</span>.</h2>
+      <p class="lede">Full-time work by one developer, built in the open, tested hard against real browsing habits
+        and every recent Chrome release, and shipped to stay out of your way. It's a real product, not a hobby.</p>
+
+      <div class="proof-grid">
+        <div class="proof-card"><div class="pv accent">~1 yr</div><div class="pl">full-time development</div></div>
+        <div class="proof-card"><div class="pv accent">Local</div><div class="pl">blocking runs in your browser, no server</div></div>
+        <div class="proof-card"><div class="pv mint">MV3</div><div class="pl">modern, sandboxed, no remote code</div></div>
+        <div class="proof-card"><div class="pv accent">100%</div><div class="pl">open source on GitHub (MIT)</div></div>
+        <div class="proof-card"><div class="pv">Free</div><div class="pl">core blocker and Pomodoro timer, no account</div></div>
+        <div class="proof-card"><div class="pv mint">0</div><div class="pl">trackers, nothing sold, ever</div></div>
+      </div>
+
+      <div class="works-note">
+        It also works the way you'd hope. Blocking runs locally in the browser, so pages redirect the instant you
+        try to open them, with no lag and no round trip to a server. Your work sites stay whitelisted, the Pomodoro
+        timer keeps your rhythm, and your stats and streaks live only on your machine. Nothing about what you browse
+        ever leaves your computer. It only asks for what blocking needs. Site access to catch a blocked page and send
+        it to the calm screen, local storage for your lists and stats, alarms for the timer, and a quiet notification
+        when a session wraps up. Nothing more.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 5 · BUILT BY SOMEONE YOU CAN REACH (win-win) ============ -->
+  <section class="step" data-step="5" data-next="See what Pro adds">
+    <div class="center">
+      <span class="kicker">The anti-faceless-extension promise</span>
+      <h2>Built by someone you can <span class="em">actually reach</span>.</h2>
+      <p class="lede">Most productivity extensions come from a company you'll never hear back from. This one has a name,
+        an inbox, and a year of work staked on it. The name is Michael Lip, founder of Zovo.</p>
+
+      <div class="receipts">
+        <span class="receipt"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>Contributes to open-source projects like Chrome, axios and nicehash</span>
+        <span class="receipt"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>Builds focused Chrome tools</span>
+      </div>
+
+      <div class="reach-cards">
+        <div class="reach-card">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" fill="none"/><path d="M22 6l-10 7L2 6"/></svg></div>
+          <div class="bd"><span class="ttl">Email the person who wrote the code</span><span>A site slips past the blocker or a Chrome update trips something up? You don't file a ticket into a void. You reach Michael directly at <a href="mailto:support@zovo.one">support@zovo.one</a>, and bugs get read and fixed fast, often the same week.</span></div>
+        </div>
+        <div class="reach-card">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1z"/></svg></div>
+          <div class="bd"><span class="ttl">You shape the roadmap</span><span>Want a new category, a smarter schedule, a report you can actually read? Tell him and it can land in the next build. Pro members' requests jump the queue by design, so you steer a tool that gets better every month.</span></div>
+        </div>
+        <div class="reach-card">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="bd"><span class="ttl">Good for both of us, long term</span><span>Paying keeps a named developer full-time on the thing you rely on, so it never becomes another abandoned extension left to rot. You get software that keeps improving. He gets to keep improving it.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STEP 6 · MAKE FOCUS THE DEFAULT (founder + pricing) ============ -->
+  <section class="step" data-step="6">
+    <div class="center">
+      <span class="kicker">Zovo Pro · built by one accountable developer</span>
+      <h2>Make focus the <span class="em">default</span>.</h2>
+      <p class="lede">Free blocks the sites you name and runs the Pomodoro timer. Pro makes focus automatic and hard to
+        wriggle out of, so the good habit runs even on the days your willpower doesn't show up.</p>
+
+      <div class="founder">
+        <img class="pic" src="assets/michael-lip.png" alt="Michael Lip">
+        <div class="body">
+          <div class="nm">Michael Lip
+            <span class="role">· founder, Zovo</span>
+          </div>
+          <p class="cred">Solo developer behind the Zovo extension suite.</p>
+          <div class="socials">
+            <a href="https://github.com/theluckystrike" target="_blank" rel="noopener">theluckystrike</a>
+            <a href="https://x.com/_alphashark_" target="_blank" rel="noopener">@_alphashark_</a>
+            <a href="mailto:support@zovo.one">Email me</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <div class="pcard">
+          <div class="seg" id="planSeg">
+            <button data-plan="monthly" class="on">Monthly</button>
+            <button data-plan="lifetime">Lifetime <span class="flag">best value</span></button>
+          </div>
+          <div class="price" id="priceRow">
+            <span class="amt" id="priceAmt">$4.99</span><span class="per" id="pricePer">/ month</span>
+          </div>
+          <div class="price-sub" id="priceSub">Free for the basics. Pro adds the automatic focus.</div>
+
+          <div class="pfeat">
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg></div><div class="tx"><span class="ttl">Schedule mode</span><span>Focus turns itself on for your work hours, no button to press.</span></div></div>
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><div class="tx"><span class="ttl">Password lock</span><span>Set a password so a moment of weakness can't quit the session.</span></div></div>
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" fill="none"/><path d="M8 4v16M4 8h4M4 16h4"/></svg></div><div class="tx"><span class="ttl">Unlimited rules &amp; regex</span><span>Block any number of sites with patterns or precise regex matches.</span></div></div>
+            <div class="pf"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 4-6"/></svg></div><div class="tx"><span class="ttl">Detailed analytics</span><span>See focus time, sessions, and streaks build up week over week.</span></div></div>
+          </div>
+
+          <div class="reassure-row">
+            <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span id="reassure1">No account needed</span></span>
+            <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>Cancel anytime</span>
+            <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg>30-day money-back</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq" id="faq">
+        <div class="faq-item"><button class="faq-q">Is my browsing data private?<span class="pm">+</span></button>
+          <div class="faq-a"><p>Yes. Every line is open source under the MIT license, blocking runs locally in your browser, and it collects zero data. No analytics, no servers, nothing to sell. Your stats and streaks never leave your machine.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Do I have to pay to use it?<span class="pm">+</span></button>
+          <div class="faq-a"><p>No. Site blocking and the Pomodoro timer stay free forever, no account required. Pro adds schedule mode, password lock, and analytics for people who want focus to run on its own.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Can I cancel?<span class="pm">+</span></button>
+          <div class="faq-a"><p>Anytime, in one click. Lifetime is a single $99 with a 30-day money-back guarantee, so there's no risk in trying it.</p></div></div>
+      </div>
+
+      <div class="social-proof">Open source under the MIT license, so you can read every line yourself. Lifetime comes with a 30-day money-back guarantee, and the monthly plan cancels in one click.</div>
+
+      <button class="skip-later" id="skipUpgrade" type="button" style="margin:18px auto 0;display:block;background:none;border:none;color:var(--text-3);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.04em;cursor:pointer;text-decoration:underline;text-underline-offset:3px">Maybe later, keep the free version</button>
+    </div>
+  </section>
+
+  <!-- ============ STEP 7 · ALL SET + FOUNDER SIGN-OFF ============ -->
+  <section class="step" data-step="7" data-next="Start using it">
+    <div class="center">
+      <div class="done-ic"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+      <span class="kicker mint">Guarding your attention now</span>
+      <h2>You're all set.</h2>
+      <p class="lede">Focus Mode Pro is ready in the background. Start a session whenever you need a clean run at your
+        work, and the sites that pull you off track stay shut until you're done.</p>
+
+      <div class="pin">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/></svg>
+        Tip. Click the puzzle icon in Chrome's toolbar and pin Focus Mode Pro so it's one click away.
+      </div>
+
+      <div class="sc-title">Your keyboard shortcut</div>
+      <div class="shortcuts">
+        <div class="sc"><span class="keys"><kbd>Alt</kbd><kbd>⇧</kbd><kbd>F</kbd></span>Toggle focus mode on or off</div>
+        <div class="sc"><span class="keys"><kbd>chrome://extensions/shortcuts</kbd></span>Change it to any key you like</div>
+      </div>
+
+      <div class="toolkit">
+        <div class="toolkit-head"><span class="t">Part of the Zovo toolkit</span>
+          <a href="https://www.zovo.one" target="_blank" rel="noopener">All extensions ↗</a></div>
+        <div class="tk-item"><div><div class="tn">BeLikeNative</div><div class="td">Rewrite any text, on any site</div></div><span class="meta">↗</span></div>
+        <div class="tk-item"><div><div class="tn">Join Zovo · shape the roadmap</div><div class="td">Vote on what gets built next, and members get every extension</div></div><span class="meta">↗</span></div>
+      </div>
+
+      <!-- founder sign-off (photo fits here) -->
+      <div class="signoff">
+        <div class="signoff-head">
+          <img class="pic" src="assets/michael-lip.png" alt="Michael Lip">
+          <div class="who">
+            <div class="nm">Michael Lip
+            </div>
+            <div class="role">a note from the person who built this</div>
+          </div>
+        </div>
+        <p>I built this because I kept losing whole afternoons the same way you do. One tab to check a thing, then a
+          headline, then an hour gone. I wanted a blocker I could actually trust on my own machine, so I made one.
+          Open source, no tracking, nothing sold, every line on GitHub where you can read it yourself.</p>
+        <p>If a site slips past it, or you wish it did one more thing, tell me. Every bug and request is read and fixed
+          by the same person who wrote the code. That's the deal. You use it, I keep making it better.</p>
+        <div class="sig">Michael</div>
+        <div class="reach">
+          <a href="mailto:support@zovo.one">support@zovo.one</a>
+          <a href="https://github.com/theluckystrike" target="_blank" rel="noopener">github.com/theluckystrike</a>
+          <a href="https://x.com/_alphashark_" target="_blank" rel="noopener">@_alphashark_</a>
+        </div>
+        <p class="ps">P.S. Lifetime is a single payment and includes everything I add to Focus Mode Pro later. Whichever you
+          pick, thank you for trusting a real developer over a faceless one. Now go get that clean hour back.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- bottom nav -->
+<div class="navbar">
+  <div class="navbar-in">
+    <button class="nbtn back" id="backBtn" hidden>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>Back
+    </button>
+    <div class="indicator">
+      <span class="counter" id="counter">01 / 07</span>
+      <div class="dots" id="dots">
+        <button class="dot active" data-step="1" aria-label="Step 1"></button>
+        <button class="dot" data-step="2" aria-label="Step 2"></button>
+        <button class="dot" data-step="3" aria-label="Step 3"></button>
+        <button class="dot" data-step="4" aria-label="Step 4"></button>
+        <button class="dot" data-step="5" aria-label="Step 5"></button>
+        <button class="dot" data-step="6" aria-label="Step 6"></button>
+        <button class="dot" data-step="7" aria-label="Step 7"></button>
+      </div>
+    </div>
+    <button class="nbtn next" id="nextBtn">
+      <span id="nextLabel">Show me how it works</span>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="onboarding.js"></script>
+</body>
+</html>

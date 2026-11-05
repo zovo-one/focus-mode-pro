@@ -1,0 +1,2934 @@
+{
+  "extName": {
+    "message": "Focus Mode Pro - Bloquer les distractions",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "Focus Mode",
+    "description": "Short name for the extension used in limited-space contexts"
+  },
+  "extDescription": {
+    "message": "Bloquez les sites distrayants et boostez votre productivité avec des minuteries de concentration et Pomodoro.",
+    "description": "Extension description shown in Chrome Web Store (max 132 chars)"
+  },
+  "extActionTitle": {
+    "message": "Focus Mode Pro",
+    "description": "Tooltip text when hovering over the extension toolbar icon"
+  },
+  "extCommandToggleFocus": {
+    "message": "Activer/désactiver le mode concentration",
+    "description": "Description of the keyboard shortcut command in chrome://extensions/shortcuts"
+  },
+  "ttlPopup": {
+    "message": "Focus Mode Pro",
+    "description": "HTML title for the popup page"
+  },
+  "ttlSettings": {
+    "message": "Focus Mode Pro - Paramètres",
+    "description": "HTML title for the options/settings page"
+  },
+  "ttlBlocked": {
+    "message": "Focus Mode - Site bloqué",
+    "description": "HTML title for the blocked site page"
+  },
+  "ttlWelcome": {
+    "message": "Bienvenue dans Focus Mode Pro",
+    "description": "HTML title for the welcome/onboarding page"
+  },
+  "ttlHelp": {
+    "message": "Focus Mode Pro - Astuces et conseils",
+    "description": "HTML title for the tips and tricks help page"
+  },
+  "ttlUpgrade": {
+    "message": "Focus Mode Pro - Passer à Pro",
+    "description": "HTML title for the upgrade page"
+  },
+  "ttlDashboard": {
+    "message": "Focus Mode Pro - Tableau de bord",
+    "description": "HTML title for the dashboard page"
+  },
+  "appName": {
+    "message": "Focus Mode",
+    "description": "Short app name used in the popup header"
+  },
+  "appNameFull": {
+    "message": "Focus Mode Pro",
+    "description": "Full app name used in options, help, upgrade, dashboard, and blocked page headers"
+  },
+  "msgLoading": {
+    "message": "Chargement...",
+    "description": "Generic loading indicator text displayed in the popup and options page"
+  },
+  "msgError": {
+    "message": "Erreur",
+    "description": "Generic error heading shown in the popup when something fails"
+  },
+  "errFailedToConnect": {
+    "message": "Impossible de se connecter à l'extension",
+    "description": "Error message shown in popup when background script communication fails"
+  },
+  "errConnectionFailed": {
+    "message": "Impossible de se connecter à l'extension",
+    "description": "Error message shown in popup when background script communication fails (component key)"
+  },
+  "errFailedToLoadSettings": {
+    "message": "Impossible de charger les paramètres",
+    "description": "Error message shown in options page when settings cannot be loaded"
+  },
+  "errFailedLoadSettings": {
+    "message": "Impossible de charger les paramètres",
+    "description": "Error message shown in options page when settings cannot be loaded (component key)"
+  },
+  "lblFocusMode": {
+    "message": "Mode concentration",
+    "description": "Header title in the popup and label for the mode selector section"
+  },
+  "lblModeFocus": {
+    "message": "Mode concentration",
+    "description": "Section heading label for the mode selector in the popup"
+  },
+  "stsActive": {
+    "message": "ACTIF",
+    "description": "Badge text shown in popup header when a focus session is running"
+  },
+  "lblActive": {
+    "message": "Actif",
+    "description": "Badge text shown in popup header and session status indicating active state"
+  },
+  "lblActiveLC": {
+    "message": "actif",
+    "description": "Lowercase active text used in Pomodoro count indicator (e.g., 3 done, 1 active)"
+  },
+  "lblPro": {
+    "message": "PRO",
+    "description": "Badge label for Pro tier users shown in popup header and footer"
+  },
+  "lblFree": {
+    "message": "GRATUIT",
+    "description": "Badge label for free tier users shown on the dashboard header"
+  },
+  "btnSettings": {
+    "message": "Paramètres",
+    "description": "Button label to open the extension settings page"
+  },
+  "btnStatistics": {
+    "message": "Statistiques",
+    "description": "Button label to open the statistics tab in settings"
+  },
+  "msgUnlockAllFeatures": {
+    "message": "Débloquez toutes les fonctionnalités",
+    "description": "Short promotional text shown in the popup upgrade banner for free users"
+  },
+  "btnUpgradeToPro": {
+    "message": "Passer à Pro",
+    "description": "Call-to-action button text prompting free users to upgrade to Pro"
+  },
+  "btnUpgradePro": {
+    "message": "Passer à Pro",
+    "description": "Call-to-action button text prompting free users to upgrade to Pro (component key)"
+  },
+  "btnStartSession": {
+    "message": "Démarrer session $MODE$",
+    "description": "Start button text with the selected mode name in the mode selector",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "Pomodoro"
+      }
+    }
+  },
+  "ttlPasswordRequired": {
+    "message": "Mot de passe requis",
+    "description": "Title of the password verification modal in popup and blocked page"
+  },
+  "msgEnterPasswordToStop": {
+    "message": "Entrez votre mot de passe pour arrêter la session de concentration.",
+    "description": "Instruction in popup password modal when user wants to stop the session"
+  },
+  "msgEnterPasswordToPause": {
+    "message": "Entrez votre mot de passe pour mettre en pause la session de concentration.",
+    "description": "Instruction in popup password modal when user wants to pause the session"
+  },
+  "msgPasswordToStop": {
+    "message": "Entrez votre mot de passe pour arrêter la session de concentration.",
+    "description": "Instruction in popup password modal when user wants to stop the session (component key)"
+  },
+  "msgPasswordToPause": {
+    "message": "Entrez votre mot de passe pour mettre en pause la session de concentration.",
+    "description": "Instruction in popup password modal when user wants to pause the session (component key)"
+  },
+  "plhEnterPassword": {
+    "message": "Entrez le mot de passe",
+    "description": "Placeholder text for password input fields in popup and blocked page"
+  },
+  "btnCancel": {
+    "message": "Annuler",
+    "description": "Cancel button label used in modals and confirmation dialogs"
+  },
+  "btnConfirm": {
+    "message": "Confirmer",
+    "description": "Confirm button label used in the popup password verification modal"
+  },
+  "errPleaseEnterPassword": {
+    "message": "Veuillez entrer votre mot de passe",
+    "description": "Validation error when the password field is left empty"
+  },
+  "errEnterPassword": {
+    "message": "Veuillez entrer votre mot de passe",
+    "description": "Validation error when the password field is left empty (component key)"
+  },
+  "errIncorrectPassword": {
+    "message": "Mot de passe incorrect",
+    "description": "Error message when the entered password does not match"
+  },
+  "errCustomModesRequirePro": {
+    "message": "Les modes personnalisés nécessitent Pro",
+    "description": "Reason text passed to the upgrade page when a free user tries custom or indefinite mode"
+  },
+  "errCustomModeRequiresPro": {
+    "message": "Les modes personnalisés nécessitent Pro",
+    "description": "Reason text passed to the upgrade page when a free user tries custom or indefinite mode (component key)"
+  },
+  "errDailySessionLimitReached": {
+    "message": "Limite quotidienne de sessions atteinte",
+    "description": "Reason text passed to the upgrade page when free user exceeds daily session limit"
+  },
+  "errDailySessionLimit": {
+    "message": "Limite quotidienne de sessions atteinte",
+    "description": "Reason text passed to the upgrade page when free user exceeds daily session limit (component key)"
+  },
+  "lblBuiltBy": {
+    "message": "Conçu par",
+    "description": "Footer text preceding the Zovo brand name in the popup"
+  },
+  "lblByZovo": {
+    "message": "par Zovo",
+    "description": "Footer text appended after the app name on blocked and help pages"
+  },
+  "lblBrandZovo": {
+    "message": "Zovo",
+    "description": "Brand name Zovo used in footers and about sections"
+  },
+  "lblModePomodoro": {
+    "message": "Pomodoro",
+    "description": "Label for the Pomodoro timer mode in the mode selector"
+  },
+  "lblModeCustom": {
+    "message": "Personnalisé",
+    "description": "Label for the Custom timer mode in the mode selector"
+  },
+  "lblModeIndefinite": {
+    "message": "Jusqu'à l'arrêt",
+    "description": "Label for the indefinite/until-I-stop timer mode in the mode selector"
+  },
+  "lblModeUntilIStop": {
+    "message": "Jusqu'à l'arrêt",
+    "description": "Label for the indefinite/until-I-stop timer mode in the mode selector"
+  },
+  "msgModePomodoroDesc": {
+    "message": "$FOCUS$ min concentration, $BREAK$ min pause",
+    "description": "Description for Pomodoro mode showing focus and break durations",
+    "placeholders": {
+      "focus": {
+        "content": "$1",
+        "example": "25"
+      },
+      "break": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "descModePomodoro": {
+    "message": "$FOCUS$ min concentration, $BREAK$ min pause",
+    "description": "Description for Pomodoro mode showing focus and break durations (component key)",
+    "placeholders": {
+      "focus": {
+        "content": "$1",
+        "example": "25"
+      },
+      "break": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "msgModeCustomDesc": {
+    "message": "Définissez votre propre durée",
+    "description": "Description for Custom timer mode"
+  },
+  "descModeCustom": {
+    "message": "Définissez votre propre durée",
+    "description": "Description for Custom timer mode (component key)"
+  },
+  "msgModeIndefiniteDesc": {
+    "message": "Pas de limite de temps",
+    "description": "Description for the Until I Stop (indefinite) timer mode"
+  },
+  "descModeIndefinite": {
+    "message": "Pas de limite de temps",
+    "description": "Description for the Until I Stop (indefinite) timer mode (component key)"
+  },
+  "lblDuration": {
+    "message": "Durée",
+    "description": "Label for the custom duration slider in the mode selector"
+  },
+  "lblDurationMin": {
+    "message": "$DURATION$ min",
+    "description": "Displays the selected custom duration in minutes",
+    "placeholders": {
+      "duration": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "lblMinShort": {
+    "message": "$MIN$ min",
+    "description": "Short minute label with value used on slider endpoints",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "lblHoursShort": {
+    "message": "$HOURS$ heures",
+    "description": "Short hours label with value used on slider endpoints",
+    "placeholders": {
+      "hours": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "lblMinSliderMin": {
+    "message": "5 min",
+    "description": "Minimum value label on the custom duration slider"
+  },
+  "lblMaxSliderMax": {
+    "message": "3 heures",
+    "description": "Maximum value label on the custom duration slider"
+  },
+  "btnStartModeSession": {
+    "message": "Démarrer session $MODE$",
+    "description": "Start button text with the selected mode name",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "Pomodoro"
+      }
+    }
+  },
+  "stsFocusing": {
+    "message": "Concentration...",
+    "description": "Timer status text when in indefinite focus mode"
+  },
+  "stsStayFocused": {
+    "message": "Restez concentré",
+    "description": "Timer status text during a timed focus session"
+  },
+  "stsTakeABreak": {
+    "message": "Faites une pause",
+    "description": "Timer status text when the user is on a break"
+  },
+  "stsTakeBreak": {
+    "message": "Faites une pause",
+    "description": "Timer status text when the user is on a break (component key)"
+  },
+  "stsPaused": {
+    "message": "En pause",
+    "description": "Timer status text when the focus session is paused"
+  },
+  "stsReadyToFocus": {
+    "message": "Prêt à se concentrer",
+    "description": "Timer status text when idle and no session is active"
+  },
+  "lblTimerOn": {
+    "message": "ON",
+    "description": "Text shown in the timer circle for indefinite focus mode instead of a countdown"
+  },
+  "lblOn": {
+    "message": "ON",
+    "description": "Text shown in the timer circle for indefinite focus mode (component key)"
+  },
+  "lblDone": {
+    "message": "terminé",
+    "description": "Text used in Pomodoro count indicator (e.g., 3 done, 1 active)"
+  },
+  "lblCompleted": {
+    "message": "terminé",
+    "description": "Text used in Pomodoro count indicator and session status when completed"
+  },
+  "lblStopped": {
+    "message": "Arrêtée",
+    "description": "Status badge for a session that was stopped early (component key)"
+  },
+  "msgPomodoroCountActive": {
+    "message": "$COUNT$ terminé(s), 1 en cours",
+    "description": "Pomodoro count indicator showing completed and current active session",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "msgPomodoroCountCompleted": {
+    "message": "$COUNT$ terminé(s)",
+    "description": "Pomodoro count indicator when idle showing total completed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "btnStartFocus": {
+    "message": "Démarrer la concentration",
+    "description": "Button to start a focus session from the timer when idle"
+  },
+  "btnPause": {
+    "message": "Pause",
+    "description": "Tooltip/label for the pause button during a focus session"
+  },
+  "btnStop": {
+    "message": "Arrêter",
+    "description": "Tooltip/label for the stop button during a focus session"
+  },
+  "btnResume": {
+    "message": "Reprendre",
+    "description": "Button to resume a paused focus session"
+  },
+  "btnSkipBreak": {
+    "message": "Passer la pause",
+    "description": "Button to skip the current break and start a new focus session"
+  },
+  "lblToday": {
+    "message": "Aujourd'hui",
+    "description": "Quick stats label for today's focus time in the popup"
+  },
+  "lblSessions": {
+    "message": "Sessions",
+    "description": "Quick stats label for sessions completed today in the popup"
+  },
+  "lblBlocked": {
+    "message": "Bloqués",
+    "description": "Quick stats label for sites blocked today in the popup"
+  },
+  "lblDayStreak": {
+    "message": "Jours consécutifs",
+    "description": "Quick stats label for the current day streak in the popup"
+  },
+  "tabGeneral": {
+    "message": "Général",
+    "description": "Tab name for general settings in the options page"
+  },
+  "tabBlocking": {
+    "message": "Blocage",
+    "description": "Tab name for blocking settings in the options page"
+  },
+  "tabSchedule": {
+    "message": "Horaire",
+    "description": "Tab name for schedule settings in the options page"
+  },
+  "tabStats": {
+    "message": "Statistiques",
+    "description": "Tab name for statistics in the options page"
+  },
+  "tabAdvanced": {
+    "message": "Avancé",
+    "description": "Tab name for advanced settings in the options page"
+  },
+  "tabAccount": {
+    "message": "Compte",
+    "description": "Tab name for account and license settings in the options page"
+  },
+  "ttlFocusModePro": {
+    "message": "Focus Mode Pro",
+    "description": "Main heading on the options page and other pages"
+  },
+  "msgSettingsAndConfiguration": {
+    "message": "Paramètres et configuration",
+    "description": "Subtitle text on the options page header"
+  },
+  "optSettingsConfig": {
+    "message": "Paramètres et configuration",
+    "description": "Subtitle text on the options page header (component key)"
+  },
+  "lblTipsAndTricks": {
+    "message": "Astuces et conseils",
+    "description": "Tooltip and label for the help button and help page subtitle"
+  },
+  "optTipsTricks": {
+    "message": "Astuces et conseils",
+    "description": "Tooltip and label for the help button and help page subtitle (component key)"
+  },
+  "msgSettingsSaved": {
+    "message": "Paramètres enregistrés !",
+    "description": "Success toast message after settings are saved"
+  },
+  "errFailedToSaveSettings": {
+    "message": "Impossible d'enregistrer les paramètres",
+    "description": "Error toast message when settings cannot be saved"
+  },
+  "errFailedSaveSettings": {
+    "message": "Impossible d'enregistrer les paramètres",
+    "description": "Error toast message when settings cannot be saved (component key)"
+  },
+  "msgSiteAddedToBlocklist": {
+    "message": "Site ajouté à la liste de blocage",
+    "description": "Success toast message after adding a site to the blocklist"
+  },
+  "msgSiteAddedBlocklist": {
+    "message": "Site ajouté à la liste de blocage",
+    "description": "Success toast message after adding a site to the blocklist (component key)"
+  },
+  "msgSiteAddedToWhitelist": {
+    "message": "Site ajouté à la liste blanche",
+    "description": "Success toast message after adding a site to the whitelist"
+  },
+  "msgSiteAddedWhitelist": {
+    "message": "Site ajouté à la liste blanche",
+    "description": "Success toast message after adding a site to the whitelist (component key)"
+  },
+  "errPasswordsDoNotMatch": {
+    "message": "Les mots de passe ne correspondent pas",
+    "description": "Error message when new password and confirm password fields do not match"
+  },
+  "errPasswordsNoMatch": {
+    "message": "Les mots de passe ne correspondent pas",
+    "description": "Error message when new password and confirm password fields do not match (component key)"
+  },
+  "errPasswordMinLength": {
+    "message": "Le mot de passe doit contenir au moins 4 caractères",
+    "description": "Error message when the password is too short"
+  },
+  "ttlPomodoroTimer": {
+    "message": "Minuterie Pomodoro",
+    "description": "Section heading for Pomodoro timer settings on the general tab"
+  },
+  "optPomodoroTimer": {
+    "message": "Minuterie Pomodoro",
+    "description": "Section heading for Pomodoro timer settings on the general tab (component key)"
+  },
+  "lblFocusDuration": {
+    "message": "Durée de concentration",
+    "description": "Label for the focus duration dropdown in Pomodoro settings"
+  },
+  "optFocusDuration": {
+    "message": "Durée de concentration",
+    "description": "Label for the focus duration dropdown in Pomodoro settings (component key)"
+  },
+  "optMinutes": {
+    "message": "$MIN$ minutes",
+    "description": "Dropdown option text showing duration in minutes",
+    "placeholders": {
+      "min": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "lblShortBreak": {
+    "message": "Pause courte",
+    "description": "Label for the short break duration dropdown in Pomodoro settings"
+  },
+  "optShortBreak": {
+    "message": "Pause courte",
+    "description": "Label for the short break duration dropdown in Pomodoro settings (component key)"
+  },
+  "lblLongBreak": {
+    "message": "Pause longue",
+    "description": "Label for the long break duration dropdown in Pomodoro settings"
+  },
+  "optLongBreak": {
+    "message": "Pause longue",
+    "description": "Label for the long break duration dropdown in Pomodoro settings (component key)"
+  },
+  "lblLongBreakAfter": {
+    "message": "Pause longue après",
+    "description": "Label for the sessions-until-long-break dropdown"
+  },
+  "optLongBreakAfter": {
+    "message": "Pause longue après",
+    "description": "Label for the sessions-until-long-break dropdown (component key)"
+  },
+  "optSessions": {
+    "message": "$NUM$ sessions",
+    "description": "Dropdown option for number of sessions before a long break",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "optAutoStartBreaks": {
+    "message": "Démarrer automatiquement les pauses après les sessions",
+    "description": "Checkbox label for automatically starting breaks after a focus session ends"
+  },
+  "optAutoStartFocus": {
+    "message": "Démarrer automatiquement la concentration après les pauses",
+    "description": "Checkbox label for automatically starting focus after a break ends"
+  },
+  "ttlBreakReminders": {
+    "message": "Rappels de pause",
+    "description": "Section heading for break reminder settings on the general tab"
+  },
+  "optBreakReminders": {
+    "message": "Rappels de pause",
+    "description": "Section heading for break reminder settings on the general tab (component key)"
+  },
+  "optEnableBreakReminders": {
+    "message": "Activer les rappels de pause pendant la concentration",
+    "description": "Checkbox label to enable periodic break reminders"
+  },
+  "lblRemindEvery": {
+    "message": "Rappeler toutes les",
+    "description": "Label for the break reminder interval dropdown"
+  },
+  "optRemindEvery": {
+    "message": "Rappeler toutes les",
+    "description": "Label for the break reminder interval dropdown (component key)"
+  },
+  "ttlNotifications": {
+    "message": "Notifications",
+    "description": "Section heading for notification settings on the general tab"
+  },
+  "optNotifications": {
+    "message": "Notifications",
+    "description": "Section heading for notification settings on the general tab (component key)"
+  },
+  "optNotifySessionComplete": {
+    "message": "Notifier à la fin de la session de concentration",
+    "description": "Checkbox label to enable notification when a focus session finishes"
+  },
+  "optNotifyBreakEnds": {
+    "message": "Notifier à la fin de la pause",
+    "description": "Checkbox label to enable notification when a break finishes"
+  },
+  "optNotifyBreakEnd": {
+    "message": "Notifier à la fin de la pause",
+    "description": "Checkbox label to enable notification when a break finishes (component key)"
+  },
+  "ttlBlockCategories": {
+    "message": "Catégories de blocage",
+    "description": "Section heading for category blocking presets on the blocking tab"
+  },
+  "optBlockCategories": {
+    "message": "Catégories de blocage",
+    "description": "Section heading for category blocking presets on the blocking tab (component key)"
+  },
+  "msgBlockCategoriesDesc": {
+    "message": "Activez des catégories pour bloquer des groupes de sites distrayants courants.",
+    "description": "Description text for the block categories section"
+  },
+  "optBlockCategoriesDesc": {
+    "message": "Activez des catégories pour bloquer des groupes de sites distrayants courants.",
+    "description": "Description text for the block categories section (component key)"
+  },
+  "lblCategorySiteCount": {
+    "message": "$COUNT$ sites",
+    "description": "Number of sites in a category preset",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "optSitesCount": {
+    "message": "$COUNT$ sites",
+    "description": "Number of sites in a category preset (component key)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "btnHideSites": {
+    "message": "Masquer les sites",
+    "description": "Tooltip for the collapse button when a category's sites are shown"
+  },
+  "optHideSites": {
+    "message": "Masquer les sites",
+    "description": "Tooltip for the collapse button when a category's sites are shown (component key)"
+  },
+  "btnShowSites": {
+    "message": "Afficher les sites",
+    "description": "Tooltip for the expand button to reveal sites in a category"
+  },
+  "optShowSites": {
+    "message": "Afficher les sites",
+    "description": "Tooltip for the expand button to reveal sites in a category (component key)"
+  },
+  "ttlCustomBlocklist": {
+    "message": "Liste de blocage personnalisée",
+    "description": "Section heading for the custom blocklist on the blocking tab"
+  },
+  "optCustomBlocklist": {
+    "message": "Liste de blocage personnalisée",
+    "description": "Section heading for the custom blocklist on the blocking tab (component key)"
+  },
+  "lblRegex": {
+    "message": "Regex",
+    "description": "Label for the regex toggle checkbox when adding block rules"
+  },
+  "optRegex": {
+    "message": "Regex",
+    "description": "Label for the regex toggle checkbox when adding block rules (component key)"
+  },
+  "btnAdd": {
+    "message": "Ajouter",
+    "description": "Button to add a new site to the blocklist or whitelist"
+  },
+  "btnRemove": {
+    "message": "Supprimer",
+    "description": "Button to remove a site from the blocklist or whitelist"
+  },
+  "msgNoBlockedSites": {
+    "message": "Aucun site bloqué personnalisé pour l'instant.",
+    "description": "Empty state text when no custom block rules have been added"
+  },
+  "optNoBlockedSites": {
+    "message": "Aucun site bloqué personnalisé pour l'instant.",
+    "description": "Empty state text when no custom block rules have been added (component key)"
+  },
+  "plhBlocklistDomain": {
+    "message": "ex. : facebook.com ou *.reddit.com",
+    "description": "Placeholder for the domain input in the blocklist (non-regex mode)"
+  },
+  "plhBlocklistRegex": {
+    "message": "ex. : ^https?://(www\\.)?facebook\\.com",
+    "description": "Placeholder for the regex input in the blocklist (regex mode)"
+  },
+  "ttlWhitelist": {
+    "message": "Liste blanche (toujours autorisé)",
+    "description": "Section heading for the whitelist on the blocking tab"
+  },
+  "optWhitelist": {
+    "message": "Liste blanche (toujours autorisé)",
+    "description": "Section heading for the whitelist on the blocking tab (component key)"
+  },
+  "msgWhitelistDesc": {
+    "message": "Ces sites ne seront jamais bloqués, même pendant le mode concentration.",
+    "description": "Description text for the whitelist section"
+  },
+  "optWhitelistDesc": {
+    "message": "Ces sites ne seront jamais bloqués, même pendant le mode concentration.",
+    "description": "Description text for the whitelist section (component key)"
+  },
+  "msgNoWhitelistedSites": {
+    "message": "Aucun site en liste blanche pour l'instant.",
+    "description": "Empty state text when no whitelist rules have been added"
+  },
+  "optNoWhitelistedSites": {
+    "message": "Aucun site en liste blanche pour l'instant.",
+    "description": "Empty state text when no whitelist rules have been added (component key)"
+  },
+  "plhWhitelistDomain": {
+    "message": "ex. : docs.google.com",
+    "description": "Placeholder for the domain input in the whitelist"
+  },
+  "ttlAutoEnableSchedule": {
+    "message": "Horaire de démarrage automatique",
+    "description": "Section heading for the auto-schedule feature on the schedule tab"
+  },
+  "optAutoEnableSchedule": {
+    "message": "Horaire de démarrage automatique",
+    "description": "Section heading for the auto-schedule feature on the schedule tab (component key)"
+  },
+  "optAutoStartOnSchedule": {
+    "message": "Démarrer automatiquement le mode concentration selon l'horaire",
+    "description": "Checkbox label to enable the auto-schedule feature"
+  },
+  "optAutoStartSchedule": {
+    "message": "Démarrer automatiquement le mode concentration selon l'horaire",
+    "description": "Checkbox label to enable the auto-schedule feature (component key)"
+  },
+  "lblActiveDays": {
+    "message": "Jours actifs",
+    "description": "Label for the day-of-week selector in the schedule settings"
+  },
+  "optActiveDays": {
+    "message": "Jours actifs",
+    "description": "Label for the day-of-week selector in the schedule settings (component key)"
+  },
+  "lblDaySun": {
+    "message": "Dim",
+    "description": "Abbreviated day name for Sunday in the schedule settings"
+  },
+  "daySun": {
+    "message": "Dim",
+    "description": "Abbreviated day name for Sunday (component key)"
+  },
+  "lblDayMon": {
+    "message": "Lun",
+    "description": "Abbreviated day name for Monday in the schedule settings"
+  },
+  "dayMon": {
+    "message": "Lun",
+    "description": "Abbreviated day name for Monday (component key)"
+  },
+  "lblDayTue": {
+    "message": "Mar",
+    "description": "Abbreviated day name for Tuesday in the schedule settings"
+  },
+  "dayTue": {
+    "message": "Mar",
+    "description": "Abbreviated day name for Tuesday (component key)"
+  },
+  "lblDayWed": {
+    "message": "Mer",
+    "description": "Abbreviated day name for Wednesday in the schedule settings"
+  },
+  "dayWed": {
+    "message": "Mer",
+    "description": "Abbreviated day name for Wednesday (component key)"
+  },
+  "lblDayThu": {
+    "message": "Jeu",
+    "description": "Abbreviated day name for Thursday in the schedule settings"
+  },
+  "dayThu": {
+    "message": "Jeu",
+    "description": "Abbreviated day name for Thursday (component key)"
+  },
+  "lblDayFri": {
+    "message": "Ven",
+    "description": "Abbreviated day name for Friday in the schedule settings"
+  },
+  "dayFri": {
+    "message": "Ven",
+    "description": "Abbreviated day name for Friday (component key)"
+  },
+  "lblDaySat": {
+    "message": "Sam",
+    "description": "Abbreviated day name for Saturday in the schedule settings"
+  },
+  "daySat": {
+    "message": "Sam",
+    "description": "Abbreviated day name for Saturday (component key)"
+  },
+  "lblStartTime": {
+    "message": "Heure de début",
+    "description": "Label for the schedule start time input"
+  },
+  "optStartTime": {
+    "message": "Heure de début",
+    "description": "Label for the schedule start time input (component key)"
+  },
+  "lblEndTime": {
+    "message": "Heure de fin",
+    "description": "Label for the schedule end time input"
+  },
+  "optEndTime": {
+    "message": "Heure de fin",
+    "description": "Label for the schedule end time input (component key)"
+  },
+  "ttlTodaysSummary": {
+    "message": "Résumé du jour",
+    "description": "Section heading for today's stats summary on the stats tab"
+  },
+  "optTodaySummary": {
+    "message": "Résumé du jour",
+    "description": "Section heading for today's stats summary on the stats tab (component key)"
+  },
+  "lblFocusTime": {
+    "message": "Temps de concentration",
+    "description": "Stats label for total focus time today"
+  },
+  "optFocusTime": {
+    "message": "Temps de concentration",
+    "description": "Stats label for total focus time today (component key)"
+  },
+  "lblSitesBlocked": {
+    "message": "Sites bloqués",
+    "description": "Stats label for total sites blocked today"
+  },
+  "optSitesBlocked": {
+    "message": "Sites bloqués",
+    "description": "Stats label for total sites blocked (component key used in options and dashboard)"
+  },
+  "lblPomodoros": {
+    "message": "Pomodoros",
+    "description": "Stats label for total Pomodoro sessions completed today"
+  },
+  "optPomodoros": {
+    "message": "Pomodoros",
+    "description": "Stats label for total Pomodoro sessions completed today (component key)"
+  },
+  "ttlAllTimeStatistics": {
+    "message": "Statistiques globales",
+    "description": "Section heading for all-time stats on the stats tab"
+  },
+  "optAllTimeStats": {
+    "message": "Statistiques globales",
+    "description": "Section heading for all-time stats on the stats tab (component key)"
+  },
+  "lblTotalFocusTime": {
+    "message": "Temps de concentration total",
+    "description": "Stats label for cumulative total focus time"
+  },
+  "optTotalFocusTime": {
+    "message": "Temps de concentration total",
+    "description": "Stats label for cumulative total focus time (component key)"
+  },
+  "lblTotalSessions": {
+    "message": "Total des sessions",
+    "description": "Stats label for cumulative total sessions"
+  },
+  "optTotalSessions": {
+    "message": "Total des sessions",
+    "description": "Stats label for cumulative total sessions (component key)"
+  },
+  "ttlStreaks": {
+    "message": "Séries",
+    "description": "Section heading for streak data on the stats tab"
+  },
+  "optStreaks": {
+    "message": "Séries",
+    "description": "Section heading for streak data on the stats tab (component key)"
+  },
+  "lblCurrentStreakDays": {
+    "message": "Série actuelle (jours)",
+    "description": "Stats label for the current consecutive day streak"
+  },
+  "optCurrentStreak": {
+    "message": "Série actuelle (jours)",
+    "description": "Stats label for the current consecutive day streak (component key)"
+  },
+  "lblLongestStreakDays": {
+    "message": "Plus longue série (jours)",
+    "description": "Stats label for the longest consecutive day streak"
+  },
+  "optLongestStreak": {
+    "message": "Plus longue série (jours)",
+    "description": "Stats label for the longest consecutive day streak (component key)"
+  },
+  "ttlRecentSessions": {
+    "message": "Sessions récentes",
+    "description": "Section heading for recent session list on the stats tab"
+  },
+  "optRecentSessions": {
+    "message": "Sessions récentes",
+    "description": "Section heading for recent session list on the stats tab (component key)"
+  },
+  "lblCurrentSession": {
+    "message": "Session en cours",
+    "description": "Label for the currently active session in the recent sessions list"
+  },
+  "optCurrentSession": {
+    "message": "Session en cours",
+    "description": "Label for the currently active session in the recent sessions list (component key)"
+  },
+  "msgSessionModeInProgress": {
+    "message": "Mode $MODE$ - en cours",
+    "description": "Subtitle for an active session showing its mode",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "pomodoro"
+      }
+    }
+  },
+  "optModeInProgress": {
+    "message": "mode - en cours",
+    "description": "Suffix text for active session mode display in options (component key)"
+  },
+  "stsActiveSession": {
+    "message": "Active",
+    "description": "Status badge for the currently running session"
+  },
+  "msgSessionModeDuration": {
+    "message": "Mode $MODE$ - $DURATION$ min",
+    "description": "Subtitle for a past session showing mode and duration",
+    "placeholders": {
+      "mode": {
+        "content": "$1",
+        "example": "pomodoro"
+      },
+      "duration": {
+        "content": "$2",
+        "example": "25"
+      }
+    }
+  },
+  "optModeDuration": {
+    "message": "mode - $DURATION$ min",
+    "description": "Suffix text for past session mode and duration display in options",
+    "placeholders": {
+      "duration": {
+        "content": "$1",
+        "example": "25"
+      }
+    }
+  },
+  "stsCompleted": {
+    "message": "Terminée",
+    "description": "Status badge for a session that completed successfully"
+  },
+  "stsStopped": {
+    "message": "Arrêtée",
+    "description": "Status badge for a session that was stopped early"
+  },
+  "msgNoSessionsRecorded": {
+    "message": "Aucune session enregistrée. Démarrez une session de concentration pour voir votre historique ici.",
+    "description": "Empty state text when no sessions have been recorded"
+  },
+  "optNoSessions": {
+    "message": "Aucune session enregistrée. Démarrez une session de concentration pour voir votre historique ici.",
+    "description": "Empty state text when no sessions have been recorded (component key)"
+  },
+  "ttlBlockedPage": {
+    "message": "Page bloquée",
+    "description": "Section heading for blocked page settings on the advanced tab"
+  },
+  "optBlockedPage": {
+    "message": "Page bloquée",
+    "description": "Section heading for blocked page settings on the advanced tab (component key)"
+  },
+  "optShowRemainingTime": {
+    "message": "Afficher le temps restant sur la page bloquée",
+    "description": "Checkbox label to show the countdown timer on the blocked site page"
+  },
+  "optShowMotivationalQuote": {
+    "message": "Afficher une citation motivante sur la page bloquée",
+    "description": "Checkbox label to show a random motivational quote on the blocked site page"
+  },
+  "optShowQuote": {
+    "message": "Afficher une citation motivante sur la page bloquée",
+    "description": "Checkbox label to show a random motivational quote on the blocked site page (component key)"
+  },
+  "optAllowEmergencyUnlock": {
+    "message": "Autoriser le déverrouillage d'urgence (avec temps de recharge)",
+    "description": "Checkbox label to allow users to perform an emergency unlock with a cooldown"
+  },
+  "lblEmergencyUnlockCooldown": {
+    "message": "Temps de recharge du déverrouillage d'urgence",
+    "description": "Label for the emergency unlock cooldown duration dropdown"
+  },
+  "optEmergencyCooldown": {
+    "message": "Temps de recharge du déverrouillage d'urgence",
+    "description": "Label for the emergency unlock cooldown duration dropdown (component key)"
+  },
+  "ttlPasswordProtection": {
+    "message": "Protection par mot de passe",
+    "description": "Section heading for password protection settings on the advanced tab"
+  },
+  "optPasswordProtection": {
+    "message": "Protection par mot de passe",
+    "description": "Section heading for password protection settings on the advanced tab (component key)"
+  },
+  "msgPasswordProtectionDesc": {
+    "message": "Exigez un mot de passe pour arrêter le mode concentration ou modifier les paramètres pendant une session.",
+    "description": "Description text for the password protection feature"
+  },
+  "optPasswordProtectionDesc": {
+    "message": "Exigez un mot de passe pour arrêter le mode concentration ou modifier les paramètres pendant une session.",
+    "description": "Description text for the password protection feature (component key)"
+  },
+  "msgPasswordOutdatedFormat": {
+    "message": "Votre mot de passe utilise un format obsolète. Veuillez le supprimer et en définir un nouveau.",
+    "description": "Warning when the stored password uses a legacy hash format"
+  },
+  "optPasswordOutdated": {
+    "message": "Votre mot de passe utilise un format obsolète. Veuillez le supprimer et en définir un nouveau.",
+    "description": "Warning when the stored password uses a legacy hash format (component key)"
+  },
+  "msgPasswordEnabled": {
+    "message": "La protection par mot de passe est activée.",
+    "description": "Confirmation text when password protection is currently active"
+  },
+  "optPasswordEnabled": {
+    "message": "La protection par mot de passe est activée.",
+    "description": "Confirmation text when password protection is currently active (component key)"
+  },
+  "lblNewPassword": {
+    "message": "Nouveau mot de passe",
+    "description": "Label for the new password input field"
+  },
+  "optNewPassword": {
+    "message": "Nouveau mot de passe",
+    "description": "Label for the new password input field (component key)"
+  },
+  "lblConfirmPassword": {
+    "message": "Confirmer le mot de passe",
+    "description": "Label for the confirm password input field"
+  },
+  "optConfirmPassword": {
+    "message": "Confirmer le mot de passe",
+    "description": "Label for the confirm password input field (component key)"
+  },
+  "plhConfirmPassword": {
+    "message": "Confirmer le mot de passe",
+    "description": "Placeholder for the confirm password input field"
+  },
+  "btnSetPassword": {
+    "message": "Définir le mot de passe",
+    "description": "Button to save a new password"
+  },
+  "btnRemovePassword": {
+    "message": "Supprimer le mot de passe",
+    "description": "Button to remove the current password protection"
+  },
+  "plhEnterCurrentPassword": {
+    "message": "Entrez le mot de passe actuel",
+    "description": "Placeholder for the current password input when removing password"
+  },
+  "errEnterCurrentPassword": {
+    "message": "Entrez votre mot de passe actuel",
+    "description": "Validation error when current password is not provided for removal"
+  },
+  "ttlAbout": {
+    "message": "À propos",
+    "description": "Section heading for the about section on the advanced tab"
+  },
+  "optAbout": {
+    "message": "À propos",
+    "description": "Section heading for the about section on the advanced tab (component key)"
+  },
+  "msgAboutDescription": {
+    "message": "Focus Mode Pro fait partie de la famille Zovo d'extensions Chrome axées sur la confidentialité.",
+    "description": "About section description text"
+  },
+  "optAboutDesc": {
+    "message": "Focus Mode Pro fait partie de la famille Zovo d'extensions Chrome axées sur la confidentialité.",
+    "description": "About section description text (component key)"
+  },
+  "lblVersion": {
+    "message": "Version :",
+    "description": "Label preceding the extension version number in the about section"
+  },
+  "optVersion": {
+    "message": "Version",
+    "description": "Label preceding the extension version number in the about section (component key)"
+  },
+  "lblKeyboardShortcut": {
+    "message": "Raccourci clavier :",
+    "description": "Label preceding the keyboard shortcut in the about section"
+  },
+  "optKeyboardShortcut": {
+    "message": "Raccourci clavier",
+    "description": "Label preceding the keyboard shortcut in the about section (component key)"
+  },
+  "lblKeyboardShortcutValue": {
+    "message": "Alt+Shift+F",
+    "description": "The keyboard shortcut keys shown in the about section"
+  },
+  "lblWebsite": {
+    "message": "Site web :",
+    "description": "Label preceding the website link in the about section"
+  },
+  "optWebsite": {
+    "message": "Site web",
+    "description": "Label preceding the website link in the about section (component key)"
+  },
+  "lblSupport": {
+    "message": "Support :",
+    "description": "Label preceding the support email in the about section"
+  },
+  "optSupport": {
+    "message": "Support",
+    "description": "Label for support link in the about section and welcome footer (component key)"
+  },
+  "lblSupportEmail": {
+    "message": "support@zovo.one",
+    "description": "Support email address displayed in the about and footer sections"
+  },
+  "ttlLicenseStatus": {
+    "message": "Statut de la licence",
+    "description": "Section heading for the license status on the account tab"
+  },
+  "optLicenseStatus": {
+    "message": "Statut de la licence",
+    "description": "Section heading for the license status on the account tab (component key)"
+  },
+  "lblProLifetimeActive": {
+    "message": "Pro (À vie) - Active",
+    "description": "License status text for active lifetime Pro users"
+  },
+  "optLifetime": {
+    "message": "(À vie)",
+    "description": "Lifetime tier label appended to Pro status (component key)"
+  },
+  "lblProTeamActive": {
+    "message": "Pro (Équipe) - Active",
+    "description": "License status text for active team Pro users"
+  },
+  "optTeam": {
+    "message": "(Équipe)",
+    "description": "Team tier label appended to Pro status (component key)"
+  },
+  "lblProActive": {
+    "message": "Pro - Active",
+    "description": "License status text for active Pro users (generic)"
+  },
+  "lblFreePlan": {
+    "message": "Plan gratuit",
+    "description": "License status text for users on the free plan"
+  },
+  "optFreePlan": {
+    "message": "Plan gratuit",
+    "description": "License status text for users on the free plan (component key)"
+  },
+  "msgLicensedTo": {
+    "message": "Licencié à : $EMAIL$",
+    "description": "Text showing the email associated with the license",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "optLicensedTo": {
+    "message": "Licencié à : $EMAIL$",
+    "description": "Text showing the email associated with the license (component key)",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "user@example.com"
+      }
+    }
+  },
+  "btnRemoveLicense": {
+    "message": "Supprimer la licence",
+    "description": "Button to remove/deactivate the current license"
+  },
+  "ttlActivateLicense": {
+    "message": "Activer la licence",
+    "description": "Section heading for license activation on the account tab"
+  },
+  "optActivateLicense": {
+    "message": "Activer la licence",
+    "description": "Section heading for license activation on the account tab (component key)"
+  },
+  "msgActivateLicenseDesc": {
+    "message": "Entrez votre clé de licence pour débloquer les fonctionnalités Pro.",
+    "description": "Description text for the license activation section"
+  },
+  "optActivateLicenseDesc": {
+    "message": "Entrez votre clé de licence pour débloquer les fonctionnalités Pro.",
+    "description": "Description text for the license activation section (component key)"
+  },
+  "btnActivate": {
+    "message": "Activer",
+    "description": "Button to submit the license key for activation"
+  },
+  "btnVerifying": {
+    "message": "Vérification...",
+    "description": "Button text shown while license key is being verified"
+  },
+  "optVerifying": {
+    "message": "Vérification...",
+    "description": "Button text shown while license key is being verified (component key)"
+  },
+  "msgLicenseActivated": {
+    "message": "Licence activée !",
+    "description": "Success message shown inline after license activation"
+  },
+  "plhLicenseKey": {
+    "message": "ZOVO-XXXX-XXXX-XXXX-XXXX",
+    "description": "Placeholder for the license key input field"
+  },
+  "errPleaseEnterLicenseKey": {
+    "message": "Veuillez entrer une clé de licence",
+    "description": "Validation error when the license key field is empty"
+  },
+  "errEnterLicenseKey": {
+    "message": "Veuillez entrer une clé de licence",
+    "description": "Validation error when the license key field is empty (component key)"
+  },
+  "msgLicenseActivatedSuccess": {
+    "message": "Licence activée avec succès !",
+    "description": "Success toast message after license activation"
+  },
+  "errFailedToVerifyLicense": {
+    "message": "Impossible de vérifier la clé de licence",
+    "description": "Error message when license verification fails"
+  },
+  "errFailedVerifyLicense": {
+    "message": "Impossible de vérifier la clé de licence",
+    "description": "Error message when license verification fails (component key)"
+  },
+  "errFailedToConnectLicense": {
+    "message": "Impossible de se connecter. Veuillez réessayer.",
+    "description": "Error message when the license server is unreachable"
+  },
+  "errFailedConnect": {
+    "message": "Impossible de se connecter. Veuillez réessayer.",
+    "description": "Error message when the license server is unreachable (component key)"
+  },
+  "msgLicenseRemoved": {
+    "message": "Licence supprimée",
+    "description": "Success toast message after license removal"
+  },
+  "errFailedToRemoveLicense": {
+    "message": "Impossible de supprimer la licence",
+    "description": "Error toast message when license removal fails"
+  },
+  "errFailedRemoveLicense": {
+    "message": "Impossible de supprimer la licence",
+    "description": "Error toast message when license removal fails (component key)"
+  },
+  "ttlProFeatures": {
+    "message": "Fonctionnalités Pro",
+    "description": "Section heading for the Pro features list on the account tab"
+  },
+  "optProFeatures": {
+    "message": "Fonctionnalités Pro",
+    "description": "Section heading for the Pro features list on the account tab (component key)"
+  },
+  "lblFeatureUnlimitedBlockRules": {
+    "message": "Règles de blocage personnalisées illimitées",
+    "description": "Pro feature: unlimited custom block rules"
+  },
+  "optFeatureUnlimitedRules": {
+    "message": "Règles de blocage personnalisées illimitées",
+    "description": "Pro feature: unlimited custom block rules (component key)"
+  },
+  "lblFeatureAdvancedRegex": {
+    "message": "Patterns regex avancés",
+    "description": "Pro feature: advanced regex pattern support"
+  },
+  "optFeatureRegex": {
+    "message": "Patterns regex avancés",
+    "description": "Pro feature: advanced regex pattern support (component key)"
+  },
+  "lblFeatureDetailedAnalytics": {
+    "message": "Analyses et rapports détaillés",
+    "description": "Pro feature: detailed analytics and reports"
+  },
+  "optFeatureAnalytics": {
+    "message": "Analyses et rapports détaillés",
+    "description": "Pro feature: detailed analytics and reports (component key)"
+  },
+  "lblFeatureScheduleMode": {
+    "message": "Mode horaire",
+    "description": "Pro feature: automatic schedule mode"
+  },
+  "optFeatureSchedule": {
+    "message": "Mode horaire",
+    "description": "Pro feature: automatic schedule mode (component key)"
+  },
+  "lblFeaturePasswordProtection": {
+    "message": "Protection par mot de passe",
+    "description": "Pro feature: password protection for focus sessions"
+  },
+  "optFeaturePassword": {
+    "message": "Protection par mot de passe",
+    "description": "Pro feature: password protection for focus sessions (component key)"
+  },
+  "lblFeaturePrioritySupport": {
+    "message": "Support prioritaire",
+    "description": "Pro feature: priority customer support"
+  },
+  "optFeaturePrioritySupport": {
+    "message": "Support prioritaire",
+    "description": "Pro feature: priority customer support (component key)"
+  },
+  "ttlBlockedPageHeading": {
+    "message": "Restez concentré",
+    "description": "Main heading on the blocked site page"
+  },
+  "msgSiteBlockedDuringFocus": {
+    "message": "Ce site est bloqué pendant votre session de concentration",
+    "description": "Subtitle on the blocked site page explaining why the site is blocked"
+  },
+  "blkSiteBlocked": {
+    "message": "Ce site est bloqué pendant votre session de concentration",
+    "description": "Subtitle on the blocked site page explaining why the site is blocked (component key)"
+  },
+  "msgRemainingInFocusSession": {
+    "message": "restant dans la session de concentration",
+    "description": "Timer label on the blocked page during a focus session"
+  },
+  "blkRemainingFocus": {
+    "message": "restant dans la session de concentration",
+    "description": "Timer label on the blocked page during a focus session (component key)"
+  },
+  "msgBreakTime": {
+    "message": "temps de pause",
+    "description": "Timer label on the blocked page during a break"
+  },
+  "blkBreakTime": {
+    "message": "temps de pause",
+    "description": "Timer label on the blocked page during a break (component key)"
+  },
+  "msgUntilYouStop": {
+    "message": "Jusqu'à l'arrêt",
+    "description": "Timer text on the blocked page for indefinite focus mode"
+  },
+  "blkUntilYouStop": {
+    "message": "Jusqu'à l'arrêt",
+    "description": "Timer text on the blocked page for indefinite focus mode (component key)"
+  },
+  "btnEmergencyUnlock": {
+    "message": "Besoin d'accès ? Déverrouillage d'urgence",
+    "description": "Link text for emergency unlock on the blocked page"
+  },
+  "blkEmergencyUnlock": {
+    "message": "Besoin d'accès ? Déverrouillage d'urgence",
+    "description": "Link text for emergency unlock on the blocked page (component key)"
+  },
+  "msgEmergencyUnlockConfirm": {
+    "message": "Êtes-vous sûr ? Cela mettra fin à votre session de concentration. Le déverrouillage d'urgence a un temps de recharge de $MINUTES$ minutes.",
+    "description": "Confirmation message before performing an emergency unlock",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "blkConfirmUnlock": {
+    "message": "Êtes-vous sûr ? Cela mettra fin à votre session de concentration. Le déverrouillage d'urgence a un temps de recharge de $MINUTES$ minutes.",
+    "description": "Confirmation message before performing an emergency unlock (component key)",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "btnYesUnlock": {
+    "message": "Oui, déverrouiller",
+    "description": "Button to confirm the emergency unlock action"
+  },
+  "msgEnterPasswordToUnlock": {
+    "message": "Entrez votre mot de passe pour déverrouiller cette page.",
+    "description": "Instruction in the blocked page password modal"
+  },
+  "blkEnterPasswordUnlock": {
+    "message": "Entrez votre mot de passe pour déverrouiller cette page.",
+    "description": "Instruction in the blocked page password modal (component key)"
+  },
+  "btnUnlock": {
+    "message": "Déverrouiller",
+    "description": "Button to submit password and unlock the blocked page"
+  },
+  "stsUnlockingRedirecting": {
+    "message": "Déverrouillage... Redirection...",
+    "description": "Status text shown while the blocked page is being unlocked and redirecting"
+  },
+  "blkUnlocking": {
+    "message": "Déverrouillage... Redirection...",
+    "description": "Status text shown while the blocked page is being unlocked and redirecting (component key)"
+  },
+  "errUnableToUnlock": {
+    "message": "Impossible de déverrouiller",
+    "description": "Fallback error when the emergency unlock fails without a specific reason"
+  },
+  "lblFocusModeProByZovo": {
+    "message": "Focus Mode Pro par Zovo",
+    "description": "Footer text on the blocked page linking to Zovo"
+  },
+  "ntfFocusSessionComplete": {
+    "message": "Session de concentration terminée !",
+    "description": "Notification title when a focus session finishes (background)"
+  },
+  "notifSessionComplete": {
+    "message": "Session de concentration terminée !",
+    "description": "Notification title when a focus session finishes (component key)"
+  },
+  "ntfGreatWorkTakeBreak": {
+    "message": "Excellent travail ! Prenez une pause $BREAK_TYPE$.",
+    "description": "Notification body when focus session finishes, suggesting a break type",
+    "placeholders": {
+      "break_type": {
+        "content": "$1",
+        "example": "short"
+      }
+    }
+  },
+  "notifTakeShortBreak": {
+    "message": "Excellent travail ! Prenez une courte pause.",
+    "description": "Notification body when focus session finishes suggesting a short break (component key)"
+  },
+  "notifTakeLongBreak": {
+    "message": "Excellent travail ! Prenez une longue pause.",
+    "description": "Notification body when focus session finishes suggesting a long break (component key)"
+  },
+  "ntfBreakOver": {
+    "message": "Pause terminée !",
+    "description": "Notification title when a break finishes (background)"
+  },
+  "notifBreakOver": {
+    "message": "Pause terminée !",
+    "description": "Notification title when a break finishes (component key)"
+  },
+  "ntfReadyToFocusAgain": {
+    "message": "Prêt à vous concentrer à nouveau ?",
+    "description": "Notification body when a break finishes (background)"
+  },
+  "notifReadyToFocus": {
+    "message": "Prêt à vous concentrer à nouveau ?",
+    "description": "Notification body when a break finishes (component key)"
+  },
+  "ntfTimeForQuickBreak": {
+    "message": "C'est l'heure d'une petite pause",
+    "description": "Notification title for periodic break reminders (background)"
+  },
+  "notifBreakReminder": {
+    "message": "C'est l'heure d'une petite pause",
+    "description": "Notification title for periodic break reminders (component key)"
+  },
+  "ntfStandUpStretch": {
+    "message": "Levez-vous, étirez-vous et reposez vos yeux un instant.",
+    "description": "Notification body for periodic break reminders (background)"
+  },
+  "notifBreakReminderMsg": {
+    "message": "Levez-vous, étirez-vous et reposez vos yeux un instant.",
+    "description": "Notification body for periodic break reminders (component key)"
+  },
+  "errEmergencyUnlockDisabled": {
+    "message": "Déverrouillage d'urgence désactivé",
+    "description": "Response reason when emergency unlock is not allowed in settings"
+  },
+  "errEmergencyDisabled": {
+    "message": "Déverrouillage d'urgence désactivé",
+    "description": "Response reason when emergency unlock is not allowed in settings (component key)"
+  },
+  "msgCooldownMinutesRemaining": {
+    "message": "Temps de recharge : $MINUTES$ minutes restantes",
+    "description": "Message shown when emergency unlock is on cooldown",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "errCooldownRemaining": {
+    "message": "Temps de recharge : $MINUTES$ minutes restantes",
+    "description": "Message shown when emergency unlock is on cooldown (component key)",
+    "placeholders": {
+      "minutes": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "msgWelcomeHeading": {
+    "message": "Focus Mode Pro est prêt",
+    "description": "Hero section heading on the welcome page"
+  },
+  "welReady": {
+    "message": "Focus Mode Pro est prêt",
+    "description": "Hero section heading on the welcome page (component key)"
+  },
+  "msgWelcomeSubheading": {
+    "message": "Bloquez les sites distrayants et restez productif grâce aux minuteries Pomodoro intégrées, au suivi des statistiques et plus encore.",
+    "description": "Hero section subtitle on the welcome page"
+  },
+  "welSubtitle": {
+    "message": "Bloquez les sites distrayants et restez productif grâce aux minuteries Pomodoro intégrées, au suivi des statistiques et plus encore.",
+    "description": "Hero section subtitle on the welcome page (component key)"
+  },
+  "btnGetStarted": {
+    "message": "Commencer",
+    "description": "Primary call-to-action button on the welcome page hero section"
+  },
+  "msgFeaturesHeading": {
+    "message": "Tout ce dont vous avez besoin pour rester concentré",
+    "description": "Features section heading on the welcome page"
+  },
+  "welFeaturesTitle": {
+    "message": "Tout ce dont vous avez besoin pour rester concentré",
+    "description": "Features section heading on the welcome page (component key)"
+  },
+  "msgFeaturesSubheading": {
+    "message": "Des outils puissants conçus pour éliminer les distractions et développer de meilleures habitudes.",
+    "description": "Features section subtitle on the welcome page"
+  },
+  "welFeaturesSubtitle": {
+    "message": "Des outils puissants conçus pour éliminer les distractions et développer de meilleures habitudes.",
+    "description": "Features section subtitle on the welcome page (component key)"
+  },
+  "ttlFeatureSmartBlocking": {
+    "message": "Blocage intelligent",
+    "description": "Feature card title for the smart blocking feature on the welcome page"
+  },
+  "welFeatureBlocking": {
+    "message": "Blocage intelligent",
+    "description": "Feature card title for the smart blocking feature on the welcome page (component key)"
+  },
+  "msgFeatureSmartBlockingDesc": {
+    "message": "Bloquez n'importe quel site avec des patterns, des catégories ou des regex. Mettez vos sites de travail en liste blanche pour y garder accès.",
+    "description": "Feature card description for smart blocking on the welcome page"
+  },
+  "welFeatureBlockingDesc": {
+    "message": "Bloquez n'importe quel site avec des patterns, des catégories ou des regex. Mettez vos sites de travail en liste blanche pour y garder accès.",
+    "description": "Feature card description for smart blocking on the welcome page (component key)"
+  },
+  "ttlFeaturePomodoroTimer": {
+    "message": "Minuterie Pomodoro",
+    "description": "Feature card title for the Pomodoro timer feature on the welcome page"
+  },
+  "welFeaturePomodoro": {
+    "message": "Minuterie Pomodoro",
+    "description": "Feature card title for the Pomodoro timer feature on the welcome page (component key)"
+  },
+  "msgFeaturePomodoroTimerDesc": {
+    "message": "Travaillez par intervalles de 25 minutes avec des pauses automatiques. Personnalisez les durées selon votre rythme.",
+    "description": "Feature card description for Pomodoro timer on the welcome page"
+  },
+  "welFeaturePomodoroDesc": {
+    "message": "Travaillez par intervalles de 25 minutes avec des pauses automatiques. Personnalisez les durées selon votre rythme.",
+    "description": "Feature card description for Pomodoro timer on the welcome page (component key)"
+  },
+  "ttlFeatureTrackProgress": {
+    "message": "Suivez vos progrès",
+    "description": "Feature card title for the progress tracking feature on the welcome page"
+  },
+  "welFeatureProgress": {
+    "message": "Suivez vos progrès",
+    "description": "Feature card title for the progress tracking feature on the welcome page (component key)"
+  },
+  "msgFeatureTrackProgressDesc": {
+    "message": "Suivez votre temps de concentration, les sessions terminées, les sites bloqués et construisez des séries productives.",
+    "description": "Feature card description for progress tracking on the welcome page"
+  },
+  "welFeatureProgressDesc": {
+    "message": "Suivez votre temps de concentration, les sessions terminées, les sites bloqués et construisez des séries productives.",
+    "description": "Feature card description for progress tracking on the welcome page (component key)"
+  },
+  "msgHowItWorksHeading": {
+    "message": "Comment ça fonctionne",
+    "description": "How it works section heading on the welcome page"
+  },
+  "welHowTitle": {
+    "message": "Comment ça fonctionne",
+    "description": "How it works section heading on the welcome page (component key)"
+  },
+  "msgHowItWorksSubheading": {
+    "message": "Soyez opérationnel en quelques secondes. Aucune configuration complexe requise.",
+    "description": "How it works section subtitle on the welcome page"
+  },
+  "welHowSubtitle": {
+    "message": "Soyez opérationnel en quelques secondes. Aucune configuration complexe requise.",
+    "description": "How it works section subtitle on the welcome page (component key)"
+  },
+  "ttlStep1": {
+    "message": "Cliquez sur l'icône",
+    "description": "Step 1 title in the how-it-works section on the welcome page"
+  },
+  "welStep1Title": {
+    "message": "Cliquez sur l'icône",
+    "description": "Step 1 title in the how-it-works section on the welcome page (component key)"
+  },
+  "msgStep1Desc": {
+    "message": "Cliquez sur l'icône Focus Mode Pro dans votre barre d'outils pour ouvrir la fenêtre popup.",
+    "description": "Step 1 description in the how-it-works section"
+  },
+  "welStep1Desc": {
+    "message": "Cliquez sur l'icône Focus Mode Pro dans votre barre d'outils pour ouvrir la fenêtre popup.",
+    "description": "Step 1 description in the how-it-works section (component key)"
+  },
+  "ttlStep2": {
+    "message": "Choisissez votre mode",
+    "description": "Step 2 title in the how-it-works section on the welcome page"
+  },
+  "welStep2Title": {
+    "message": "Choisissez votre mode",
+    "description": "Step 2 title in the how-it-works section on the welcome page (component key)"
+  },
+  "msgStep2Desc": {
+    "message": "Sélectionnez Pomodoro, minuterie personnalisée ou mode concentration indéfini.",
+    "description": "Step 2 description in the how-it-works section"
+  },
+  "welStep2Desc": {
+    "message": "Sélectionnez Pomodoro, minuterie personnalisée ou mode concentration indéfini.",
+    "description": "Step 2 description in the how-it-works section (component key)"
+  },
+  "ttlStep3": {
+    "message": "Commencez à vous concentrer",
+    "description": "Step 3 title in the how-it-works section on the welcome page"
+  },
+  "welStep3Title": {
+    "message": "Commencez à vous concentrer",
+    "description": "Step 3 title in the how-it-works section on the welcome page (component key)"
+  },
+  "msgStep3Desc": {
+    "message": "Appuyez sur Démarrer la concentration et les sites distrayants seront bloqués automatiquement.",
+    "description": "Step 3 description in the how-it-works section"
+  },
+  "welStep3Desc": {
+    "message": "Appuyez sur Démarrer la concentration et les sites distrayants seront bloqués automatiquement.",
+    "description": "Step 3 description in the how-it-works section (component key)"
+  },
+  "ttlKeyboardShortcuts": {
+    "message": "Raccourcis clavier",
+    "description": "Section heading for keyboard shortcuts on the welcome page"
+  },
+  "welKeyboardShortcuts": {
+    "message": "Raccourcis clavier",
+    "description": "Section heading for keyboard shortcuts on the welcome page (component key)"
+  },
+  "lblKeyAlt": {
+    "message": "Alt",
+    "description": "Keyboard key label for Alt"
+  },
+  "lblKeyShift": {
+    "message": "Shift",
+    "description": "Keyboard key label for Shift"
+  },
+  "lblKeyF": {
+    "message": "F",
+    "description": "Keyboard key label for F"
+  },
+  "msgToggleFocusFromAnyTab": {
+    "message": "Activer ou désactiver le mode concentration depuis n'importe quel onglet",
+    "description": "Description of what the keyboard shortcut does on the welcome page"
+  },
+  "welShortcutDesc": {
+    "message": "Activer ou désactiver le mode concentration depuis n'importe quel onglet",
+    "description": "Description of what the keyboard shortcut does on the welcome page (component key)"
+  },
+  "ttlPrivacyMatters": {
+    "message": "Votre vie privée compte",
+    "description": "Privacy section heading on the welcome page"
+  },
+  "welPrivacyTitle": {
+    "message": "Votre vie privée compte",
+    "description": "Privacy section heading on the welcome page (component key)"
+  },
+  "msgPrivacyDescription": {
+    "message": "Focus Mode Pro fonctionne principalement sur votre appareil. Aucune donnée de navigation n'est collectée ni envoyée à des serveurs externes. La vérification de licence facultative se connecte à l'API Zovo uniquement lors de l'activation d'une licence Pro.",
+    "description": "Privacy description text on the welcome page"
+  },
+  "welPrivacyDesc": {
+    "message": "Focus Mode Pro fonctionne principalement sur votre appareil. Aucune donnée de navigation n'est collectée ni envoyée à des serveurs externes. La vérification de licence facultative se connecte à l'API Zovo uniquement lors de l'activation d'une licence Pro.",
+    "description": "Privacy description text on the welcome page (component key)"
+  },
+  "msgPrivacyFirstByDesign": {
+    "message": "Confidentialité avant tout",
+    "description": "Privacy badge text on the welcome page"
+  },
+  "welPrivacyFirst": {
+    "message": "Confidentialité avant tout",
+    "description": "Privacy badge text on the welcome page (component key)"
+  },
+  "ttlReadyToFocus": {
+    "message": "Prêt à vous concentrer ?",
+    "description": "Final CTA section heading on the welcome page"
+  },
+  "welCtaTitle": {
+    "message": "Prêt à vous concentrer ?",
+    "description": "Final CTA section heading on the welcome page (component key)"
+  },
+  "msgReadyToFocusSubheading": {
+    "message": "Votre parcours de productivité commence maintenant. Bloquez les distractions et développez de meilleures habitudes.",
+    "description": "Final CTA section subtitle on the welcome page"
+  },
+  "welCtaDesc": {
+    "message": "Votre parcours de productivité commence maintenant. Bloquez les distractions et développez de meilleures habitudes.",
+    "description": "Final CTA section subtitle on the welcome page (component key)"
+  },
+  "btnStartUsingFocusModePro": {
+    "message": "Commencer à utiliser Focus Mode Pro",
+    "description": "Button to dismiss the welcome page and start using the extension"
+  },
+  "welStartUsing": {
+    "message": "Commencer à utiliser Focus Mode Pro",
+    "description": "Button to dismiss the welcome page and start using the extension (component key)"
+  },
+  "msgWelcomeFooterVersion": {
+    "message": "Focus Mode Pro v$VERSION$",
+    "description": "Version text in the footer of the welcome page and dashboard",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "btnSupportLink": {
+    "message": "Support",
+    "description": "Footer link text for support email"
+  },
+  "btnPrivacyPolicy": {
+    "message": "Politique de confidentialité",
+    "description": "Footer link text for the privacy policy"
+  },
+  "welPrivacyPolicy": {
+    "message": "Politique de confidentialité",
+    "description": "Footer link text for the privacy policy on the welcome page (component key)"
+  },
+  "ttlHelpGettingStarted": {
+    "message": "Pour commencer",
+    "description": "Help page section title: Getting Started"
+  },
+  "helpGettingStarted": {
+    "message": "Pour commencer",
+    "description": "Help page section title: Getting Started (component key)"
+  },
+  "tipGettingStarted1": {
+    "message": "Cliquez sur l'icône Focus Mode Pro dans votre barre d'outils pour ouvrir la fenêtre popup",
+    "description": "Getting started tip 1 on the help page"
+  },
+  "helpGS1": {
+    "message": "Cliquez sur l'icône Focus Mode Pro dans votre barre d'outils pour ouvrir la fenêtre popup",
+    "description": "Getting started tip 1 on the help page (component key)"
+  },
+  "tipGettingStarted2": {
+    "message": "Choisissez un mode de minuterie : Pomodoro (intervalles avec pauses), Personnalisé (votre propre durée) ou Indéfini (jusqu'à l'arrêt)",
+    "description": "Getting started tip 2 on the help page"
+  },
+  "helpGS2": {
+    "message": "Choisissez un mode de minuterie : Pomodoro (intervalles avec pauses), Personnalisé (votre propre durée) ou Indéfini (jusqu'à l'arrêt)",
+    "description": "Getting started tip 2 on the help page (component key)"
+  },
+  "tipGettingStarted3": {
+    "message": "Appuyez sur « Démarrer la concentration » et tous les sites de votre liste de blocage seront redirigés vers une page de blocage motivante",
+    "description": "Getting started tip 3 on the help page"
+  },
+  "helpGS3": {
+    "message": "Appuyez sur « Démarrer la concentration » et tous les sites de votre liste de blocage seront redirigés vers une page de blocage motivante",
+    "description": "Getting started tip 3 on the help page (component key)"
+  },
+  "tipGettingStarted4": {
+    "message": "La progression de votre session apparaît sous forme de badge sur l'icône de l'extension",
+    "description": "Getting started tip 4 on the help page"
+  },
+  "helpGS4": {
+    "message": "La progression de votre session apparaît sous forme de badge sur l'icône de l'extension",
+    "description": "Getting started tip 4 on the help page (component key)"
+  },
+  "ttlHelpBlockingWebsites": {
+    "message": "Blocage de sites web",
+    "description": "Help page section title: Blocking Websites"
+  },
+  "helpBlockingWebsites": {
+    "message": "Blocage de sites web",
+    "description": "Help page section title: Blocking Websites (component key)"
+  },
+  "tipBlocking1": {
+    "message": "Allez dans Paramètres > Blocage pour gérer vos sites bloqués",
+    "description": "Blocking websites tip 1 on the help page"
+  },
+  "helpBW1": {
+    "message": "Allez dans Paramètres > Blocage pour gérer vos sites bloqués",
+    "description": "Blocking websites tip 1 on the help page (component key)"
+  },
+  "tipBlocking2": {
+    "message": "Activez les catégories prédéfinies (Réseaux sociaux, Actualités, Divertissement, Shopping, Jeux) pour une configuration rapide",
+    "description": "Blocking websites tip 2 on the help page"
+  },
+  "helpBW2": {
+    "message": "Activez les catégories prédéfinies (Réseaux sociaux, Actualités, Divertissement, Shopping, Jeux) pour une configuration rapide",
+    "description": "Blocking websites tip 2 on the help page (component key)"
+  },
+  "tipBlocking3": {
+    "message": "Ajoutez des sites personnalisés avec des patterns de domaine comme « facebook.com » ou des jokers comme « *.reddit.com »",
+    "description": "Blocking websites tip 3 on the help page"
+  },
+  "helpBW3": {
+    "message": "Ajoutez des sites personnalisés avec des patterns de domaine comme « facebook.com » ou des jokers comme « *.reddit.com »",
+    "description": "Blocking websites tip 3 on the help page (component key)"
+  },
+  "tipBlocking4": {
+    "message": "Utilisez la liste blanche pour garder les sites importants (Google Docs, GitHub, etc.) toujours accessibles",
+    "description": "Blocking websites tip 4 on the help page"
+  },
+  "helpBW4": {
+    "message": "Utilisez la liste blanche pour garder les sites importants (Google Docs, GitHub, etc.) toujours accessibles",
+    "description": "Blocking websites tip 4 on the help page (component key)"
+  },
+  "tipBlocking5": {
+    "message": "Activez le mode Regex pour le filtrage avancé par pattern sur les entrées personnalisées",
+    "description": "Blocking websites tip 5 on the help page"
+  },
+  "helpBW5": {
+    "message": "Activez le mode Regex pour le filtrage avancé par pattern sur les entrées personnalisées",
+    "description": "Blocking websites tip 5 on the help page (component key)"
+  },
+  "ttlHelpPomodoroTechnique": {
+    "message": "La technique Pomodoro",
+    "description": "Help page section title: The Pomodoro Technique"
+  },
+  "helpPomodoro": {
+    "message": "La technique Pomodoro",
+    "description": "Help page section title: The Pomodoro Technique (component key)"
+  },
+  "tipPomodoro1": {
+    "message": "Travaillez par intervalles de 25 minutes, puis prenez une pause de 5 minutes",
+    "description": "Pomodoro technique tip 1 on the help page"
+  },
+  "helpPom1": {
+    "message": "Travaillez par intervalles de 25 minutes, puis prenez une pause de 5 minutes",
+    "description": "Pomodoro technique tip 1 on the help page (component key)"
+  },
+  "tipPomodoro2": {
+    "message": "Après 4 sessions, offrez-vous une pause plus longue de 15 minutes",
+    "description": "Pomodoro technique tip 2 on the help page"
+  },
+  "helpPom2": {
+    "message": "Après 4 sessions, offrez-vous une pause plus longue de 15 minutes",
+    "description": "Pomodoro technique tip 2 on the help page (component key)"
+  },
+  "tipPomodoro3": {
+    "message": "Ce rythme prévient l'épuisement tout en maintenant une concentration profonde",
+    "description": "Pomodoro technique tip 3 on the help page"
+  },
+  "helpPom3": {
+    "message": "Ce rythme prévient l'épuisement tout en maintenant une concentration profonde",
+    "description": "Pomodoro technique tip 3 on the help page (component key)"
+  },
+  "tipPomodoro4": {
+    "message": "Personnalisez toutes les durées dans Paramètres > Général > Minuterie Pomodoro",
+    "description": "Pomodoro technique tip 4 on the help page"
+  },
+  "helpPom4": {
+    "message": "Personnalisez toutes les durées dans Paramètres > Général > Minuterie Pomodoro",
+    "description": "Pomodoro technique tip 4 on the help page (component key)"
+  },
+  "tipPomodoro5": {
+    "message": "Activez « Démarrage automatique des pauses » et « Démarrage automatique de la concentration » pour un flux de travail sans intervention",
+    "description": "Pomodoro technique tip 5 on the help page"
+  },
+  "helpPom5": {
+    "message": "Activez « Démarrage automatique des pauses » et « Démarrage automatique de la concentration » pour un flux de travail sans intervention",
+    "description": "Pomodoro technique tip 5 on the help page (component key)"
+  },
+  "ttlHelpKeyboardShortcuts": {
+    "message": "Raccourcis clavier",
+    "description": "Help page section title: Keyboard Shortcuts"
+  },
+  "helpKeyboardShortcuts": {
+    "message": "Raccourcis clavier",
+    "description": "Help page section title: Keyboard Shortcuts (component key)"
+  },
+  "tipKeyboard1": {
+    "message": "Appuyez sur Alt+Shift+F pour activer instantanément le mode concentration depuis n'importe quel onglet",
+    "description": "Keyboard shortcuts tip 1 on the help page"
+  },
+  "helpKB1": {
+    "message": "Appuyez sur Alt+Shift+F pour activer instantanément le mode concentration depuis n'importe quel onglet",
+    "description": "Keyboard shortcuts tip 1 on the help page (component key)"
+  },
+  "tipKeyboard2": {
+    "message": "Pas besoin d'ouvrir la fenêtre popup. Idéal pour passer rapidement en mode concentration",
+    "description": "Keyboard shortcuts tip 2 on the help page"
+  },
+  "helpKB2": {
+    "message": "Pas besoin d'ouvrir la fenêtre popup. Idéal pour passer rapidement en mode concentration",
+    "description": "Keyboard shortcuts tip 2 on the help page (component key)"
+  },
+  "tipKeyboard3": {
+    "message": "Fonctionne même lorsque vous êtes sur un autre site web ou onglet",
+    "description": "Keyboard shortcuts tip 3 on the help page"
+  },
+  "helpKB3": {
+    "message": "Fonctionne même lorsque vous êtes sur un autre site web ou onglet",
+    "description": "Keyboard shortcuts tip 3 on the help page (component key)"
+  },
+  "ttlHelpScheduleMode": {
+    "message": "Mode horaire",
+    "description": "Help page section title: Schedule Mode"
+  },
+  "helpScheduleMode": {
+    "message": "Mode horaire",
+    "description": "Help page section title: Schedule Mode (component key)"
+  },
+  "tipSchedule1": {
+    "message": "Configurez des heures de concentration automatiques dans Paramètres > Horaire",
+    "description": "Schedule mode tip 1 on the help page"
+  },
+  "helpSM1": {
+    "message": "Configurez des heures de concentration automatiques dans Paramètres > Horaire",
+    "description": "Schedule mode tip 1 on the help page (component key)"
+  },
+  "tipSchedule2": {
+    "message": "Choisissez les jours de la semaine à activer (du lundi au vendredi par défaut)",
+    "description": "Schedule mode tip 2 on the help page"
+  },
+  "helpSM2": {
+    "message": "Choisissez les jours de la semaine à activer (du lundi au vendredi par défaut)",
+    "description": "Schedule mode tip 2 on the help page (component key)"
+  },
+  "tipSchedule3": {
+    "message": "Définissez vos heures de début et de fin préférées pour le travail concentré",
+    "description": "Schedule mode tip 3 on the help page"
+  },
+  "helpSM3": {
+    "message": "Définissez vos heures de début et de fin préférées pour le travail concentré",
+    "description": "Schedule mode tip 3 on the help page (component key)"
+  },
+  "tipSchedule4": {
+    "message": "L'extension gère le démarrage et l'arrêt automatiquement. Aucune intervention manuelle nécessaire",
+    "description": "Schedule mode tip 4 on the help page"
+  },
+  "helpSM4": {
+    "message": "L'extension gère le démarrage et l'arrêt automatiquement. Aucune intervention manuelle nécessaire",
+    "description": "Schedule mode tip 4 on the help page (component key)"
+  },
+  "tipSchedule5": {
+    "message": "Idéal pour établir une routine de travail régulière",
+    "description": "Schedule mode tip 5 on the help page"
+  },
+  "helpSM5": {
+    "message": "Idéal pour établir une routine de travail régulière",
+    "description": "Schedule mode tip 5 on the help page (component key)"
+  },
+  "ttlHelpPasswordProtection": {
+    "message": "Protection par mot de passe",
+    "description": "Help page section title: Password Protection"
+  },
+  "helpPasswordProtection": {
+    "message": "Protection par mot de passe",
+    "description": "Help page section title: Password Protection (component key)"
+  },
+  "tipPassword1": {
+    "message": "Verrouillez votre session de concentration pour ne pas pouvoir abandonner facilement",
+    "description": "Password protection tip 1 on the help page"
+  },
+  "helpPP1": {
+    "message": "Verrouillez votre session de concentration pour ne pas pouvoir abandonner facilement",
+    "description": "Password protection tip 1 on the help page (component key)"
+  },
+  "tipPassword2": {
+    "message": "Définissez un mot de passe dans Paramètres > Avancé > Protection par mot de passe",
+    "description": "Password protection tip 2 on the help page"
+  },
+  "helpPP2": {
+    "message": "Définissez un mot de passe dans Paramètres > Avancé > Protection par mot de passe",
+    "description": "Password protection tip 2 on the help page (component key)"
+  },
+  "tipPassword3": {
+    "message": "Une fois défini, arrêter ou mettre en pause nécessite la saisie de votre mot de passe",
+    "description": "Password protection tip 3 on the help page"
+  },
+  "helpPP3": {
+    "message": "Une fois défini, arrêter ou mettre en pause nécessite la saisie de votre mot de passe",
+    "description": "Password protection tip 3 on the help page (component key)"
+  },
+  "tipPassword4": {
+    "message": "Rend beaucoup plus difficile de céder à la tentation de consulter les sites bloqués",
+    "description": "Password protection tip 4 on the help page"
+  },
+  "helpPP4": {
+    "message": "Rend beaucoup plus difficile de céder à la tentation de consulter les sites bloqués",
+    "description": "Password protection tip 4 on the help page (component key)"
+  },
+  "tipPassword5": {
+    "message": "Le déverrouillage d'urgence reste disponible avec un temps de recharge pour les besoins réels",
+    "description": "Password protection tip 5 on the help page"
+  },
+  "helpPP5": {
+    "message": "Le déverrouillage d'urgence reste disponible avec un temps de recharge pour les besoins réels",
+    "description": "Password protection tip 5 on the help page (component key)"
+  },
+  "ttlHelpBuildingBetterHabits": {
+    "message": "Développer de meilleures habitudes",
+    "description": "Help page section title: Building Better Habits"
+  },
+  "helpBuildingHabits": {
+    "message": "Développer de meilleures habitudes",
+    "description": "Help page section title: Building Better Habits (component key)"
+  },
+  "tipHabits1": {
+    "message": "Commencez petit avec des sessions de 25 minutes avant d'essayer des durées plus longues",
+    "description": "Building better habits tip 1 on the help page"
+  },
+  "helpBH1": {
+    "message": "Commencez petit avec des sessions de 25 minutes avant d'essayer des durées plus longues",
+    "description": "Building better habits tip 1 on the help page (component key)"
+  },
+  "tipHabits2": {
+    "message": "Bloquez d'abord vos plus grandes pertes de temps. Les réseaux sociaux et les actualités sont des coupables fréquents",
+    "description": "Building better habits tip 2 on the help page"
+  },
+  "helpBH2": {
+    "message": "Bloquez d'abord vos plus grandes pertes de temps. Les réseaux sociaux et les actualités sont des coupables fréquents",
+    "description": "Building better habits tip 2 on the help page (component key)"
+  },
+  "tipHabits3": {
+    "message": "Consultez régulièrement votre onglet Statistiques pour suivre votre progression au fil du temps",
+    "description": "Building better habits tip 3 on the help page"
+  },
+  "helpBH3": {
+    "message": "Consultez régulièrement votre onglet Statistiques pour suivre votre progression au fil du temps",
+    "description": "Building better habits tip 3 on the help page (component key)"
+  },
+  "tipHabits4": {
+    "message": "Construisez une série quotidienne. Des jours consécutifs de concentration créent de l'élan et de la discipline",
+    "description": "Building better habits tip 4 on the help page"
+  },
+  "helpBH4": {
+    "message": "Construisez une série quotidienne. Des jours consécutifs de concentration créent de l'élan et de la discipline",
+    "description": "Building better habits tip 4 on the help page (component key)"
+  },
+  "tipHabits5": {
+    "message": "La page de blocage affiche des citations motivantes pour vous inspirer",
+    "description": "Building better habits tip 5 on the help page"
+  },
+  "helpBH5": {
+    "message": "La page de blocage affiche des citations motivantes pour vous inspirer",
+    "description": "Building better habits tip 5 on the help page (component key)"
+  },
+  "tipHabits6": {
+    "message": "Célébrez les jalons. Même une série de 3 jours est un accomplissement qui mérite d'être reconnu",
+    "description": "Building better habits tip 6 on the help page"
+  },
+  "helpBH6": {
+    "message": "Célébrez les jalons. Même une série de 3 jours est un accomplissement qui mérite d'être reconnu",
+    "description": "Building better habits tip 6 on the help page (component key)"
+  },
+  "ttlHelpTroubleshooting": {
+    "message": "Dépannage",
+    "description": "Help page section title: Troubleshooting"
+  },
+  "helpTroubleshooting": {
+    "message": "Dépannage",
+    "description": "Help page section title: Troubleshooting (component key)"
+  },
+  "tipTroubleshoot1": {
+    "message": "Un site n'est pas bloqué ? Assurez-vous que le mode concentration est actif ET que le site figure dans votre liste de blocage ou une catégorie activée",
+    "description": "Troubleshooting tip 1 on the help page"
+  },
+  "helpTS1": {
+    "message": "Un site n'est pas bloqué ? Assurez-vous que le mode concentration est actif ET que le site figure dans votre liste de blocage ou une catégorie activée",
+    "description": "Troubleshooting tip 1 on the help page (component key)"
+  },
+  "tipTroubleshoot2": {
+    "message": "Un site bloqué qui ne devrait pas l'être ? Ajoutez-le à la liste blanche dans Paramètres > Blocage",
+    "description": "Troubleshooting tip 2 on the help page"
+  },
+  "helpTS2": {
+    "message": "Un site bloqué qui ne devrait pas l'être ? Ajoutez-le à la liste blanche dans Paramètres > Blocage",
+    "description": "Troubleshooting tip 2 on the help page (component key)"
+  },
+  "tipTroubleshoot3": {
+    "message": "La minuterie semble décalée après un redémarrage de Chrome ? L'extension restaure automatiquement l'état de votre session",
+    "description": "Troubleshooting tip 3 on the help page"
+  },
+  "helpTS3": {
+    "message": "La minuterie semble décalée après un redémarrage de Chrome ? L'extension restaure automatiquement l'état de votre session",
+    "description": "Troubleshooting tip 3 on the help page (component key)"
+  },
+  "tipTroubleshoot4": {
+    "message": "Vous voulez repartir de zéro ? Effacez les données de l'extension depuis chrome://extensions pour tout réinitialiser",
+    "description": "Troubleshooting tip 4 on the help page"
+  },
+  "helpTS4": {
+    "message": "Vous voulez repartir de zéro ? Effacez les données de l'extension depuis chrome://extensions pour tout réinitialiser",
+    "description": "Troubleshooting tip 4 on the help page (component key)"
+  },
+  "tipTroubleshoot5": {
+    "message": "Besoin d'aide ? Contactez-nous à support@zovo.one",
+    "description": "Troubleshooting tip 5 on the help page"
+  },
+  "helpTS5": {
+    "message": "Besoin d'aide ? Contactez-nous à support@zovo.one",
+    "description": "Troubleshooting tip 5 on the help page (component key)"
+  },
+  "msgHelpIntro": {
+    "message": "Bienvenue dans Focus Mode Pro ! Vous trouverez ici tout ce dont vous avez besoin pour tirer le meilleur parti de vos sessions de concentration. Que vous débutiez ou cherchiez des conseils avancés, ce guide est fait pour vous.",
+    "description": "Introduction paragraph on the help page"
+  },
+  "helpIntro": {
+    "message": "Bienvenue dans Focus Mode Pro ! Vous trouverez ici tout ce dont vous avez besoin pour tirer le meilleur parti de vos sessions de concentration. Que vous débutiez ou cherchiez des conseils avancés, ce guide est fait pour vous.",
+    "description": "Introduction paragraph on the help page (component key)"
+  },
+  "btnBackToSettings": {
+    "message": "Retour aux paramètres",
+    "description": "Button to navigate back from the help page to settings"
+  },
+  "lblHelpFooter": {
+    "message": "Focus Mode Pro par",
+    "description": "Footer text on the help page preceding the Zovo link"
+  },
+  "ttlUpgradeHeading": {
+    "message": "Libérez toute la puissance de Focus Mode Pro",
+    "description": "Hero subtitle on the upgrade page"
+  },
+  "upgUnlockPower": {
+    "message": "Libérez toute la puissance de Focus Mode Pro",
+    "description": "Hero subtitle on the upgrade page (component key)"
+  },
+  "lblUpgradeProBadge": {
+    "message": "Pro",
+    "description": "Badge text next to the heading on the upgrade page"
+  },
+  "ttlFreeVsPro": {
+    "message": "Gratuit vs Pro",
+    "description": "Section heading for the comparison table on the upgrade page"
+  },
+  "upgFreeVsPro": {
+    "message": "Gratuit vs Pro",
+    "description": "Section heading for the comparison table on the upgrade page (component key)"
+  },
+  "msgFreeVsProSubheading": {
+    "message": "Découvrez ce que vous obtenez en passant à Pro.",
+    "description": "Subtitle for the comparison table section on the upgrade page"
+  },
+  "upgSeeWhatYouGet": {
+    "message": "Découvrez ce que vous obtenez en passant à Pro.",
+    "description": "Subtitle for the comparison table section on the upgrade page (component key)"
+  },
+  "lblCompFeature": {
+    "message": "Fonctionnalité",
+    "description": "Table header for the feature name column in the comparison table"
+  },
+  "upgFeature": {
+    "message": "Fonctionnalité",
+    "description": "Table header for the feature name column in the comparison table (component key)"
+  },
+  "lblCompFree": {
+    "message": "Gratuit",
+    "description": "Table header for the Free tier column in the comparison table"
+  },
+  "upgFree": {
+    "message": "Gratuit",
+    "description": "Table header for the Free tier column in the comparison table (component key)"
+  },
+  "lblCompPro": {
+    "message": "Pro",
+    "description": "Table header for the Pro tier column in the comparison table"
+  },
+  "lblCompUnlimited": {
+    "message": "Illimité",
+    "description": "Cell text in the Pro column indicating unlimited access"
+  },
+  "upgUnlimited": {
+    "message": "Illimité",
+    "description": "Cell text in the Pro column indicating unlimited access (component key)"
+  },
+  "lblCompLimited": {
+    "message": "Limité",
+    "description": "Fallback cell text in the Free column when a specific limit is not defined"
+  },
+  "upgLimited": {
+    "message": "Limité",
+    "description": "Fallback cell text in the Free column when a specific limit is not defined (component key)"
+  },
+  "lblCompFocusSessionsPerDay": {
+    "message": "Sessions de concentration par jour",
+    "description": "Comparison table row: focus sessions per day"
+  },
+  "upgFeatSessions": {
+    "message": "Sessions de concentration par jour",
+    "description": "Comparison table row: focus sessions per day (component key)"
+  },
+  "lblCompPomodoroTimer": {
+    "message": "Minuterie Pomodoro",
+    "description": "Comparison table row: Pomodoro timer feature"
+  },
+  "upgFeatPomodoro": {
+    "message": "Minuterie Pomodoro",
+    "description": "Comparison table row: Pomodoro timer feature (component key)"
+  },
+  "lblCompCustomTimer": {
+    "message": "Minuterie personnalisée",
+    "description": "Comparison table row: custom timer feature"
+  },
+  "upgFeatCustomTimer": {
+    "message": "Minuterie personnalisée",
+    "description": "Comparison table row: custom timer feature (component key)"
+  },
+  "lblCompCategoryBlockingPresets": {
+    "message": "Catégories de blocage prédéfinies",
+    "description": "Comparison table row: category blocking presets"
+  },
+  "upgFeatCategoryPresets": {
+    "message": "Catégories de blocage prédéfinies",
+    "description": "Comparison table row: category blocking presets (component key)"
+  },
+  "lblCompCustomBlockRules": {
+    "message": "Règles de blocage personnalisées",
+    "description": "Comparison table row: custom block rules"
+  },
+  "upgFeatCustomRules": {
+    "message": "Règles de blocage personnalisées",
+    "description": "Comparison table row: custom block rules (component key)"
+  },
+  "lblCompRegexBlockPatterns": {
+    "message": "Patterns de blocage regex",
+    "description": "Comparison table row: regex block patterns"
+  },
+  "upgFeatRegex": {
+    "message": "Patterns de blocage regex",
+    "description": "Comparison table row: regex block patterns (component key)"
+  },
+  "lblCompWhitelistRules": {
+    "message": "Règles de liste blanche",
+    "description": "Comparison table row: whitelist rules"
+  },
+  "upgFeatWhitelist": {
+    "message": "Règles de liste blanche",
+    "description": "Comparison table row: whitelist rules (component key)"
+  },
+  "lblCompScheduleMode": {
+    "message": "Mode horaire",
+    "description": "Comparison table row: schedule mode feature"
+  },
+  "upgFeatSchedule": {
+    "message": "Mode horaire",
+    "description": "Comparison table row: schedule mode feature (component key)"
+  },
+  "lblCompPasswordProtection": {
+    "message": "Protection par mot de passe",
+    "description": "Comparison table row: password protection feature"
+  },
+  "upgFeatPassword": {
+    "message": "Protection par mot de passe",
+    "description": "Comparison table row: password protection feature (component key)"
+  },
+  "lblCompDetailedAnalytics": {
+    "message": "Analyses et rapports détaillés",
+    "description": "Comparison table row: detailed analytics and reports"
+  },
+  "upgFeatAnalytics": {
+    "message": "Analyses et rapports détaillés",
+    "description": "Comparison table row: detailed analytics and reports (component key)"
+  },
+  "lblCompBreakReminders": {
+    "message": "Rappels de pause",
+    "description": "Comparison table row: break reminders feature"
+  },
+  "upgFeatBreakReminders": {
+    "message": "Rappels de pause",
+    "description": "Comparison table row: break reminders feature (component key)"
+  },
+  "lblCompMotivationalQuotes": {
+    "message": "Citations motivantes",
+    "description": "Comparison table row: motivational quotes feature"
+  },
+  "upgFeatQuotes": {
+    "message": "Citations motivantes",
+    "description": "Comparison table row: motivational quotes feature (component key)"
+  },
+  "lblCompPrioritySupport": {
+    "message": "Support prioritaire",
+    "description": "Comparison table row: priority support feature"
+  },
+  "upgFeatPrioritySupport": {
+    "message": "Support prioritaire",
+    "description": "Comparison table row: priority support feature (component key)"
+  },
+  "lblCompLimit5PerDay": {
+    "message": "5/jour",
+    "description": "Free tier limit for focus sessions per day"
+  },
+  "upgLimit5Day": {
+    "message": "5/jour",
+    "description": "Free tier limit for focus sessions per day (component key)"
+  },
+  "lblCompLimit3PerDay": {
+    "message": "3/jour",
+    "description": "Free tier limit for custom timers per day"
+  },
+  "upgLimit3Day": {
+    "message": "3/jour",
+    "description": "Free tier limit for custom timers per day (component key)"
+  },
+  "lblCompLimit10Rules": {
+    "message": "10 règles",
+    "description": "Free tier limit for custom block rules"
+  },
+  "upgLimit10Rules": {
+    "message": "10 règles",
+    "description": "Free tier limit for custom block rules (component key)"
+  },
+  "lblCompLimit5Rules": {
+    "message": "5 règles",
+    "description": "Free tier limit for whitelist rules"
+  },
+  "upgLimit5Rules": {
+    "message": "5 règles",
+    "description": "Free tier limit for whitelist rules (component key)"
+  },
+  "errLimitSessionsDaily": {
+    "message": "Vous avez atteint la limite quotidienne de 5 sessions de concentration gratuites.",
+    "description": "Upgrade page limit banner: daily focus session limit reached"
+  },
+  "upgLimitSessions": {
+    "message": "Vous avez atteint la limite quotidienne de 5 sessions de concentration gratuites.",
+    "description": "Upgrade page limit banner: daily focus session limit reached (component key)"
+  },
+  "errLimitCustomTimerDaily": {
+    "message": "Vous avez atteint la limite quotidienne de 3 minuteries personnalisées gratuites.",
+    "description": "Upgrade page limit banner: daily custom timer limit reached"
+  },
+  "upgLimitCustomTimer": {
+    "message": "Vous avez atteint la limite quotidienne de 3 minuteries personnalisées gratuites.",
+    "description": "Upgrade page limit banner: daily custom timer limit reached (component key)"
+  },
+  "errLimitBlockRulesMax": {
+    "message": "Vous avez atteint le maximum de 10 règles de blocage personnalisées gratuites.",
+    "description": "Upgrade page limit banner: maximum custom block rules reached"
+  },
+  "upgLimitBlockRules": {
+    "message": "Vous avez atteint le maximum de 10 règles de blocage personnalisées gratuites.",
+    "description": "Upgrade page limit banner: maximum custom block rules reached (component key)"
+  },
+  "errLimitWhitelistRulesMax": {
+    "message": "Vous avez atteint le maximum de 5 règles de liste blanche gratuites.",
+    "description": "Upgrade page limit banner: maximum whitelist rules reached"
+  },
+  "upgLimitWhitelistRules": {
+    "message": "Vous avez atteint le maximum de 5 règles de liste blanche gratuites.",
+    "description": "Upgrade page limit banner: maximum whitelist rules reached (component key)"
+  },
+  "errLimitRegexProOnly": {
+    "message": "Les patterns de blocage regex sont une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: regex patterns require Pro"
+  },
+  "upgLimitRegex": {
+    "message": "Les patterns de blocage regex sont une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: regex patterns require Pro (component key)"
+  },
+  "errLimitScheduleProOnly": {
+    "message": "Le mode horaire est une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: schedule mode requires Pro"
+  },
+  "upgLimitSchedule": {
+    "message": "Le mode horaire est une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: schedule mode requires Pro (component key)"
+  },
+  "errLimitPasswordProOnly": {
+    "message": "La protection par mot de passe est une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: password protection requires Pro"
+  },
+  "upgLimitPassword": {
+    "message": "La protection par mot de passe est une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: password protection requires Pro (component key)"
+  },
+  "errLimitAnalyticsProOnly": {
+    "message": "Les analyses détaillées sont une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: detailed analytics require Pro"
+  },
+  "upgLimitAnalytics": {
+    "message": "Les analyses détaillées sont une fonctionnalité Pro.",
+    "description": "Upgrade page limit banner: detailed analytics require Pro (component key)"
+  },
+  "errLimitGenericUpgrade": {
+    "message": "Vous avez atteint la limite pour cette fonctionnalité. Passez à Pro pour un accès illimité.",
+    "description": "Fallback upgrade page limit banner for unspecified features"
+  },
+  "upgLimitGeneric": {
+    "message": "Vous avez atteint la limite pour cette fonctionnalité. Passez à Pro pour un accès illimité.",
+    "description": "Fallback upgrade page limit banner for unspecified features (component key)"
+  },
+  "msgUpgradeToRemoveLimits": {
+    "message": "Passez à Pro pour supprimer toutes les limites et débloquer toutes les fonctionnalités.",
+    "description": "Secondary message in the limit banner on the upgrade page"
+  },
+  "upgRemoveLimits": {
+    "message": "Passez à Pro pour supprimer toutes les limites et débloquer toutes les fonctionnalités.",
+    "description": "Secondary message in the limit banner on the upgrade page (component key)"
+  },
+  "ttlChooseYourPlan": {
+    "message": "Choisissez votre forfait",
+    "description": "Section heading for pricing cards on the upgrade page"
+  },
+  "upgChoosePlan": {
+    "message": "Choisissez votre forfait",
+    "description": "Section heading for pricing cards on the upgrade page (component key)"
+  },
+  "msgCancelAnytime": {
+    "message": "Annulez à tout moment. Sans aucune condition.",
+    "description": "Subtitle for the pricing section on the upgrade page"
+  },
+  "upgCancelAnytime": {
+    "message": "Annulez à tout moment. Sans aucune condition.",
+    "description": "Subtitle for the pricing section on the upgrade page (component key)"
+  },
+  "ttlPlanMonthly": {
+    "message": "Mensuel",
+    "description": "Title of the monthly pricing card"
+  },
+  "upgMonthly": {
+    "message": "Mensuel",
+    "description": "Title of the monthly pricing card (component key)"
+  },
+  "ttlPlanAnnual": {
+    "message": "Annuel",
+    "description": "Title of the annual pricing card"
+  },
+  "upgAnnual": {
+    "message": "Annuel",
+    "description": "Title of the annual pricing card (component key)"
+  },
+  "lblPriceMonthly": {
+    "message": "4,99 $",
+    "description": "Monthly plan price"
+  },
+  "lblPriceAnnual": {
+    "message": "3,99 $",
+    "description": "Annual plan price per month"
+  },
+  "lblPricePeriodMonth": {
+    "message": "/mois",
+    "description": "Price period suffix meaning per month"
+  },
+  "upgPerMonth": {
+    "message": "/mois",
+    "description": "Price period suffix meaning per month (component key)"
+  },
+  "lblBadgeBestValue": {
+    "message": "Meilleur rapport qualité-prix",
+    "description": "Badge text on the annual pricing card"
+  },
+  "upgBestValue": {
+    "message": "Meilleur rapport qualité-prix",
+    "description": "Badge text on the annual pricing card (component key)"
+  },
+  "msgSavings": {
+    "message": "Save 20% with annual billing",
+    "description": "Savings callout on the annual pricing card"
+  },
+  "upgSavings": {
+    "message": "Save 20% with annual billing",
+    "description": "Savings callout on the annual pricing card (component key)"
+  },
+  "lblPricingAllProFeatures": {
+    "message": "Toutes les fonctionnalités Pro",
+    "description": "Pricing card feature bullet: all Pro features"
+  },
+  "upgAllProFeatures": {
+    "message": "Toutes les fonctionnalités Pro",
+    "description": "Pricing card feature bullet: all Pro features (component key)"
+  },
+  "lblPricingUnlimitedUsage": {
+    "message": "Utilisation illimitée",
+    "description": "Pricing card feature bullet: unlimited usage"
+  },
+  "upgUnlimitedUsage": {
+    "message": "Utilisation illimitée",
+    "description": "Pricing card feature bullet: unlimited usage (component key)"
+  },
+  "lblPricingPrioritySupport": {
+    "message": "Support prioritaire",
+    "description": "Pricing card feature bullet: priority support"
+  },
+  "upgPrioritySupport": {
+    "message": "Support prioritaire",
+    "description": "Pricing card feature bullet: priority support (component key)"
+  },
+  "lblPricingCancelAnytime": {
+    "message": "Annulation à tout moment",
+    "description": "Pricing card feature bullet: cancel anytime"
+  },
+  "upgCancelAnytimeShort": {
+    "message": "Annulation à tout moment",
+    "description": "Pricing card feature bullet: cancel anytime (component key)"
+  },
+  "lblPricing2MonthsFree": {
+    "message": "2 mois gratuits",
+    "description": "Pricing card feature bullet for annual plan: 2 months free"
+  },
+  "upgTwoMonthsFree": {
+    "message": "2 mois gratuits",
+    "description": "Pricing card feature bullet for annual plan: 2 months free (component key)"
+  },
+  "btnGetAnnualPlan": {
+    "message": "Choisir le forfait annuel",
+    "description": "CTA button text on the featured annual pricing card"
+  },
+  "btnGetMonthlyPlan": {
+    "message": "Choisir le forfait mensuel",
+    "description": "CTA button text on the monthly pricing card"
+  },
+  "msgSocialProofQuote": {
+    "message": "Block the sites that pull you off task, on your own schedule.",
+    "description": "Social proof testimonial quote on the upgrade page"
+  },
+  "upgTestimonial": {
+    "message": "Block the sites that pull you off task, on your own schedule.",
+    "description": "Social proof testimonial quote on the upgrade page (component key)"
+  },
+  "msgSocialProofAttribution": {
+    "message": "",
+    "description": "Attribution for the social proof testimonial"
+  },
+  "upgTestimonialAuthor": {
+    "message": "",
+    "description": "Attribution for the social proof testimonial (component key)"
+  },
+  "msgAlreadyHaveLicense": {
+    "message": "Vous avez déjà une licence ?",
+    "description": "Text preceding the activate-it-here link in the upgrade page footer"
+  },
+  "upgAlreadyHaveLicense": {
+    "message": "Vous avez déjà une licence ?",
+    "description": "Text preceding the activate-it-here link in the upgrade page footer (component key)"
+  },
+  "btnActivateItHere": {
+    "message": "Activez-la ici",
+    "description": "Link to go to the account settings to activate a license"
+  },
+  "upgActivateHere": {
+    "message": "Activez-la ici",
+    "description": "Link to go to the account settings to activate a license (component key)"
+  },
+  "btnBackToFocusMode": {
+    "message": "Retour au mode concentration",
+    "description": "Link to navigate back from the upgrade page"
+  },
+  "upgBackToFocus": {
+    "message": "Retour au mode concentration",
+    "description": "Link to navigate back from the upgrade page (component key)"
+  },
+  "msgLoadingDashboard": {
+    "message": "Chargement du tableau de bord...",
+    "description": "Loading indicator text on the dashboard page"
+  },
+  "dashLoading": {
+    "message": "Chargement du tableau de bord...",
+    "description": "Loading indicator text on the dashboard page (component key)"
+  },
+  "errSomethingWentWrong": {
+    "message": "Une erreur est survenue",
+    "description": "Error heading on the dashboard page when data fails to load"
+  },
+  "dashError": {
+    "message": "Une erreur est survenue",
+    "description": "Error heading on the dashboard page when data fails to load (component key)"
+  },
+  "dashFailedLoad": {
+    "message": "Impossible de charger les données du tableau de bord",
+    "description": "Fallback error message when dashboard data fails to load (component key)"
+  },
+  "msgMemberSince": {
+    "message": "Membre depuis $DATE$",
+    "description": "Subtitle in the dashboard header showing when the user installed the extension",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "Mon, Feb 10"
+      }
+    }
+  },
+  "dashMemberSince": {
+    "message": "Membre depuis $DATE$",
+    "description": "Subtitle in the dashboard header showing when the user installed the extension (component key)",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "Mon, Feb 10"
+      }
+    }
+  },
+  "btnExport": {
+    "message": "Exporter",
+    "description": "Button to export stats data on the dashboard header"
+  },
+  "ttlYourValueSummary": {
+    "message": "Votre résumé de valeur",
+    "description": "Section heading for the value summary cards on the dashboard"
+  },
+  "dashValueSummary": {
+    "message": "Votre résumé de valeur",
+    "description": "Section heading for the value summary cards on the dashboard (component key)"
+  },
+  "lblTimeSaved": {
+    "message": "Temps économisé",
+    "description": "Dashboard stat card label for total time saved"
+  },
+  "dashTimeSaved": {
+    "message": "Temps économisé",
+    "description": "Dashboard stat card label for total time saved (component key)"
+  },
+  "msgTotalFocusTime": {
+    "message": "Temps de concentration total",
+    "description": "Dashboard stat card subtext for the time saved card"
+  },
+  "lblSessionsToday": {
+    "message": "Sessions aujourd'hui",
+    "description": "Dashboard stat card label for sessions completed today"
+  },
+  "dashSessionsToday": {
+    "message": "Sessions aujourd'hui",
+    "description": "Dashboard stat card label for sessions completed today (component key)"
+  },
+  "msgFocused": {
+    "message": "$TIME$ de concentration",
+    "description": "Dashboard stat card subtext showing today's focused time",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1h 25m"
+      }
+    }
+  },
+  "dashFocused": {
+    "message": "$TIME$ de concentration",
+    "description": "Dashboard stat card and tooltip showing focused time (component key)",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1h 25m"
+      }
+    }
+  },
+  "msgNoSessionsYet": {
+    "message": "Aucune session pour l'instant",
+    "description": "Dashboard stat card subtext when no sessions have been completed today"
+  },
+  "dashNoSessionsYet": {
+    "message": "Aucune session pour l'instant",
+    "description": "Dashboard stat card subtext when no sessions have been completed today (component key)"
+  },
+  "msgAvgEach": {
+    "message": "Moy. $TIME$ chacune",
+    "description": "Dashboard stat card subtext showing average session duration",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "25m"
+      }
+    }
+  },
+  "dashAvgEach": {
+    "message": "Moy. $TIME$ chacune",
+    "description": "Dashboard stat card subtext showing average session duration (component key)",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "25m"
+      }
+    }
+  },
+  "msgGetStarted": {
+    "message": "C'est parti !",
+    "description": "Dashboard stat card subtext when no sessions exist at all"
+  },
+  "dashGetStarted": {
+    "message": "C'est parti !",
+    "description": "Dashboard stat card subtext when no sessions exist at all (component key)"
+  },
+  "lblSitesBlockedDashboard": {
+    "message": "Sites bloqués",
+    "description": "Dashboard stat card label for total sites blocked"
+  },
+  "msgDistractionsPrevented": {
+    "message": "Distractions évitées",
+    "description": "Dashboard stat card subtext for the sites blocked card"
+  },
+  "dashDistractionsPrevented": {
+    "message": "Distractions évitées",
+    "description": "Dashboard stat card subtext for the sites blocked card (component key)"
+  },
+  "ttlWeeklyActivity": {
+    "message": "Activité hebdomadaire",
+    "description": "Section heading for the weekly activity chart on the dashboard"
+  },
+  "dashWeeklyActivity": {
+    "message": "Activité hebdomadaire",
+    "description": "Section heading for the weekly activity chart on the dashboard (component key)"
+  },
+  "msgNoWeeklyData": {
+    "message": "Aucune donnée pour l'instant. Démarrez une session de concentration pour voir votre activité ici.",
+    "description": "Empty state text in the weekly activity chart when there is no data"
+  },
+  "dashNoDataYet": {
+    "message": "Aucune donnée pour l'instant. Démarrez une session de concentration pour voir votre activité ici.",
+    "description": "Empty state text in the weekly activity chart when there is no data (component key)"
+  },
+  "dashFocusTimeMinutes": {
+    "message": "Temps de concentration (minutes)",
+    "description": "Legend text for the weekly activity chart bars (component key)"
+  },
+  "dashSessionCount": {
+    "message": "$COUNT$ sessions",
+    "description": "Tooltip text in the weekly chart showing sessions for a day",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "dashSitesBlockedCount": {
+    "message": "$COUNT$ sites bloqués",
+    "description": "Tooltip text in the weekly chart showing sites blocked for a day",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "msgFocusedTooltip": {
+    "message": "$TIME$ de concentration",
+    "description": "Tooltip text in the weekly chart showing focus time for a day",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45m"
+      }
+    }
+  },
+  "msgSessionsTooltip": {
+    "message": "$COUNT$ session",
+    "description": "Tooltip text in the weekly chart showing sessions for a day (singular)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "msgSessionsTooltipPlural": {
+    "message": "$COUNT$ sessions",
+    "description": "Tooltip text in the weekly chart showing sessions for a day (plural)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "msgSitesBlockedTooltip": {
+    "message": "$COUNT$ site bloqué",
+    "description": "Tooltip text in the weekly chart showing sites blocked for a day (singular)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "msgSitesBlockedTooltipPlural": {
+    "message": "$COUNT$ sites bloqués",
+    "description": "Tooltip text in the weekly chart showing sites blocked for a day (plural)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "lblChartLegendFocusTime": {
+    "message": "Temps de concentration (minutes)",
+    "description": "Legend text for the weekly activity chart bars"
+  },
+  "ttlFocusStats": {
+    "message": "Statistiques de concentration",
+    "description": "Section heading for the focus stats breakdown on the dashboard"
+  },
+  "dashFocusStats": {
+    "message": "Statistiques de concentration",
+    "description": "Section heading for the focus stats breakdown on the dashboard (component key)"
+  },
+  "lblCurrentStreak": {
+    "message": "Série actuelle",
+    "description": "Dashboard focus stats label for the current day streak"
+  },
+  "dashCurrentStreak": {
+    "message": "Série actuelle",
+    "description": "Dashboard focus stats label for the current day streak (component key)"
+  },
+  "lblLongestStreak": {
+    "message": "Plus longue série",
+    "description": "Dashboard focus stats label for the longest day streak"
+  },
+  "dashLongestStreak": {
+    "message": "Plus longue série",
+    "description": "Dashboard focus stats label for the longest day streak (component key)"
+  },
+  "lblPomodorosCompleted": {
+    "message": "Pomodoros terminés",
+    "description": "Dashboard focus stats label for total Pomodoros completed"
+  },
+  "dashPomodorosCompleted": {
+    "message": "Pomodoros terminés",
+    "description": "Dashboard focus stats label for total Pomodoros completed (component key)"
+  },
+  "lblAvgSessionDuration": {
+    "message": "Durée moyenne des sessions",
+    "description": "Dashboard focus stats label for average session duration"
+  },
+  "dashAvgSessionDuration": {
+    "message": "Durée moyenne des sessions",
+    "description": "Dashboard focus stats label for average session duration (component key)"
+  },
+  "dashDays": {
+    "message": "$COUNT$ jours",
+    "description": "Day count used in streak display on the dashboard",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "msgDaySingular": {
+    "message": "$COUNT$ jour",
+    "description": "Singular day count used in streak display",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "msgDayPlural": {
+    "message": "$COUNT$ jours",
+    "description": "Plural day count used in streak display",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "ttlGetMoreFromPro": {
+    "message": "Tirez davantage de Focus Mode Pro",
+    "description": "Upgrade CTA heading on the dashboard for free users"
+  },
+  "dashGetMore": {
+    "message": "Tirez davantage de Focus Mode Pro",
+    "description": "Upgrade CTA heading on the dashboard for free users (component key)"
+  },
+  "msgUpgradeCtaDesc": {
+    "message": "Vous utilisez $PERCENT$ % des fonctionnalités disponibles. Débloquez tout avec Pro, y compris les statistiques avancées, les règles de blocage illimitées et les sessions de concentration programmées.",
+    "description": "Upgrade CTA description on the dashboard",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "60"
+      }
+    }
+  },
+  "dashGetMoreDesc": {
+    "message": "Vous utilisez $PERCENT$ % des fonctionnalités disponibles. Débloquez tout avec Pro, y compris les statistiques avancées, les règles de blocage illimitées et les sessions de concentration programmées.",
+    "description": "Upgrade CTA description on the dashboard (component key)",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "60"
+      }
+    }
+  },
+  "btnExportStats": {
+    "message": "Exporter les statistiques",
+    "description": "Footer link text to export stats on the dashboard"
+  },
+  "dashExportStats": {
+    "message": "Exporter les statistiques",
+    "description": "Footer link text to export stats on the dashboard (component key)"
+  },
+  "lblRegexBadge": {
+    "message": "regex",
+    "description": "Small badge text on blocklist items indicating the rule is a regex pattern"
+  },
+  "lblLong": {
+    "message": "longue",
+    "description": "Break type descriptor used in notification: long break"
+  },
+  "lblShort": {
+    "message": "courte",
+    "description": "Break type descriptor used in notification: short break"
+  },
+  "lblAt": {
+    "message": "à",
+    "description": "Preposition used between date and time in session history (e.g., Feb 10 at 3:00 PM)"
+  }
+}
